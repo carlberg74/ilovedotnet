@@ -82,7 +82,7 @@
     </script>
 
 <!-- %%-PRERENDERING-HEADOUTLET-BEGIN-%% -->
-<!--Blazor:{"type":"webassembly","assembly":"Microsoft.AspNetCore.Components.Web","typeName":"Microsoft.AspNetCore.Components.Web.HeadOutlet","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"7b83455600a641ab975367e36d0a8da2"}--><script type="application/ld+json">
+<!--Blazor:{"type":"webassembly","assembly":"Microsoft.AspNetCore.Components.Web","typeName":"Microsoft.AspNetCore.Components.Web.HeadOutlet","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"d3dea773d9014d1396a99a74493805f2"}--><script type="application/ld+json">
 {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -131,7 +131,7 @@
         "@id": "https://ilovedotnet.org/"
     }
 }
-</script><!--Blazor:{"prerenderId":"7b83455600a641ab975367e36d0a8da2"}-->
+</script><!--Blazor:{"prerenderId":"d3dea773d9014d1396a99a74493805f2"}-->
 <!-- %%-PRERENDERING-HEADOUTLET-END-%% -->
 
     <script type="text/default-title">I ❤️ DotNet</script>
@@ -178,7 +178,7 @@
 <body class="[ m-0 ] [ h-full ] [ dark:bg-stone-900 ] [ bg-gray-100 ]">
     <div id="app" class="[ dark:text-white ]">
 <!-- %%-PRERENDERING-BEGIN-%% -->
-<!--Blazor:{"type":"webassembly","assembly":"Web","typeName":"Web.App","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"cd369ccd848641f3ab2727f060339412"}--><header id="header" class="[ flex items-center justify-between ] [ bg-white ] [ px-5 ] [ dark:bg-gray-800 dark:bg-gray-800/80 ] [ h-14 ] [ sticky top-0 ] [ backdrop-blur-sm bg-white/80 ] [ z-10 ]"><button type="button" class="[ hidden md:block ] [ mr-4 ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-menu-2 ]" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+<!--Blazor:{"type":"webassembly","assembly":"Web","typeName":"Web.App","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"c92f4236700c44f4912fd0ceec9bdeb8"}--><header id="header" class="[ flex items-center justify-between ] [ bg-white ] [ px-5 ] [ dark:bg-gray-800 dark:bg-gray-800/80 ] [ h-14 ] [ sticky top-0 ] [ backdrop-blur-sm bg-white/80 ] [ z-10 ]"><button type="button" class="[ hidden md:block ] [ mr-4 ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-menu-2 ]" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
            <line x1="4" y1="6" x2="20" y2="6"></line>
            <line x1="4" y1="12" x2="20" y2="12"></line>
            <line x1="4" y1="18" x2="20" y2="18"></line></svg></button>
@@ -334,21 +334,21 @@
             </p><ol class="[ list-decimal ] [ ml-4 ]"><li><a href="blogs/blazor-wasm-lazy-loading#project-configuration" class="[ underline ]">
                         Project file configuration
                     </a></li>
-                <li><a href="blogs/blazor-wasm-lazy-loading#router-configuration" class="[ underline ]"><code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Router</code> component configuration
+                <li><a href="blogs/blazor-wasm-lazy-loading#router-configuration" class="[ underline ]"><code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Router</code> component configuration
                     </a></li></ol><p></p>
 
         <h4 id="project-configuration" class="[ font-semibold text-base ]">Project file configuration</h4>
 
         <ol class="[ list-decimal ] [ ml-4 ]"><li>First we need to find the components to be lazy loaded and move them to new assembly (Razor Class Library Project).</li>
             <li>Next refer this new assembly in the Blazor WASM project.</li>
-            <li>Finally add the assembly name with <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">.dll</code> extension in the Blazor WASM .csproj using <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">BlazorWebAssemblyLazyLoad</code>.</li>
+            <li>Finally add the assembly name with <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">.dll</code> extension in the Blazor WASM .csproj using <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">BlazorWebAssemblyLazyLoad</code>.</li>
             <li>Repeat step 2 for as many assemblies to be lazy loaded.</li></ol>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-code ] [ text-purple-700 ] [ fill-purple-500 ]" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - Blazor WASM Lazy Loading Project File Configuration</h4>
-    <article id="299ba7cf-7194-45ea-a192-ebe23b9c488d" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="17b3469f-a7a5-4ca6-b4a6-3b38456e623f" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <p>
             This will make Blazor framework to prevent the assemblies to be loaded at app launch thus improves the performance.
@@ -356,19 +356,19 @@
 
         
 
-        <h4 id="router-configuration" class="[ font-semibold text-base ]"><code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Router</code> component configuration</h4>
+        <h4 id="router-configuration" class="[ font-semibold text-base ]"><code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Router</code> component configuration</h4>
 
-        <ol class="[ list-decimal ] [ ml-4 ]"><li>Go to <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">App.razor</code> file.</li>
-            <li>Import <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">@using Microsoft.AspNetCore.Components.WebAssembly.Services</code>.</li>
-            <li>Inject <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">@inject LazyAssemblyLoader AssemblyLoader</code></li>
-            <li>In <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Router</code> component, assign <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">OnNavigateAsync="@OnNavigateAsync"</code>. This event gets triggered whenever we navigate to new page.</li>
-            <li>Now you can conditionally lazy load asssemblies based on route using <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">await AssemblyLoader.LoadAssembliesAsync(new[] { "Components.dll" });</code></li></ol>
+        <ol class="[ list-decimal ] [ ml-4 ]"><li>Go to <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">App.razor</code> file.</li>
+            <li>Import <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">@using Microsoft.AspNetCore.Components.WebAssembly.Services</code>.</li>
+            <li>Inject <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">@inject LazyAssemblyLoader AssemblyLoader</code></li>
+            <li>In <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Router</code> component, assign <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">OnNavigateAsync="@OnNavigateAsync"</code>. This event gets triggered whenever we navigate to new page.</li>
+            <li>Now you can conditionally lazy load asssemblies based on route using <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">await AssemblyLoader.LoadAssembliesAsync(new[] { "Components.dll" });</code></li></ol>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-code ] [ text-purple-700 ] [ fill-purple-500 ]" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - Blazor WASM Lazy Loading Project File Configuration</h4>
-    <article id="f61167c2-bedf-4c68-945a-5bd033cb0bb5" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="b972dbad-96ce-4b0a-a058-54181777f394" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <p>
             Wow. We have completed lazy loading implementation in Blazor WASM application. Now that your Blazor WASM app will start up faster and lazy load assemblies on demand based on route 
@@ -382,8 +382,8 @@
         <figure><img src="./image/blogs/blazor/wasm/lazy-loading/Home screen of I Love Dotnet.png" alt="Home screen of I Love Dotnet" class="[ w-full ]"/></figure>
 
         <p>
-            Now on navigating to Blazor Wasm Lazy Loading article, Notice that in the network tab <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Components.dll.br</code> and 
-            <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">BlazorDemoComponents.dll.br</code> will be requested.
+            Now on navigating to Blazor Wasm Lazy Loading article, Notice that in the network tab <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Components.dll.br</code> and 
+            <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">BlazorDemoComponents.dll.br</code> will be requested.
         </p>
 
         <figure><img src="./image/blogs/blazor/wasm/lazy-loading/Lazy Loading of Blazor Demo Components.png" alt="Lazy Loading of Blazor Demo Components" class="[ w-full ]"/></figure>
@@ -606,7 +606,7 @@
             <line x1="12" y1="8" x2="12.01" y2="8"></line>
             <polyline points="11 12 12 12 12 16 13 16"></polyline></svg>
         <span class="[ text-xs text-center ]">About</span></a></nav>
-            <!--Blazor:{"prerenderId":"cd369ccd848641f3ab2727f060339412"}-->
+            <!--Blazor:{"prerenderId":"c92f4236700c44f4912fd0ceec9bdeb8"}-->
 <!-- %%-PRERENDERING-END-%% -->
 <!--Blazor-Component-State:e30=--></div>
 

@@ -82,7 +82,7 @@
     </script>
 
 <!-- %%-PRERENDERING-HEADOUTLET-BEGIN-%% -->
-<!--Blazor:{"type":"webassembly","assembly":"Microsoft.AspNetCore.Components.Web","typeName":"Microsoft.AspNetCore.Components.Web.HeadOutlet","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"4fa00d06e45f4d2eabe61580bce60e68"}--><script type="application/ld+json">
+<!--Blazor:{"type":"webassembly","assembly":"Microsoft.AspNetCore.Components.Web","typeName":"Microsoft.AspNetCore.Components.Web.HeadOutlet","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"d61182926a7246be96ffb19aa095239b"}--><script type="application/ld+json">
 {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -131,7 +131,7 @@
         "@id": "https://ilovedotnet.org/"
     }
 }
-</script><!--Blazor:{"prerenderId":"4fa00d06e45f4d2eabe61580bce60e68"}-->
+</script><!--Blazor:{"prerenderId":"d61182926a7246be96ffb19aa095239b"}-->
 <!-- %%-PRERENDERING-HEADOUTLET-END-%% -->
 
     <script type="text/default-title">I ❤️ DotNet</script>
@@ -178,7 +178,7 @@
 <body class="[ m-0 ] [ h-full ] [ dark:bg-stone-900 ] [ bg-gray-100 ]">
     <div id="app" class="[ dark:text-white ]">
 <!-- %%-PRERENDERING-BEGIN-%% -->
-<!--Blazor:{"type":"webassembly","assembly":"Web","typeName":"Web.App","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"66a7624b832a4f8ca40cf4ad04b54529"}--><header id="header" class="[ flex items-center justify-between ] [ bg-white ] [ px-5 ] [ dark:bg-gray-800 dark:bg-gray-800/80 ] [ h-14 ] [ sticky top-0 ] [ backdrop-blur-sm bg-white/80 ] [ z-10 ]"><button type="button" class="[ hidden md:block ] [ mr-4 ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-menu-2 ]" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+<!--Blazor:{"type":"webassembly","assembly":"Web","typeName":"Web.App","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"4fb55e4e5b574c3496d32aa7f34361f4"}--><header id="header" class="[ flex items-center justify-between ] [ bg-white ] [ px-5 ] [ dark:bg-gray-800 dark:bg-gray-800/80 ] [ h-14 ] [ sticky top-0 ] [ backdrop-blur-sm bg-white/80 ] [ z-10 ]"><button type="button" class="[ hidden md:block ] [ mr-4 ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-menu-2 ]" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
            <line x1="4" y1="6" x2="20" y2="6"></line>
            <line x1="4" y1="12" x2="20" y2="12"></line>
            <line x1="4" y1="18" x2="20" y2="18"></line></svg></button>
@@ -300,7 +300,7 @@
         <a href="https://github.com/ILoveDotNet/ilovedotnet/blob/main/Web/Pages/Blogs/LINQ/LINQExcept.razor" target="_blank" class="[ md:bg-red-700 ] [ text-red-500 md:text-white uppercase ] [ px-3 py-2 ] [ font-semibold ]">Improve</a></section>
     <hr class="[ dark:text-white my-1.5 ]"/></header>
         <section class="[ dark:text-white ] [ space-y-2 ] [ leading-relaxed ]"><p>
-            In this article, let's learn about how to use <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Except</code> in <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">LINQ</code> in .NET.
+            In this article, let's learn about how to use <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Except</code> in <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">LINQ</code> in .NET.
         </p>
 
         <p><strong>Note:</strong> If you have not done so already, I recommend you read the article on
@@ -334,13 +334,13 @@
         <h3 id="introduction" class="[ font-semibold text-lg ]">Introduction</h3>
 
         <p>
-            When working with two collections, we can find the difference between them using LINQ <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Except()</code> method. The idea here is to find out
-            values in one which is not in other and returns the list of exceptions. With <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Except()</code>, we can compare
+            When working with two collections, we can find the difference between them using LINQ <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Except()</code> method. The idea here is to find out
+            values in one which is not in other and returns the list of exceptions. With <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Except()</code>, we can compare
             two collections for Difference.
         </p>
 
         <p>
-            LINQ <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Except()</code> is used to answer questions about collection such as
+            LINQ <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Except()</code> is used to answer questions about collection such as
         </p>
 
         <ul class="[ list-disc ] [ ml-4 ]"><li>Find phones that do not have sales</li>
@@ -350,7 +350,7 @@
         <h3 id="primitive-types" class="[ font-semibold text-lg ]">Using LINQ Except to compare primitive types</h3>
 
         <p>
-            Primitive data types like <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">int</code>, <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">decimal</code>, <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">string</code>, etc can just
+            Primitive data types like <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">int</code>, <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">decimal</code>, <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">string</code>, etc can just
             compare the values against other value in the collection
         </p>
 
@@ -358,7 +358,7 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - LINQ Except Primitive Types</h4>
-    <article id="d8622343-d3c1-4112-a192-fcd213ca80b9" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="c2bae585-f2db-4f5e-9f79-731ecb2b8ff1" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-caret-right ] [ text-lime-700 ] [ fill-lime-500 ]" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M18 15l-6 -6l-6 6h12" transform="rotate(90 12 12)"></path></svg> Demo - LINQ Except Clause Demo</h4>
@@ -395,14 +395,14 @@
         <h3 id="objects" class="[ font-semibold text-lg ]">Using LINQ Except to compare objects</h3>
 
         <p>
-            Except checks for reference equality of two objects for <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">object</code> data types.
+            Except checks for reference equality of two objects for <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">object</code> data types.
         </p>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-code ] [ text-purple-700 ] [ fill-purple-500 ]" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - LINQ Except Objects</h4>
-    <article id="f1623dd3-9f9d-4a10-ab85-d3d30956888a" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="d7ab977e-c1dc-45e1-9a46-b26408e48cdc" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-caret-right ] [ text-lime-700 ] [ fill-lime-500 ]" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M18 15l-6 -6l-6 6h12" transform="rotate(90 12 12)"></path></svg> Demo - LINQ Except Clause Objects Demo</h4>
@@ -410,8 +410,8 @@
                 Let's try LINQ Except with objects
             </p>
 
-            <ul class="[ list-disc ] [ ml-4 ]"><li>We have <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Product</code> class with following properties - <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Id, Name</code></li>
-                <li>We have <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Sale</code> class with following properties - <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">ProductId, Price</code></li>
+            <ul class="[ list-disc ] [ ml-4 ]"><li>We have <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Product</code> class with following properties - <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Id, Name</code></li>
+                <li>We have <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Sale</code> class with following properties - <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">ProductId, Price</code></li>
                 <li>The tables are loaded with product and sale collection.</li>
                 <li>Click on Check Except Difference button to view the result.</li>
                 <li>Click on reset to try other combination</li></ul>
@@ -448,27 +448,27 @@
         <h3 id="equality-comparer" class="[ font-semibold text-lg ]">Using LINQ Except to compare with Equality Comparer</h3>
 
         <p>
-            So, equality for primitive data types with <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Except()</code> is easy and straight forward, but with objects by default it's going to work by
+            So, equality for primitive data types with <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Except()</code> is easy and straight forward, but with objects by default it's going to work by
             comparing object references. But in most cases we want to make comparison based on one or more properties in the object. To do that we need to start by creating
-            <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">EqualityComparer&lt;T&gt;</code> class.
+            <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">EqualityComparer&lt;T&gt;</code> class.
         </p>
 
-        <ol class="[ list-decimal ] [ ml-4 ]"><li>Create a <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">ProductComparer</code> class that inherits from <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">EqualityComparer&lt;Product&gt;</code> class.</li>
-            <li>Override <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Equals(Product 1, Product 2) method.</code></li>
+        <ol class="[ list-decimal ] [ ml-4 ]"><li>Create a <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">ProductComparer</code> class that inherits from <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">EqualityComparer&lt;Product&gt;</code> class.</li>
+            <li>Override <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Equals(Product 1, Product 2) method.</code></li>
             <li>Write the conditions to check equality and return true if both matches.</li>
-            <li>Also override <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">GetHashCode()</code> method and return unique value for every single object.</li></ol>
+            <li>Also override <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">GetHashCode()</code> method and return unique value for every single object.</li></ol>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-code ] [ text-purple-700 ] [ fill-purple-500 ]" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - LINQ Except Product Comparer</h4>
-    <article id="ecabd941-e447-4406-b337-a290cde6271a" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="306d3fe7-87e2-4b9c-aa98-b1321afddcac" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-code ] [ text-purple-700 ] [ fill-purple-500 ]" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - LINQ Except With Product Comparer</h4>
-    <article id="b697a0cb-3c52-4eba-a39a-cbd986ba67f4" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="fb129f26-3ae7-4d29-bb85-d116f3f27986" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-caret-right ] [ text-lime-700 ] [ fill-lime-500 ]" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M18 15l-6 -6l-6 6h12" transform="rotate(90 12 12)"></path></svg> Demo - LINQ Except Clause with Comparer Demo</h4>
@@ -476,10 +476,10 @@
                 Let's try LINQ Except with Comparer
             </p>
 
-            <ul class="[ list-disc ] [ ml-4 ]"><li>We have <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Product</code> class with following properties - <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Id, Name</code></li>
+            <ul class="[ list-disc ] [ ml-4 ]"><li>We have <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Product</code> class with following properties - <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Id, Name</code></li>
                 <li>The tables are loaded with two product collection.</li>
                 <li>Click on Check Except button to view the result.</li>
-                <li>Unlike previous demo, here we use <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">ProductComparer</code> to compare objects based on their property values. So they will be equal irrespective of reference.</li>
+                <li>Unlike previous demo, here we use <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">ProductComparer</code> to compare objects based on their property values. So they will be equal irrespective of reference.</li>
                 <li>Click on reset to try other combination</li></ul>
 
             <section class="[ flex flex-row ] [ space-x-1 ]"><table class="[ table-fixed border-collapse ] [ bg-white ] [ border-2 ] [ dark:bg-black dark:border-slate-500 ] [ mt-2 ] [ w-full ]"><thead><tr class="[ bg-gray-100 ] [ dark:bg-slate-500 ]"><th class="[ border-2 ] [ dark:border-slate-600 ] [ p-2 ]">Id</th>
@@ -514,15 +514,15 @@
         <h3 id="except-by-primitive-type" class="[ font-semibold text-lg ]">Using LINQ Except By to compare objects with Primitive Types</h3>
 
         <p>
-            Starting .NET 6, Microsoft added <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">ExceptBy()</code> which is similar to <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Except</code> in functionality but with an 
-            simplification that we don't need to use a comparer class. We can use <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Key Expression</code> to find the difference.
+            Starting .NET 6, Microsoft added <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">ExceptBy()</code> which is similar to <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Except</code> in functionality but with an 
+            simplification that we don't need to use a comparer class. We can use <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Key Expression</code> to find the difference.
         </p>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-code ] [ text-purple-700 ] [ fill-purple-500 ]" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - LINQ Except By Primitive Types</h4>
-    <article id="12e9cc64-2cac-477e-baf1-02a06688663f" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="04b5a062-1d0b-4996-a264-f4a6e523f60b" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-caret-right ] [ text-lime-700 ] [ fill-lime-500 ]" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M18 15l-6 -6l-6 6h12" transform="rotate(90 12 12)"></path></svg> Demo - LINQ Except By Clause Demo</h4>
@@ -566,8 +566,8 @@
         <h3 id="except-by-objects" class="[ font-semibold text-lg ]">Using LINQ Except By to compare objects</h3>
 
         <p>
-            Previously, we saw a demo on how to find products that are not sold. We can also perform the same function using <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">ExceptBy()</code>. Unlike 
-            <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Except()</code>, <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">ExceptBy()</code> will return list of <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Product</code> instead of 
+            Previously, we saw a demo on how to find products that are not sold. We can also perform the same function using <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">ExceptBy()</code>. Unlike 
+            <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Except()</code>, <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">ExceptBy()</code> will return list of <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Product</code> instead of 
             product Id's.
         </p>
 
@@ -575,7 +575,7 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - LINQ Except By Objects</h4>
-    <article id="b906cdd0-a20d-416f-9058-f02d68ce1ba6" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="c54465d5-be7d-483f-8ef0-c8a85c796815" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-caret-right ] [ text-lime-700 ] [ fill-lime-500 ]" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M18 15l-6 -6l-6 6h12" transform="rotate(90 12 12)"></path></svg> Demo - LINQ Except By Clause Demo</h4>
@@ -583,8 +583,8 @@
                 Let's try LINQ Except By with objects
             </p>
 
-            <ul class="[ list-disc ] [ ml-4 ]"><li>We have <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Product</code> class with following properties - <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Id, Name</code></li>
-                <li>We have <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Sale</code> class with following properties - <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">ProductId, Price</code></li>
+            <ul class="[ list-disc ] [ ml-4 ]"><li>We have <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Product</code> class with following properties - <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Id, Name</code></li>
+                <li>We have <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Sale</code> class with following properties - <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">ProductId, Price</code></li>
                 <li>The tables are loaded with product and sale collection.</li>
                 <li>The Key Expression here is the Product ID. So whatever ID you enter in above sequence, ExceptBy() will compare and return the remaining Products from collection.</li>
                 <li>For demo purpose I will be displaying only Product ID's</li>
@@ -623,9 +623,9 @@
         <h3 id="summary" class="[ font-semibold text-lg ]">Summary</h3>
 
         <p>
-            In this article we learn't how to check for difference in data between collections using <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Except</code> and <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">ExceptBy</code>. 
+            In this article we learn't how to check for difference in data between collections using <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Except</code> and <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">ExceptBy</code>. 
             This can be used to find if item is between collection matches or not and also we can compare object item using Comparer. All these can be used with any 
-            <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">IEnumerable</code> or <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">IQueryable</code> types.
+            <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">IEnumerable</code> or <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">IQueryable</code> types.
         </p></section>
         <footer class="[ max-w-full ]"><ul class="[ list-none ] [ flex items-center justify-start md:justify-center ] [ space-x-3 ] [ overflow-hidden overflow-x-auto ]"><li class="[ px-3 py-1 ] [ rounded-full ] [ bg-black text-white dark:bg-white dark:text-black ]">Linq</li><li class="[ px-3 py-1 ] [ rounded-full ] [ bg-black text-white dark:bg-white dark:text-black ] [ whitespace-nowrap ]">Except</li><li class="[ px-3 py-1 ] [ rounded-full ] [ bg-black text-white dark:bg-white dark:text-black ] [ whitespace-nowrap ]">ExceptBy</li><li class="[ px-3 py-1 ] [ rounded-full ] [ bg-black text-white dark:bg-white dark:text-black ] [ whitespace-nowrap ]">Difference</li><li class="[ px-3 py-1 ] [ rounded-full ] [ bg-black text-white dark:bg-white dark:text-black ] [ whitespace-nowrap ]">Compare</li></ul></footer>
         <hr class="[ dark:text-white my-1.5 ]"/></article>
@@ -841,7 +841,7 @@
             <line x1="12" y1="8" x2="12.01" y2="8"></line>
             <polyline points="11 12 12 12 12 16 13 16"></polyline></svg>
         <span class="[ text-xs text-center ]">About</span></a></nav>
-            <!--Blazor:{"prerenderId":"66a7624b832a4f8ca40cf4ad04b54529"}-->
+            <!--Blazor:{"prerenderId":"4fb55e4e5b574c3496d32aa7f34361f4"}-->
 <!-- %%-PRERENDERING-END-%% -->
 <!--Blazor-Component-State:e30=--></div>
 

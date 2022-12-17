@@ -82,7 +82,7 @@
     </script>
 
 <!-- %%-PRERENDERING-HEADOUTLET-BEGIN-%% -->
-<!--Blazor:{"type":"webassembly","assembly":"Microsoft.AspNetCore.Components.Web","typeName":"Microsoft.AspNetCore.Components.Web.HeadOutlet","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"0dfeecea390447c7b6e9c05d549c8117"}--><script type="application/ld+json">
+<!--Blazor:{"type":"webassembly","assembly":"Microsoft.AspNetCore.Components.Web","typeName":"Microsoft.AspNetCore.Components.Web.HeadOutlet","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"b65355b28d6248569c58204f5fbcd30b"}--><script type="application/ld+json">
 {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -131,7 +131,7 @@
         "@id": "https://ilovedotnet.org/"
     }
 }
-</script><!--Blazor:{"prerenderId":"0dfeecea390447c7b6e9c05d549c8117"}-->
+</script><!--Blazor:{"prerenderId":"b65355b28d6248569c58204f5fbcd30b"}-->
 <!-- %%-PRERENDERING-HEADOUTLET-END-%% -->
 
     <script type="text/default-title">I ❤️ DotNet</script>
@@ -178,7 +178,7 @@
 <body class="[ m-0 ] [ h-full ] [ dark:bg-stone-900 ] [ bg-gray-100 ]">
     <div id="app" class="[ dark:text-white ]">
 <!-- %%-PRERENDERING-BEGIN-%% -->
-<!--Blazor:{"type":"webassembly","assembly":"Web","typeName":"Web.App","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"d7090e70b9e64cfab37b9fcd5230d869"}--><header id="header" class="[ flex items-center justify-between ] [ bg-white ] [ px-5 ] [ dark:bg-gray-800 dark:bg-gray-800/80 ] [ h-14 ] [ sticky top-0 ] [ backdrop-blur-sm bg-white/80 ] [ z-10 ]"><button type="button" class="[ hidden md:block ] [ mr-4 ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-menu-2 ]" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+<!--Blazor:{"type":"webassembly","assembly":"Web","typeName":"Web.App","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"9a32a0e2abdf4ddb980de57e729f4e2e"}--><header id="header" class="[ flex items-center justify-between ] [ bg-white ] [ px-5 ] [ dark:bg-gray-800 dark:bg-gray-800/80 ] [ h-14 ] [ sticky top-0 ] [ backdrop-blur-sm bg-white/80 ] [ z-10 ]"><button type="button" class="[ hidden md:block ] [ mr-4 ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-menu-2 ]" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
            <line x1="4" y1="6" x2="20" y2="6"></line>
            <line x1="4" y1="12" x2="20" y2="12"></line>
            <line x1="4" y1="18" x2="20" y2="18"></line></svg></button>
@@ -300,7 +300,7 @@
         <a href="https://github.com/ILoveDotNet/ilovedotnet/blob/main/Web/Pages/Blogs/Blazor/Wasm/JavascriptInteropAndIsolation.razor" target="_blank" class="[ md:bg-red-700 ] [ text-red-500 md:text-white uppercase ] [ px-3 py-2 ] [ font-semibold ]">Improve</a></section>
     <hr class="[ dark:text-white my-1.5 ]"/></header>
         <section class="[ dark:text-white ] [ space-y-2 ] [ leading-relaxed ]"><p>
-            In this article let's learn about <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Javascript Interop</code> and <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Javascript Isolation</code>.
+            In this article let's learn about <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Javascript Interop</code> and <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Javascript Isolation</code>.
         </p>
 
         <h3 class="[ font-semibold text-lg ]">Table of Contents</h3>
@@ -339,35 +339,35 @@
         <h3 id="javascript-interop" class="[ font-semibold text-lg ]">Javascript Interop</h3>
 
         <p>
-            To start using <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Javascript</code> using JS interop, first we need our javascript code in a separate js file place inside 
-            <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">wwwroot</code> and we need to inject <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">IJSRuntime</code> in the component to invoke our javascript function.
+            To start using <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Javascript</code> using JS interop, first we need our javascript code in a separate js file place inside 
+            <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">wwwroot</code> and we need to inject <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">IJSRuntime</code> in the component to invoke our javascript function.
         </p>
 
         <p>
-            Let's look on how to display a simple javascript alert in blazor. We'll start with defining a <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">blazorInterop</code> object just to make sure we don't 
-            pollute the global <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">window</code> object. Now let's register a simple <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">displayAlert</code> function which will take text 
-            and display it in javascript <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">alert()</code>.
+            Let's look on how to display a simple javascript alert in blazor. We'll start with defining a <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">blazorInterop</code> object just to make sure we don't 
+            pollute the global <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">window</code> object. Now let's register a simple <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">displayAlert</code> function which will take text 
+            and display it in javascript <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">alert()</code>.
         </p>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-code ] [ text-purple-700 ] [ fill-purple-500 ]" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - JS function to be called from .NET which returns no value</h4>
-    <article id="173e60c2-c54a-4ab0-837c-078b8df7a42f" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="c9df202f-bac0-4a21-9436-743734d00b20" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <h4 id="javascript-interop-js-from-dotnet" class="[ font-semibold text-base ]">Calling JS from .Net</h4>
 
         <p>
-            Befor we proceed on invoking the function make sure to add a reference to your jsvascript file in <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">index.html</code>. Now let's inject 
-            <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">IJSRuntimr</code> into our component and call <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">blazorInterop.displayAlert("I ❤️ DotNet")</code> using
-            <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">InvokeVoidAsync</code> as we don't have any return value from the javascript function.
+            Befor we proceed on invoking the function make sure to add a reference to your jsvascript file in <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">index.html</code>. Now let's inject 
+            <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">IJSRuntimr</code> into our component and call <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">blazorInterop.displayAlert("I ❤️ DotNet")</code> using
+            <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">InvokeVoidAsync</code> as we don't have any return value from the javascript function.
         </p>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-code ] [ text-purple-700 ] [ fill-purple-500 ]" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - Alert Component to call JS from .NET which returns no value</h4>
-    <article id="cfdb987d-fbb6-4e3b-9f7c-0265f9d2d667" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="63b2cb9a-98ca-4e98-b1d2-349597cbabdd" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-caret-right ] [ text-lime-700 ] [ fill-lime-500 ]" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M18 15l-6 -6l-6 6h12" transform="rotate(90 12 12)"></path></svg> Demo - Javascript Interop - Displaying Alert</h4>
@@ -382,20 +382,20 @@
         <p>
             Voila.. now we are using javascript logics in our blazor app. That's a fairly simple example. Let's look at another example where we need some values from javascript function. 
             If we want to find the current viewport width and height, then we can levearge javascript to get window height and width and return it back to blazor. The steps are same like 
-            before except this time we need to call the javascript function using <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] [ break-all ]">InvokeAsync&lt;WindowDimensions&gt;("blazorInterop.getViewportDimensions")</code>.
+            before except this time we need to call the javascript function using <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] [ break-all ]">InvokeAsync&lt;WindowDimensions&gt;("blazorInterop.getViewportDimensions")</code>.
         </p>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-code ] [ text-purple-700 ] [ fill-purple-500 ]" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - JS function to be called from .NET which returns value</h4>
-    <article id="e87ac581-b04d-44bb-8f55-339dfab93b5d" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="5cf64e74-6326-47cf-ba2e-0d7feddceca3" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-code ] [ text-purple-700 ] [ fill-purple-500 ]" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - JS function to be called from .NET which returns value</h4>
-    <article id="483b263b-6560-4e7d-bd52-d6c584065a8e" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="56208882-9ea4-4c22-beeb-57747119b339" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-caret-right ] [ text-lime-700 ] [ fill-lime-500 ]" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M18 15l-6 -6l-6 6h12" transform="rotate(90 12 12)"></path></svg> Demo - Javascript Interop - Finding Viewport Dimensions</h4>
@@ -418,28 +418,28 @@
 
         <p>
             There are situations where you need to call a .Net method from JS function. One example is clicking on a point in chart to display additional information. Now you need to pass some 
-            information from <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">JS</code> to <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">.NET</code> and make API call to retrieve additional information. You can call 
-            <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">static</code> method or <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">.NET instance</code> method from JS. Let's see how to do this in blazor.
+            information from <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">JS</code> to <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">.NET</code> and make API call to retrieve additional information. You can call 
+            <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">static</code> method or <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">.NET instance</code> method from JS. Let's see how to do this in blazor.
         </p>
 
         <h5 class="[ font-semibold text-sm ]">Invoking Static Method</h5>
 
         <p>
-            Calling a <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">static</code> method is pretty simple. All you need to do is to add <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">[JSInvokable]</code> attribute to your
-            <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">.NET static</code> method and call the static .Net method from JS using <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] [ break-all ]">DotNet.invokeMethod('Namespace', '.Net Static Method Name')</code>.
+            Calling a <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">static</code> method is pretty simple. All you need to do is to add <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">[JSInvokable]</code> attribute to your
+            <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">.NET static</code> method and call the static .Net method from JS using <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] [ break-all ]">DotNet.invokeMethod('Namespace', '.Net Static Method Name')</code>.
         </p>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-code ] [ text-purple-700 ] [ fill-purple-500 ]" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - .NET static method to be called from JS</h4>
-    <article id="bb509808-cde0-443e-98e7-f6f4df35a838" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="5c18d0a7-0cc7-405b-98c0-4799ddeb2d5f" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-code ] [ text-purple-700 ] [ fill-purple-500 ]" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - .NET static method to be called from JS</h4>
-    <article id="f0790407-49f7-40c4-a4d1-17cc4128d51b" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="e85f0646-4820-4572-8002-b6ae252d56eb" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-caret-right ] [ text-lime-700 ] [ fill-lime-500 ]" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M18 15l-6 -6l-6 6h12" transform="rotate(90 12 12)"></path></svg> Demo - Javascript Interop - Calling .Net Static Method From JS</h4>
@@ -454,23 +454,23 @@
         <h5 class="[ font-semibold text-sm ]">Invoking Instance Method</h5>
 
         <p>
-            Calling an <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">component instance</code> method needs an <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">.NET instance by reference</code> to be passed to JS. This can be 
-            done by warpping the component instance inside <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">DotNetObjectReference&lt;ComponentInstance&gt;</code> and calling create on it. Then we can invoke .NET 
-            method from JS using <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">InvokeMethod</code> or <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">InvokeMethodAsync</code> from the passed instance reference. Finally we need 
-            to <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">dispose</code> the <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">DotNetObjectReference</code>.
+            Calling an <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">component instance</code> method needs an <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">.NET instance by reference</code> to be passed to JS. This can be 
+            done by warpping the component instance inside <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">DotNetObjectReference&lt;ComponentInstance&gt;</code> and calling create on it. Then we can invoke .NET 
+            method from JS using <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">InvokeMethod</code> or <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">InvokeMethodAsync</code> from the passed instance reference. Finally we need 
+            to <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">dispose</code> the <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">DotNetObjectReference</code>.
         </p>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-code ] [ text-purple-700 ] [ fill-purple-500 ]" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - .NET instance method to be called from JS</h4>
-    <article id="24c6fe63-f4cf-431f-bece-f208e231c1d5" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="e1fbf906-0b7c-45a6-864d-38ec1d9b0abb" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-code ] [ text-purple-700 ] [ fill-purple-500 ]" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - .NET instance method to be called from JS</h4>
-    <article id="9e42cfb7-6e68-46a6-bf88-36bfa16696cf" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="6c3f7891-7df0-4b3d-bb30-a9aa09fe2b47" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-caret-right ] [ text-lime-700 ] [ fill-lime-500 ]" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M18 15l-6 -6l-6 6h12" transform="rotate(90 12 12)"></path></svg> Demo - Javascript Interop - Calling .Net Instance Method From JS</h4>
@@ -491,23 +491,23 @@
                 <li>Consumers of a library and components aren't required to import the related JS.</li></ol><p></p>
 
         <p>
-            With Javascript Isolation, the steps are same but with an extra step to load <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">JS Module</code> using <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">IJSRuntime</code> 
-            into <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">IJSObjectReference (module)</code>. After loading the module, we need to call JS functions using 
-            <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">IJSObjectReference module InvokeAsync</code> instead of <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">IJSRuntime</code>. We also need to make sure the module is 
-            <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">disposed</code> on <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">component dispose</code>.
+            With Javascript Isolation, the steps are same but with an extra step to load <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">JS Module</code> using <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">IJSRuntime</code> 
+            into <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">IJSObjectReference (module)</code>. After loading the module, we need to call JS functions using 
+            <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">IJSObjectReference module InvokeAsync</code> instead of <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">IJSRuntime</code>. We also need to make sure the module is 
+            <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">disposed</code> on <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">component dispose</code>.
         </p>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-code ] [ text-purple-700 ] [ fill-purple-500 ]" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - .NET instance method to be called from JS Module</h4>
-    <article id="9a6111b1-408a-4cdf-ac14-4df3fd7001e3" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="d237d741-377c-4de0-bb69-7e9d5c03e845" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-code ] [ text-purple-700 ] [ fill-purple-500 ]" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - .NET instance method to be called from JS Module</h4>
-    <article id="8101fe65-4564-4ee7-ad80-6d84121fc8d5" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="6167c810-7bb5-47f0-8b4d-138add275f2d" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-caret-right ] [ text-lime-700 ] [ fill-lime-500 ]" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M18 15l-6 -6l-6 6h12" transform="rotate(90 12 12)"></path></svg> Demo - Javascript Isolation - Calling Javascript prompt from JS Module</h4>
@@ -737,7 +737,7 @@
             <line x1="12" y1="8" x2="12.01" y2="8"></line>
             <polyline points="11 12 12 12 12 16 13 16"></polyline></svg>
         <span class="[ text-xs text-center ]">About</span></a></nav>
-            <!--Blazor:{"prerenderId":"d7090e70b9e64cfab37b9fcd5230d869"}-->
+            <!--Blazor:{"prerenderId":"9a32a0e2abdf4ddb980de57e729f4e2e"}-->
 <!-- %%-PRERENDERING-END-%% -->
 <!--Blazor-Component-State:e30=--></div>
 

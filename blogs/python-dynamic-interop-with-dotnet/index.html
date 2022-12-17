@@ -82,7 +82,7 @@
     </script>
 
 <!-- %%-PRERENDERING-HEADOUTLET-BEGIN-%% -->
-<!--Blazor:{"type":"webassembly","assembly":"Microsoft.AspNetCore.Components.Web","typeName":"Microsoft.AspNetCore.Components.Web.HeadOutlet","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"fc254740fdcb487991bcd2699987fff8"}--><script type="application/ld+json">
+<!--Blazor:{"type":"webassembly","assembly":"Microsoft.AspNetCore.Components.Web","typeName":"Microsoft.AspNetCore.Components.Web.HeadOutlet","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"5d6efbaafb9c46a492b6cdcdae85e6d4"}--><script type="application/ld+json">
 {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -131,7 +131,7 @@
         "@id": "https://ilovedotnet.org/"
     }
 }
-</script><!--Blazor:{"prerenderId":"fc254740fdcb487991bcd2699987fff8"}-->
+</script><!--Blazor:{"prerenderId":"5d6efbaafb9c46a492b6cdcdae85e6d4"}-->
 <!-- %%-PRERENDERING-HEADOUTLET-END-%% -->
 
     <script type="text/default-title">I ❤️ DotNet</script>
@@ -178,7 +178,7 @@
 <body class="[ m-0 ] [ h-full ] [ dark:bg-stone-900 ] [ bg-gray-100 ]">
     <div id="app" class="[ dark:text-white ]">
 <!-- %%-PRERENDERING-BEGIN-%% -->
-<!--Blazor:{"type":"webassembly","assembly":"Web","typeName":"Web.App","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"8048e48b710e4cba81cc2b18ef1455e4"}--><header id="header" class="[ flex items-center justify-between ] [ bg-white ] [ px-5 ] [ dark:bg-gray-800 dark:bg-gray-800/80 ] [ h-14 ] [ sticky top-0 ] [ backdrop-blur-sm bg-white/80 ] [ z-10 ]"><button type="button" class="[ hidden md:block ] [ mr-4 ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-menu-2 ]" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+<!--Blazor:{"type":"webassembly","assembly":"Web","typeName":"Web.App","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"6ae8b57668e04147a46b82c1061cdca7"}--><header id="header" class="[ flex items-center justify-between ] [ bg-white ] [ px-5 ] [ dark:bg-gray-800 dark:bg-gray-800/80 ] [ h-14 ] [ sticky top-0 ] [ backdrop-blur-sm bg-white/80 ] [ z-10 ]"><button type="button" class="[ hidden md:block ] [ mr-4 ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-menu-2 ]" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
            <line x1="4" y1="6" x2="20" y2="6"></line>
            <line x1="4" y1="12" x2="20" y2="12"></line>
            <line x1="4" y1="18" x2="20" y2="18"></line></svg></button>
@@ -300,7 +300,7 @@
         <a href="https://github.com/ILoveDotNet/ilovedotnet/blob/main/Web/Pages/Blogs/Python/Interoperating.razor" target="_blank" class="[ md:bg-red-700 ] [ text-red-500 md:text-white uppercase ] [ px-3 py-2 ] [ font-semibold ]">Improve</a></section>
     <hr class="[ dark:text-white my-1.5 ]"/></header>
         <section class="[ dark:text-white ] [ space-y-2 ] [ leading-relaxed ]"><p>
-            In this article, let's learn about how to use <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Python</code> in .NET.
+            In this article, let's learn about how to use <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Python</code> in .NET.
         </p>
 
         <h3 class="[ font-semibold text-lg ]">Table of Contents</h3>
@@ -339,7 +339,7 @@
         <h3 id="introduction" class="[ font-semibold text-lg ]">Introduction</h3>
 
         <p>
-            One of the benefits of the dynamic language runtime is the ability for our C# code to interoperate with other languages built on top of it such as <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">IronPython</code>. 
+            One of the benefits of the dynamic language runtime is the ability for our C# code to interoperate with other languages built on top of it such as <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">IronPython</code>. 
             Whilst making use of something like IronPython is not an everyday occurrence for .NET developers. We're going to start off by looking at some of the reasons why we might want to consider 
             dynamic language interop. We'll then jump into Visual Studio, and we'll see how we can get started with IronPython in our C# code. We'll then see how we can allow the end user to add scripting 
             content that gets executed in our application. We'll also learn how we can execute Python statements in our C# application and get access to the result value of the statement. We'll learn that 
@@ -370,10 +370,10 @@
 
         <h4 class="[ font-semibold text-base ]">Steps</h4>
 
-        <ol class="[ list-decimal ] [ ml-4 ]"><li>Install <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">IronPython</code> Nuget Package.</li>
-            <li>Add necessary <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">using</code> statements.</li>
-            <li>Create Python <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">ScriptEngine</code>.</li>
-            <li>Execute Python expression from the Python <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">ScriptEngine</code>.</li>
+        <ol class="[ list-decimal ] [ ml-4 ]"><li>Install <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">IronPython</code> Nuget Package.</li>
+            <li>Add necessary <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">using</code> statements.</li>
+            <li>Create Python <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">ScriptEngine</code>.</li>
+            <li>Execute Python expression from the Python <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">ScriptEngine</code>.</li>
             <li>Get the result as dynamic result or a generic result from the Python Engine.</li></ol>
 
         <p>
@@ -384,7 +384,7 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - Python Interoperating - Simple Expression</h4>
-    <article id="dae64cd8-4e83-464f-a446-5b47c1a7d577" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="fa1ea27f-2c0c-44cc-944c-0b6b42bc2eb3" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <figure><img src="./image/blogs/python/interoperating/Simple Expression.png" alt="Simple Expression.png" class="[ w-full ]"/></figure>
 
@@ -400,15 +400,15 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - Python Interoperating - Getting Input from User</h4>
-    <article id="ecce3721-357d-4189-af48-2fb7b86420bd" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="41d3a66f-448f-4b64-ae0d-72cb0b608d13" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <h4 class="[ font-semibold text-base ]">Steps</h4>
 
-        <ol class="[ list-decimal ] [ ml-4 ]"><li>Create Python <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">ScriptEngine</code>.</li>
+        <ol class="[ list-decimal ] [ ml-4 ]"><li>Create Python <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">ScriptEngine</code>.</li>
             <li>Get the expression from user.</li>
-            <li>Create a scope using <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">ScriptEngine</code> instance.</li>
-            <li>Assign the Python variable token a to the <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">ScriptEngine</code> instance using <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">SetVariable()</code>.</li>
-            <li>Create a <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">ScriptSource</code> instance from engine using Create<code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">ScriptSourceFromString()</code> and pass expression received from user and expression type as <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">SourceCodeKind.Expression</code>.</li>
+            <li>Create a scope using <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">ScriptEngine</code> instance.</li>
+            <li>Assign the Python variable token a to the <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">ScriptEngine</code> instance using <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">SetVariable()</code>.</li>
+            <li>Create a <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">ScriptSource</code> instance from engine using Create<code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">ScriptSourceFromString()</code> and pass expression received from user and expression type as <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">SourceCodeKind.Expression</code>.</li>
             <li>Now execute the scope using script source.</li></ol>
 
         <figure><img src="./image/blogs/python/interoperating/Simple Expression Getting Input from User True.png" alt="Simple Expression Getting Input from User True.png" class="[ w-full ]"/></figure>
@@ -437,20 +437,20 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - Python Interoperating - Single Statement</h4>
-    <article id="96c76043-7a7c-4f79-9f15-d37ea15a1213" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="90aa0729-85ff-4c96-ae56-5e95cea42bb8" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <h4 class="[ font-semibold text-base ]">Steps</h4>
 
-        <ol class="[ list-decimal ] [ ml-4 ]"><li>Create Python <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">ScriptEngine</code>.</li>
+        <ol class="[ list-decimal ] [ ml-4 ]"><li>Create Python <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">ScriptEngine</code>.</li>
             <li>Get the statement from user.</li>
-            <li>Create a scope using <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">ScriptEngine</code> instance.</li>
-            <li>Assign the Python variable token a to the <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">ScriptEngine</code> instance using <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">SetVariable()</code>.</li>
-            <li>Create a <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">ScriptSource</code> instance from engine using Create<code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">ScriptSourceFromString()</code> and pass statement received from user and expression type as <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">SourceCodeKind.SingleStatement</code>.</li>
+            <li>Create a scope using <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">ScriptEngine</code> instance.</li>
+            <li>Assign the Python variable token a to the <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">ScriptEngine</code> instance using <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">SetVariable()</code>.</li>
+            <li>Create a <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">ScriptSource</code> instance from engine using Create<code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">ScriptSourceFromString()</code> and pass statement received from user and expression type as <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">SourceCodeKind.SingleStatement</code>.</li>
             <li>Now execute the scope using script source.</li>
-            <li>Call the scope's <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">GetVariable()</code> method to get result.</li></ol>
+            <li>Call the scope's <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">GetVariable()</code> method to get result.</li></ol>
 
         <p>
-            So now that we're executing a statement, we're not getting the result back like we would when we evaluate an expression. so we are calling scope's <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">GetVariable()</code> method. Essentially 
+            So now that we're executing a statement, we're not getting the result back like we would when we evaluate an expression. so we are calling scope's <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">GetVariable()</code> method. Essentially 
             here, we're saying have a look in the Python statement entered by the user, and look for a Python variable called result. This, of course, assumes that the user will set a result 
             variable in their Python code.
         </p>
@@ -469,16 +469,16 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - Python Interoperating - Interacting with Python Objects</h4>
-    <article id="5ebb1684-5bd7-4149-b87f-ac766429b9c5" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="04033fc4-5bb9-4640-936f-361cefb50c0b" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <h4 class="[ font-semibold text-base ]">Steps</h4>
 
-        <ol class="[ list-decimal ] [ ml-4 ]"><li>Create Python <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">ScriptEngine</code>.</li>
+        <ol class="[ list-decimal ] [ ml-4 ]"><li>Create Python <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">ScriptEngine</code>.</li>
             <li>Create Python Statement.</li>
-            <li>Create a scope using <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">ScriptEngine</code> instance.</li>
-            <li>Create a <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">ScriptSource</code> instance from engine using Create<code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">ScriptSourceFromString()</code> and pass statement received from user and expression type as <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">SourceCodeKind.SingleStatement</code>.</li>
+            <li>Create a scope using <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">ScriptEngine</code> instance.</li>
+            <li>Create a <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">ScriptSource</code> instance from engine using Create<code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">ScriptSourceFromString()</code> and pass statement received from user and expression type as <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">SourceCodeKind.SingleStatement</code>.</li>
             <li>Now execute the scope using script source.</li>
-            <li>Call the scope's <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">GetVariable()</code> method to get result.</li></ol>
+            <li>Call the scope's <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">GetVariable()</code> method to get result.</li></ol>
 
         <figure><img src="./image/blogs/python/interoperating/Interacting with Python Object.png" alt="Interacting with Python Object.png" class="[ w-full ]"/></figure>
 
@@ -494,16 +494,16 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - Python Interoperating - Interacting with External Python File</h4>
-    <article id="7da9b41f-8bc2-421e-b6de-080358b9c296" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="2811a0c0-52ad-4143-8468-998f184e3289" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <h4 class="[ font-semibold text-base ]">Steps</h4>
 
-        <ol class="[ list-decimal ] [ ml-4 ]"><li>Create Python <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">ScriptEngine</code>.</li>
-            <li>Create <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">C# dynamic</code> element.</li>
-            <li>Create a scope using <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">ScriptEngine</code> instance.</li>
-            <li>Create a Python file and add it to project root and go to properties and select <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">CopyIfNewer</code> on <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">BuildAction</code></li>
-            <li>Assign the c# dynamic element to the <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">ScriptEngine</code> instance using <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">SetVariable()</code>.</li>
-            <li>Create a <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">ScriptSource</code> instance from engine using Create<code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">ScriptSourceFromFile()</code> and pass python file name as parameter.</li>
+        <ol class="[ list-decimal ] [ ml-4 ]"><li>Create Python <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">ScriptEngine</code>.</li>
+            <li>Create <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">C# dynamic</code> element.</li>
+            <li>Create a scope using <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">ScriptEngine</code> instance.</li>
+            <li>Create a Python file and add it to project root and go to properties and select <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">CopyIfNewer</code> on <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">BuildAction</code></li>
+            <li>Assign the c# dynamic element to the <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">ScriptEngine</code> instance using <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">SetVariable()</code>.</li>
+            <li>Create a <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">ScriptSource</code> instance from engine using Create<code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">ScriptSourceFromFile()</code> and pass python file name as parameter.</li>
             <li>Now execute the scope using script source.</li></ol>
 
         <figure><img src="./image/blogs/python/interoperating/Passing Object to External File.png" alt="Passing Object to External File.png" class="[ w-full ]"/></figure>
@@ -513,12 +513,12 @@
         <h3 id="summary" class="[ font-semibold text-lg ]">Summary</h3>
 
         <p>
-            In this article, we learned some of the reasons why we might want to consider using <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">dynamic interop</code> such as the ability to take advantage of 
-            language features not present in C# or to reuse existing Python code or libraries in our C# code. Next, we saw how we can get started with <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">IronPython</code>, 
-            and the first thing we went and did is installed the IronPython NuGet package. We saw how we can use the static <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">CreateEngine</code> method of the Python class 
+            In this article, we learned some of the reasons why we might want to consider using <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">dynamic interop</code> such as the ability to take advantage of 
+            language features not present in C# or to reuse existing Python code or libraries in our C# code. Next, we saw how we can get started with <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">IronPython</code>, 
+            and the first thing we went and did is installed the IronPython NuGet package. We saw how we can use the static <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">CreateEngine</code> method of the Python class 
             to create an engine in which we can execute Python code. And we learned about a couple of the different types of source code that we can execute, the SourceCodeKind of Expression and the 
             SourceCodeKind of SingleStatements. We learned how we can create an object in Python such as a Python tuple and then access this from our C# code and how we can execute some Python stored 
-            in a separate file by using the Create<code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">ScriptSource</code>FromFile method. We learned that we can pass an instance of our custom dynamic object into the Python 
+            in a separate file by using the Create<code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">ScriptSource</code>FromFile method. We learned that we can pass an instance of our custom dynamic object into the Python 
             engine and how this object can be manipulated in the Python script and thus access the resulting state in our C# code.
         </p></section>
         <footer class="[ max-w-full ]"><ul class="[ list-none ] [ flex items-center justify-start md:justify-center ] [ space-x-3 ] [ overflow-hidden overflow-x-auto ]"><li class="[ px-3 py-1 ] [ rounded-full ] [ bg-black text-white dark:bg-white dark:text-black ]">Python</li><li class="[ px-3 py-1 ] [ rounded-full ] [ bg-black text-white dark:bg-white dark:text-black ] [ whitespace-nowrap ]">Interoperating</li><li class="[ px-3 py-1 ] [ rounded-full ] [ bg-black text-white dark:bg-white dark:text-black ] [ whitespace-nowrap ]">Iron Python</li><li class="[ px-3 py-1 ] [ rounded-full ] [ bg-black text-white dark:bg-white dark:text-black ] [ whitespace-nowrap ]">Python</li><li class="[ px-3 py-1 ] [ rounded-full ] [ bg-black text-white dark:bg-white dark:text-black ] [ whitespace-nowrap ]">Dynamic Interop</li></ul></footer>
@@ -731,7 +731,7 @@
             <line x1="12" y1="8" x2="12.01" y2="8"></line>
             <polyline points="11 12 12 12 12 16 13 16"></polyline></svg>
         <span class="[ text-xs text-center ]">About</span></a></nav>
-            <!--Blazor:{"prerenderId":"8048e48b710e4cba81cc2b18ef1455e4"}-->
+            <!--Blazor:{"prerenderId":"6ae8b57668e04147a46b82c1061cdca7"}-->
 <!-- %%-PRERENDERING-END-%% -->
 <!--Blazor-Component-State:e30=--></div>
 

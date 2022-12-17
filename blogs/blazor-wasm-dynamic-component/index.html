@@ -82,7 +82,7 @@
     </script>
 
 <!-- %%-PRERENDERING-HEADOUTLET-BEGIN-%% -->
-<!--Blazor:{"type":"webassembly","assembly":"Microsoft.AspNetCore.Components.Web","typeName":"Microsoft.AspNetCore.Components.Web.HeadOutlet","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"1118468291cf43eaab8a67e707b3ad24"}--><script type="application/ld+json">
+<!--Blazor:{"type":"webassembly","assembly":"Microsoft.AspNetCore.Components.Web","typeName":"Microsoft.AspNetCore.Components.Web.HeadOutlet","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"d1d6fca152f1419fa798d418e30daeca"}--><script type="application/ld+json">
 {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -131,7 +131,7 @@
         "@id": "https://ilovedotnet.org/"
     }
 }
-</script><!--Blazor:{"prerenderId":"1118468291cf43eaab8a67e707b3ad24"}-->
+</script><!--Blazor:{"prerenderId":"d1d6fca152f1419fa798d418e30daeca"}-->
 <!-- %%-PRERENDERING-HEADOUTLET-END-%% -->
 
     <script type="text/default-title">I ❤️ DotNet</script>
@@ -178,7 +178,7 @@
 <body class="[ m-0 ] [ h-full ] [ dark:bg-stone-900 ] [ bg-gray-100 ]">
     <div id="app" class="[ dark:text-white ]">
 <!-- %%-PRERENDERING-BEGIN-%% -->
-<!--Blazor:{"type":"webassembly","assembly":"Web","typeName":"Web.App","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"09d6fd7965154752b463f6c75f2292cc"}--><header id="header" class="[ flex items-center justify-between ] [ bg-white ] [ px-5 ] [ dark:bg-gray-800 dark:bg-gray-800/80 ] [ h-14 ] [ sticky top-0 ] [ backdrop-blur-sm bg-white/80 ] [ z-10 ]"><button type="button" class="[ hidden md:block ] [ mr-4 ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-menu-2 ]" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+<!--Blazor:{"type":"webassembly","assembly":"Web","typeName":"Web.App","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"47e22eba508843c6b19ca5ef0faad6be"}--><header id="header" class="[ flex items-center justify-between ] [ bg-white ] [ px-5 ] [ dark:bg-gray-800 dark:bg-gray-800/80 ] [ h-14 ] [ sticky top-0 ] [ backdrop-blur-sm bg-white/80 ] [ z-10 ]"><button type="button" class="[ hidden md:block ] [ mr-4 ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-menu-2 ]" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
            <line x1="4" y1="6" x2="20" y2="6"></line>
            <line x1="4" y1="12" x2="20" y2="12"></line>
            <line x1="4" y1="18" x2="20" y2="18"></line></svg></button>
@@ -300,7 +300,7 @@
         <a href="https://github.com/ILoveDotNet/ilovedotnet/blob/main/Web/Pages/Blogs/Blazor/Wasm/BlazorDynamicComponent.razor" target="_blank" class="[ md:bg-red-700 ] [ text-red-500 md:text-white uppercase ] [ px-3 py-2 ] [ font-semibold ]">Improve</a></section>
     <hr class="[ dark:text-white my-1.5 ]"/></header>
         <section class="[ dark:text-white ] [ space-y-2 ] [ leading-relaxed ]"><p>
-            In this article, let's learn about <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">&lt;DynamicComponent&gt;</code> in Blazor.
+            In this article, let's learn about <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">&lt;DynamicComponent&gt;</code> in Blazor.
         </p>
 
         <h3 class="[ font-semibold text-lg ]">Table of Contents</h3>
@@ -324,13 +324,13 @@
         <h3 id="what-is-dynamic-component" class="[ font-semibold text-lg ]">What is Dynamic Component in blazor?</h3>
 
         <p>
-            As its name implies, <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">&lt;DynamicComponent&gt;</code> is a component that allows us to dynamically render 
+            As its name implies, <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">&lt;DynamicComponent&gt;</code> is a component that allows us to dynamically render 
             components. The idea is that we pass the type of the component to render, and, optionally, its parameters, and voila, the component is 
             rendered.
         </p>
 
         <p>
-            You don't need to iterate through components and use complex conditionals, use reflection, declare a bunch of <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">RenderFragments</code>, 
+            You don't need to iterate through components and use complex conditionals, use reflection, declare a bunch of <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">RenderFragments</code>, 
             or even build your own render tree. It can get complicated when dealing with parameters and complex data graphs, and none of these solutions are 
             any good, really.
         </p>
@@ -338,27 +338,27 @@
         <h3 id="how-to-use-dynamic-component-in-blazor" class="[ font-semibold text-lg ]">How to use Dynamic Component in blazor?</h3>
 
         <p>
-            To start using <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">&lt;DynamicComponent&gt;</code>, consider the following example
+            To start using <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">&lt;DynamicComponent&gt;</code>, consider the following example
         </p>
 
         <p>
             In the above example,
         </p>
 
-        <ul class="[ list-disc ] [ ml-4 ]"><li><code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">componentType</code> specifies the type.</li>
-            <li><code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">parameters</code> specifies component parameters to pass to the <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">componentType</code> component.</li></ul>
+        <ul class="[ list-disc ] [ ml-4 ]"><li><code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">componentType</code> specifies the type.</li>
+            <li><code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">parameters</code> specifies component parameters to pass to the <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">componentType</code> component.</li></ul>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-code ] [ text-purple-700 ] [ fill-purple-500 ]" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - Simple Dynamic Component</h4>
-    <article id="d20c359e-1a42-48e9-9716-70872cf3c6f7" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="cb5e595a-248a-4ac4-8cde-d6282a88a0fd" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         
 
         <h3 id="when-to-use-dynamic-component-in-blazor" class="[ font-semibold text-lg ]">When to use Dynamic Component in blazor?</h3>
 
-        <p><code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">&lt;DynamicComponent&gt;</code> is can be in following scenarios,
+        <p><code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">&lt;DynamicComponent&gt;</code> is can be in following scenarios,
         </p>
 
         <ul class="[ list-disc ] [ ml-4 ]"><li>Dynamically Rendering Widget components in dashboard based on User Preference or UI Settings.</li>
@@ -373,57 +373,57 @@
         </p>
 
         <p>
-            A simple <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">&lt;input type="text" /&gt;</code></p>
+            A simple <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">&lt;input type="text" /&gt;</code></p>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-code ] [ text-purple-700 ] [ fill-purple-500 ]" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - Text Box Component</h4>
-    <article id="66ee83e9-b03e-47ab-83e3-7f2b5ceb6186" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="a227fec4-b36e-4147-8cc9-307dd8485a64" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <p>
-            A simple <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">&lt;input type="checkbox" /&gt;</code></p>
+            A simple <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">&lt;input type="checkbox" /&gt;</code></p>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-code ] [ text-purple-700 ] [ fill-purple-500 ]" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - Check Box Component</h4>
-    <article id="c1beb66d-80bc-4d24-af55-ac3f61744de1" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="6dc2c5ea-9c82-4b6d-ba2c-4c23b2ba4f39" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <p>
-            A simple <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">&lt;input type="radio" /&gt;</code></p>
+            A simple <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">&lt;input type="radio" /&gt;</code></p>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-code ] [ text-purple-700 ] [ fill-purple-500 ]" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - Radio Button Component</h4>
-    <article id="45b09bf0-183f-4f68-9771-65f96ca97afb" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="89aa5296-ef73-47f5-98b3-6e006cfcd017" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <h3 id="steps" class="[ font-semibold text-lg ]">Steps</h3>
 
         <ol class="[ list-decimal ] [ ml-4 ]"><li>
-                Let's start by adding all the three components as option in <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">&lt;select&gt;</code> drop down and hook an 
-                <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">@onchange="RenderComponent"</code>.
+                Let's start by adding all the three components as option in <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">&lt;select&gt;</code> drop down and hook an 
+                <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">@onchange="RenderComponent"</code>.
             </li>
             <li>
-                When the user select's a choice from dropdown, we can get the component type in the <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">@onchange</code> event 
-                using event args as <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">type = Type.GetType($"BlazorDemoComponents.{eventArgs.Value}");</code>.
+                When the user select's a choice from dropdown, we can get the component type in the <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">@onchange</code> event 
+                using event args as <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">type = Type.GetType($"BlazorDemoComponents.{eventArgs.Value}");</code>.
             </li>
             <li>
-                Now <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">&lt;DynamicComponent&gt;</code> will render the selected component and pass the parameters using 
-                <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Parameters="@components[type.Name].Parameters"</code>. Here we are passing <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Label</code> 
-                parameter to each input component using <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">IDictionary&lt;string, object&gt;</code> parameter.
+                Now <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">&lt;DynamicComponent&gt;</code> will render the selected component and pass the parameters using 
+                <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Parameters="@components[type.Name].Parameters"</code>. Here we are passing <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Label</code> 
+                parameter to each input component using <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">IDictionary&lt;string, object&gt;</code> parameter.
             </li>
             <li>
-                Note that <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Type</code> is required parameter and <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Parameters</code> is optional 
-                parameter in <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">&lt;DynamicComponent&gt;</code>.
+                Note that <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Type</code> is required parameter and <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Parameters</code> is optional 
+                parameter in <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">&lt;DynamicComponent&gt;</code>.
             </li></ol>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-code ] [ text-purple-700 ] [ fill-purple-500 ]" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - Dynamically Rendering Input Components</h4>
-    <article id="1337a552-9834-4846-bd29-9a2385f17ddb" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="39b68201-ebc8-4579-b478-2eb4a72803af" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-caret-right ] [ text-lime-700 ] [ fill-lime-500 ]" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M18 15l-6 -6l-6 6h12" transform="rotate(90 12 12)"></path></svg> Demo - Dynamically Rendering Input Components Demo</h4>
@@ -440,9 +440,9 @@
         <h3 id="summary" class="[ font-semibold text-lg ]">Summary</h3>
 
         <p>
-            In this post, we walked through the new <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">&lt;DynamicComponent&gt;</code>, which allows you to render components when 
+            In this post, we walked through the new <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">&lt;DynamicComponent&gt;</code>, which allows you to render components when 
             you don’t know your types at runtime. We were able to render a component based on what a user selects from a drop-down list. We also explored how 
-            to pass in parameters to the <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">&lt;DynamicComponent&gt;</code> as well.
+            to pass in parameters to the <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">&lt;DynamicComponent&gt;</code> as well.
         </p></section>
         <footer class="[ max-w-full ]"><ul class="[ list-none ] [ flex items-center justify-start md:justify-center ] [ space-x-3 ] [ overflow-hidden overflow-x-auto ]"><li class="[ px-3 py-1 ] [ rounded-full ] [ bg-black text-white dark:bg-white dark:text-black ]">Blazor</li><li class="[ px-3 py-1 ] [ rounded-full ] [ bg-black text-white dark:bg-white dark:text-black ] [ whitespace-nowrap ]">Dynamic</li><li class="[ px-3 py-1 ] [ rounded-full ] [ bg-black text-white dark:bg-white dark:text-black ] [ whitespace-nowrap ]">Component</li><li class="[ px-3 py-1 ] [ rounded-full ] [ bg-black text-white dark:bg-white dark:text-black ] [ whitespace-nowrap ]">Dynamically-rendered</li></ul></footer>
         <hr class="[ dark:text-white my-1.5 ]"/></article>
@@ -654,7 +654,7 @@
             <line x1="12" y1="8" x2="12.01" y2="8"></line>
             <polyline points="11 12 12 12 12 16 13 16"></polyline></svg>
         <span class="[ text-xs text-center ]">About</span></a></nav>
-            <!--Blazor:{"prerenderId":"09d6fd7965154752b463f6c75f2292cc"}-->
+            <!--Blazor:{"prerenderId":"47e22eba508843c6b19ca5ef0faad6be"}-->
 <!-- %%-PRERENDERING-END-%% -->
 <!--Blazor-Component-State:e30=--></div>
 

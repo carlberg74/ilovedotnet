@@ -82,7 +82,7 @@
     </script>
 
 <!-- %%-PRERENDERING-HEADOUTLET-BEGIN-%% -->
-<!--Blazor:{"type":"webassembly","assembly":"Microsoft.AspNetCore.Components.Web","typeName":"Microsoft.AspNetCore.Components.Web.HeadOutlet","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"dded53f81f1a46fba0867dbcb71b9a10"}--><script type="application/ld+json">
+<!--Blazor:{"type":"webassembly","assembly":"Microsoft.AspNetCore.Components.Web","typeName":"Microsoft.AspNetCore.Components.Web.HeadOutlet","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"2b5724e493bf4af2923910c33d645146"}--><script type="application/ld+json">
 {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -131,7 +131,7 @@
         "@id": "https://ilovedotnet.org/"
     }
 }
-</script><!--Blazor:{"prerenderId":"dded53f81f1a46fba0867dbcb71b9a10"}-->
+</script><!--Blazor:{"prerenderId":"2b5724e493bf4af2923910c33d645146"}-->
 <!-- %%-PRERENDERING-HEADOUTLET-END-%% -->
 
     <script type="text/default-title">I ❤️ DotNet</script>
@@ -178,7 +178,7 @@
 <body class="[ m-0 ] [ h-full ] [ dark:bg-stone-900 ] [ bg-gray-100 ]">
     <div id="app" class="[ dark:text-white ]">
 <!-- %%-PRERENDERING-BEGIN-%% -->
-<!--Blazor:{"type":"webassembly","assembly":"Web","typeName":"Web.App","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"2bc19b10d2884f4585cca2dda0efdcf8"}--><header id="header" class="[ flex items-center justify-between ] [ bg-white ] [ px-5 ] [ dark:bg-gray-800 dark:bg-gray-800/80 ] [ h-14 ] [ sticky top-0 ] [ backdrop-blur-sm bg-white/80 ] [ z-10 ]"><button type="button" class="[ hidden md:block ] [ mr-4 ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-menu-2 ]" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+<!--Blazor:{"type":"webassembly","assembly":"Web","typeName":"Web.App","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"a8b7b05e107c4abd9c893f9f5e481b61"}--><header id="header" class="[ flex items-center justify-between ] [ bg-white ] [ px-5 ] [ dark:bg-gray-800 dark:bg-gray-800/80 ] [ h-14 ] [ sticky top-0 ] [ backdrop-blur-sm bg-white/80 ] [ z-10 ]"><button type="button" class="[ hidden md:block ] [ mr-4 ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-menu-2 ]" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
            <line x1="4" y1="6" x2="20" y2="6"></line>
            <line x1="4" y1="12" x2="20" y2="12"></line>
            <line x1="4" y1="18" x2="20" y2="18"></line></svg></button>
@@ -321,7 +321,7 @@
         <h3 id="what-is-appsettings-and-why-it-is-needed" class="[ font-semibold text-lg ]">What is App Settings and Why it is needed?</h3>
 
         <p>
-            App Settings / Configuration (<code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">appsettings.json</code>) located inside <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">wwwroot</code> is used to store application 
+            App Settings / Configuration (<code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">appsettings.json</code>) located inside <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">wwwroot</code> is used to store application 
             related configuration in <abbr title="Java Script Object Notation">JSON</abbr> format and load them in runtime based on environment to read keys/id for consuming any external 
             services or urls for external services or conditionally render UI or change code flow, etc.
         </p>
@@ -330,25 +330,25 @@
             Blazor WebAssembly loads configuration from the following app settings files by default:
         </p>
 
-        <ul class="[ list-disc ] [ ml-4 ]"><li><code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">wwwroot/appsettings.json</code></li>
-            <li><code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">wwwroot/appsettings.{ENVIRONMENT}.json</code>, where the {ENVIRONMENT} placeholder is the app's runtime environment</li></ul>
+        <ul class="[ list-disc ] [ ml-4 ]"><li><code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">wwwroot/appsettings.json</code></li>
+            <li><code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">wwwroot/appsettings.{ENVIRONMENT}.json</code>, where the {ENVIRONMENT} placeholder is the app's runtime environment</li></ul>
 
         <p>
-            Please note that <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">appsettings.json</code> in blazor wasm is located inside <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">wwwroot</code>. Which means it can be read 
+            Please note that <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">appsettings.json</code> in blazor wasm is located inside <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">wwwroot</code>. Which means it can be read 
             by anyone on client side. Hence don't store any sensitive information in it.
         </p>
 
         <h3 id="how-to-read-appsettings" class="[ font-semibold text-lg ]">How to read App Settings?</h3>
 
         <p>
-            To read the settings / configuration from <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">appsettings.json</code> you need to follow the below steps,
+            To read the settings / configuration from <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">appsettings.json</code> you need to follow the below steps,
         </p>
 
-        <ol class="[ list-decimal ] [ ml-4 ]"><li>Inject <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">@inject IConfiguration configuration</code></li>
+        <ol class="[ list-decimal ] [ ml-4 ]"><li>Inject <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">@inject IConfiguration configuration</code></li>
             <li>Use injected configuration object to read settings</li>
-            <li><ul class="[ list-disc ] [ ml-4 ]"><li>Use <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">configuration.GetValue&lt;string&gt;("{KEY}")</code> to read simple string value</li>
-                    <li>Use <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">configuration.GetValue&lt;bool&gt;("{KEY}")</code> to read simple boolean value</li>
-                    <li>Use <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">configuration.GetSection("{KEY}")</code> to read section as object</li></ul></li></ol>
+            <li><ul class="[ list-disc ] [ ml-4 ]"><li>Use <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">configuration.GetValue&lt;string&gt;("{KEY}")</code> to read simple string value</li>
+                    <li>Use <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">configuration.GetValue&lt;bool&gt;("{KEY}")</code> to read simple boolean value</li>
+                    <li>Use <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">configuration.GetSection("{KEY}")</code> to read section as object</li></ul></li></ol>
 
         <p>
             Configuration in app settings files are loaded by default. In I ❤️ .NET, a base url, authors value is stored in an app settings file and loaded by the Blazor framework 
@@ -359,12 +359,12 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - Blazor WASM App Settings Configuration</h4>
-    <article id="f45c39ce-431c-4300-9eb2-765482c92aaa" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="9712e85a-ac62-4acc-b807-1cda7032020a" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-caret-right ] [ text-lime-700 ] [ fill-lime-500 ]" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M18 15l-6 -6l-6 6h12" transform="rotate(90 12 12)"></path></svg> Demo - Read Settings From Configuration</h4>
     <article class="[ bg-gray-300 ] [ dark:bg-gray-700 ] [ p-4 ]"><p class="[ text-black ] [ dark:text-white ]"><b>
-                    Scenario - Let's try reading configuration from I ❤️ .NET <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">appsettings.json</code></b></p>
+                    Scenario - Let's try reading configuration from I ❤️ .NET <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">appsettings.json</code></b></p>
             <section class="[ flex flex-col space-y-1 md:w-1/5 ]"><button type="button" class="[ bg-cyan-500 ] [ px-4 py-2 ] [ inline-block ] [ rounded-md ] [ inline-flex ] [ space-x-1 ]"><p class="[ text-white ]">Read Base Url</p></button><button type="button" class="[ bg-fuchsia-500 ] [ px-4 py-2 ] [ inline-block ] [ rounded-md ] [ inline-flex ] [ space-x-1 ]"><p class="[ text-white ]">Read Author Details</p></button></section></article></section>
 
         
@@ -372,29 +372,29 @@
         <h3 id="appsettings-in-release-configuration" class="[ font-semibold text-lg ]">App Settings in Release Configuration</h3>
 
         <p>
-            Generally configuration from <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">appsettings.json</code> will be used in production environment. We cannot have all same configuration in all environment. 
-            So we can override configuration for different environment using <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">appsettings.{ENVIRONMENT}.json</code>, where the {ENVIRONMENT} placeholder is the 
-            app's runtime environment. For example, in I ❤️ .NET <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">baseUrl</code> in development environment will be different from production environment. So in 
-            <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">appsettings.development.json</code> will have different <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">"baseUrl": "https://localhost:7176/"</code> value.
+            Generally configuration from <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">appsettings.json</code> will be used in production environment. We cannot have all same configuration in all environment. 
+            So we can override configuration for different environment using <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">appsettings.{ENVIRONMENT}.json</code>, where the {ENVIRONMENT} placeholder is the 
+            app's runtime environment. For example, in I ❤️ .NET <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">baseUrl</code> in development environment will be different from production environment. So in 
+            <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">appsettings.development.json</code> will have different <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">"baseUrl": "https://localhost:7176/"</code> value.
         </p>
 
         <p>
             Other common use case would be, we have an API Key for consuming external service and that endpoint might have rate limiting mechanism in place. If we use the same production Key 
             in development, then we might end up exhausting our consumption limit. To avoid this we can use dummy keys or different keys in development environment by overriding the key value 
-            in <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">appsettings.development.json</code>.
+            in <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">appsettings.development.json</code>.
         </p>
 
         <p>
             Now that we have learn't how to use app settings in blazor wasm. We are still left with one more stuff. It is not necessary to bundle all 
-            <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">appsettings.{ENVIRONMENT}.json</code> to production. This can be safely removed in <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Release</code> configuration using 
-            the below settings in <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">.csproj</code> file.
+            <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">appsettings.{ENVIRONMENT}.json</code> to production. This can be safely removed in <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Release</code> configuration using 
+            the below settings in <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">.csproj</code> file.
         </p>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-code ] [ text-purple-700 ] [ fill-purple-500 ]" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - Blazor WASM Project File Configuration</h4>
-    <article id="e1fbf868-e3ca-4090-9042-84d204450deb" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="74ef882e-0cde-4858-8266-cad6f4472b20" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <h3 id="summary" class="[ font-semibold text-lg ]">App Settings in Release Configuration</h3>
 
@@ -613,7 +613,7 @@
             <line x1="12" y1="8" x2="12.01" y2="8"></line>
             <polyline points="11 12 12 12 12 16 13 16"></polyline></svg>
         <span class="[ text-xs text-center ]">About</span></a></nav>
-            <!--Blazor:{"prerenderId":"2bc19b10d2884f4585cca2dda0efdcf8"}-->
+            <!--Blazor:{"prerenderId":"a8b7b05e107c4abd9c893f9f5e481b61"}-->
 <!-- %%-PRERENDERING-END-%% -->
 <!--Blazor-Component-State:e30=--></div>
 

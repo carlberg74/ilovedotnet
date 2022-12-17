@@ -82,7 +82,7 @@
     </script>
 
 <!-- %%-PRERENDERING-HEADOUTLET-BEGIN-%% -->
-<!--Blazor:{"type":"webassembly","assembly":"Microsoft.AspNetCore.Components.Web","typeName":"Microsoft.AspNetCore.Components.Web.HeadOutlet","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"236250b112964298937067dfaf7720e8"}--><script type="application/ld+json">
+<!--Blazor:{"type":"webassembly","assembly":"Microsoft.AspNetCore.Components.Web","typeName":"Microsoft.AspNetCore.Components.Web.HeadOutlet","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"2412117a080e4a04b099d8cb03ff0fc8"}--><script type="application/ld+json">
 {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -131,7 +131,7 @@
         "@id": "https://ilovedotnet.org/"
     }
 }
-</script><!--Blazor:{"prerenderId":"236250b112964298937067dfaf7720e8"}-->
+</script><!--Blazor:{"prerenderId":"2412117a080e4a04b099d8cb03ff0fc8"}-->
 <!-- %%-PRERENDERING-HEADOUTLET-END-%% -->
 
     <script type="text/default-title">I ❤️ DotNet</script>
@@ -178,7 +178,7 @@
 <body class="[ m-0 ] [ h-full ] [ dark:bg-stone-900 ] [ bg-gray-100 ]">
     <div id="app" class="[ dark:text-white ]">
 <!-- %%-PRERENDERING-BEGIN-%% -->
-<!--Blazor:{"type":"webassembly","assembly":"Web","typeName":"Web.App","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"c0c1f125717e48e18a2405d159aabeef"}--><header id="header" class="[ flex items-center justify-between ] [ bg-white ] [ px-5 ] [ dark:bg-gray-800 dark:bg-gray-800/80 ] [ h-14 ] [ sticky top-0 ] [ backdrop-blur-sm bg-white/80 ] [ z-10 ]"><button type="button" class="[ hidden md:block ] [ mr-4 ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-menu-2 ]" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+<!--Blazor:{"type":"webassembly","assembly":"Web","typeName":"Web.App","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"f9cff273ae1b43d38c731bf476e5abd8"}--><header id="header" class="[ flex items-center justify-between ] [ bg-white ] [ px-5 ] [ dark:bg-gray-800 dark:bg-gray-800/80 ] [ h-14 ] [ sticky top-0 ] [ backdrop-blur-sm bg-white/80 ] [ z-10 ]"><button type="button" class="[ hidden md:block ] [ mr-4 ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-menu-2 ]" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
            <line x1="4" y1="6" x2="20" y2="6"></line>
            <line x1="4" y1="12" x2="20" y2="12"></line>
            <line x1="4" y1="18" x2="20" y2="18"></line></svg></button>
@@ -301,7 +301,7 @@
     <hr class="[ dark:text-white my-1.5 ]"/></header>
         <section class="[ dark:text-white ] [ space-y-2 ] [ leading-relaxed ]"><p>
             In our previous article <a href="blogs/blazor-wasm-exception-handling-and-error-boundary" class="[ underline ]">Blazor WASM Exception Handling and Error Boundary</a>,
-            we learnt how global exception works and how to handle exceptions using built in <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">ErrorBoundary</code> component. In this article, let's learn about 
+            we learnt how global exception works and how to handle exceptions using built in <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">ErrorBoundary</code> component. In this article, let's learn about 
             Error Logging in Blazor WASM.
         </p>
         
@@ -321,51 +321,51 @@
 
         <p>
             Logging is needed in all applications. This will help to find root cause or track user activity in any environment. This can be done easily in server side applications with logging 
-            frameworks but for <abbr title="Single Page Application">SPA</abbr> like <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Blazor <abbr title="Web Assembly">WASM</abbr></code> running in browser 
+            frameworks but for <abbr title="Single Page Application">SPA</abbr> like <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Blazor <abbr title="Web Assembly">WASM</abbr></code> running in browser 
             sandbox, we will not be having direct access to file system or database and logging cannot be done like how we do in server side applications. We can use browser console to log 
-            <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Information</code>, <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Warning</code> or <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Error</code>. But this will not help much in 
-            production. We can still make logging happen in production by processing <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Exception</code> and posting the error details to backend API. Let's look on 
-            how to achieve this in <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Blazor <abbr title="Web Assembly">WASM</abbr></code>.
+            <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Information</code>, <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Warning</code> or <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Error</code>. But this will not help much in 
+            production. We can still make logging happen in production by processing <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Exception</code> and posting the error details to backend API. Let's look on 
+            how to achieve this in <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Blazor <abbr title="Web Assembly">WASM</abbr></code>.
         </p>
 
         <h3 id="creating-error-component-to-log-error" class="[ font-semibold text-lg ]">Creating Error component to log error</h3>
 
         <p>
-            Let's start with simple <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Subscription</code> component. This will throw error on <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Subscribe Now</code> button click.
+            Let's start with simple <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Subscription</code> component. This will throw error on <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Subscribe Now</code> button click.
         </p>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-code ] [ text-purple-700 ] [ fill-purple-500 ]" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - Subscribe component to simulate exception</h4>
-    <article id="bfc378fc-8c5a-4316-82b9-7b3bcd062ef5" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="81d03d6e-5937-4af7-81f8-cb2de9552f16" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         
 
         <p>
-            To process the error, let's create an <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Error</code> component. This component takes Child Content <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">RenderFragment</code> 
-            as input. This component also has <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">ProcessError</code> method to process the exception and log it to 
-            <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">browser console</code> or <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">backend API</code>. For simplicity I'm logging into browser console.
+            To process the error, let's create an <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Error</code> component. This component takes Child Content <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">RenderFragment</code> 
+            as input. This component also has <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">ProcessError</code> method to process the exception and log it to 
+            <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">browser console</code> or <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">backend API</code>. For simplicity I'm logging into browser console.
         </p>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-code ] [ text-purple-700 ] [ fill-purple-500 ]" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - Error component to log exception</h4>
-    <article id="6741d5e5-3237-4308-bb0e-d49b000f0981" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="ea076257-6989-4e3f-ba39-bd05ac880c95" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <p>
-            Now lets wrap our <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Subscription</code> component with <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Error</code> component.
+            Now lets wrap our <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Subscription</code> component with <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Error</code> component.
         </p>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-code ] [ text-purple-700 ] [ fill-purple-500 ]" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - Blazor Error logging with Error Component</h4>
-    <article id="030784da-41c2-4e59-a823-135bae6020f0" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="1acbf899-fb1c-4282-92a8-026b0c48addf" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <p>
-            That's it. Now if any exception occurs, <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">Subscription</code> component will make use of <code class="[ p-0.5 ] [ border border-black ] [ dark:border-white ] ">CascadingParameter Error</code> 
+            That's it. Now if any exception occurs, <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Subscription</code> component will make use of <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">CascadingParameter Error</code> 
             component and process the exception which then can be used to log to browser console or posted to backend API.
         </p>
 
@@ -599,7 +599,7 @@
             <line x1="12" y1="8" x2="12.01" y2="8"></line>
             <polyline points="11 12 12 12 12 16 13 16"></polyline></svg>
         <span class="[ text-xs text-center ]">About</span></a></nav>
-            <!--Blazor:{"prerenderId":"c0c1f125717e48e18a2405d159aabeef"}-->
+            <!--Blazor:{"prerenderId":"f9cff273ae1b43d38c731bf476e5abd8"}-->
 <!-- %%-PRERENDERING-END-%% -->
 <!--Blazor-Component-State:e30=--></div>
 
