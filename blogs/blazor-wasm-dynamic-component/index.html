@@ -82,7 +82,7 @@
     </script>
 
 <!-- %%-PRERENDERING-HEADOUTLET-BEGIN-%% -->
-<!--Blazor:{"type":"webassembly","assembly":"Microsoft.AspNetCore.Components.Web","typeName":"Microsoft.AspNetCore.Components.Web.HeadOutlet","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"4afa902431aa4cb8ba427d5a6a135856"}--><script type="application/ld+json">
+<!--Blazor:{"type":"webassembly","assembly":"Microsoft.AspNetCore.Components.Web","typeName":"Microsoft.AspNetCore.Components.Web.HeadOutlet","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"a2cf29b1b4bc4b3880909e8ee477e800"}--><script type="application/ld+json">
 {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -131,7 +131,7 @@
         "@id": "https://ilovedotnet.org/"
     }
 }
-</script><!--Blazor:{"prerenderId":"4afa902431aa4cb8ba427d5a6a135856"}-->
+</script><!--Blazor:{"prerenderId":"a2cf29b1b4bc4b3880909e8ee477e800"}-->
 <!-- %%-PRERENDERING-HEADOUTLET-END-%% -->
 
     <script type="text/default-title">I ❤️ DotNet</script>
@@ -178,7 +178,7 @@
 <body class="[ m-0 ] [ h-full ] [ dark:bg-stone-900 ] [ bg-gray-100 ]">
     <div id="app" class="[ dark:text-white ]">
 <!-- %%-PRERENDERING-BEGIN-%% -->
-<!--Blazor:{"type":"webassembly","assembly":"Web","typeName":"Web.App","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"873891f657c74c0b8487992281718d8f"}--><header id="header" class="[ flex items-center justify-between ] [ bg-white ] [ px-5 ] [ dark:bg-gray-800 dark:bg-gray-800/80 ] [ h-14 ] [ sticky top-0 ] [ backdrop-blur-sm bg-white/80 ] [ z-10 ]"><button type="button" class="[ hidden md:block ] [ mr-4 ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-menu-2 ]" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+<!--Blazor:{"type":"webassembly","assembly":"Web","typeName":"Web.App","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"92b18300b2b947a0afe8107d22229f89"}--><header id="header" class="[ flex items-center justify-between ] [ bg-white ] [ px-5 ] [ dark:bg-gray-800 dark:bg-gray-800/80 ] [ h-14 ] [ sticky top-0 ] [ backdrop-blur-sm bg-white/80 ] [ z-10 ]"><button type="button" class="[ hidden md:block ] [ mr-4 ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-menu-2 ]" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
            <line x1="4" y1="6" x2="20" y2="6"></line>
            <line x1="4" y1="12" x2="20" y2="12"></line>
            <line x1="4" y1="18" x2="20" y2="18"></line></svg></button>
@@ -300,7 +300,7 @@
         <a href="https://github.com/ILoveDotNet/ilovedotnet/blob/main/Web/Pages/Blogs/Blazor/Wasm/BlazorDynamicComponent.razor" target="_blank" class="[ md:bg-red-700 ] [ text-red-500 md:text-white uppercase ] [ px-3 py-2 ] [ font-semibold ]">Improve</a></section>
     <hr class="[ dark:text-white my-1.5 ]"/></header>
         <section class="[ dark:text-white ] [ space-y-2 ] [ leading-relaxed ]"><p>
-            In this article, let's learn about <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">&lt;DynamicComponent&gt;</code> in Blazor.
+            In this article, let's learn about <code class="[ p-0.5 ] [ text-indigo-600 ] [ dark:text-green-400 ] ">&lt;DynamicComponent&gt;</code> in Blazor.
         </p>
 
         <h3 class="[ font-semibold text-lg ]">Table of Contents</h3>
@@ -324,13 +324,13 @@
         <h3 id="what-is-dynamic-component" class="[ font-semibold text-lg ]">What is Dynamic Component in blazor?</h3>
 
         <p>
-            As its name implies, <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">&lt;DynamicComponent&gt;</code> is a component that allows us to dynamically render 
+            As its name implies, <code class="[ p-0.5 ] [ text-indigo-600 ] [ dark:text-green-400 ] ">&lt;DynamicComponent&gt;</code> is a component that allows us to dynamically render 
             components. The idea is that we pass the type of the component to render, and, optionally, its parameters, and voila, the component is 
             rendered.
         </p>
 
         <p>
-            You don't need to iterate through components and use complex conditionals, use reflection, declare a bunch of <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">RenderFragments</code>, 
+            You don't need to iterate through components and use complex conditionals, use reflection, declare a bunch of <code class="[ p-0.5 ] [ text-indigo-600 ] [ dark:text-green-400 ] ">RenderFragments</code>, 
             or even build your own render tree. It can get complicated when dealing with parameters and complex data graphs, and none of these solutions are 
             any good, really.
         </p>
@@ -338,27 +338,27 @@
         <h3 id="how-to-use-dynamic-component-in-blazor" class="[ font-semibold text-lg ]">How to use Dynamic Component in blazor?</h3>
 
         <p>
-            To start using <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">&lt;DynamicComponent&gt;</code>, consider the following example
+            To start using <code class="[ p-0.5 ] [ text-indigo-600 ] [ dark:text-green-400 ] ">&lt;DynamicComponent&gt;</code>, consider the following example
         </p>
 
         <p>
             In the above example,
         </p>
 
-        <ul class="[ list-disc ] [ ml-4 ]"><li><code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">componentType</code> specifies the type.</li>
-            <li><code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">parameters</code> specifies component parameters to pass to the <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">componentType</code> component.</li></ul>
+        <ul class="[ list-disc ] [ ml-4 ]"><li><code class="[ p-0.5 ] [ text-indigo-600 ] [ dark:text-green-400 ] ">componentType</code> specifies the type.</li>
+            <li><code class="[ p-0.5 ] [ text-indigo-600 ] [ dark:text-green-400 ] ">parameters</code> specifies component parameters to pass to the <code class="[ p-0.5 ] [ text-indigo-600 ] [ dark:text-green-400 ] ">componentType</code> component.</li></ul>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-code ] [ text-purple-700 ] [ fill-purple-500 ]" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - Simple Dynamic Component</h4>
-    <article id="4edcc46d-3eb0-40ba-80f6-5edf539b28a8" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="68ac41d1-6a42-4211-8612-7585388656eb" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         
 
         <h3 id="when-to-use-dynamic-component-in-blazor" class="[ font-semibold text-lg ]">When to use Dynamic Component in blazor?</h3>
 
-        <p><code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">&lt;DynamicComponent&gt;</code> is can be in following scenarios,
+        <p><code class="[ p-0.5 ] [ text-indigo-600 ] [ dark:text-green-400 ] ">&lt;DynamicComponent&gt;</code> is can be in following scenarios,
         </p>
 
         <ul class="[ list-disc ] [ ml-4 ]"><li>Dynamically Rendering Widget components in dashboard based on User Preference or UI Settings.</li>
@@ -373,57 +373,57 @@
         </p>
 
         <p>
-            A simple <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">&lt;input type="text" /&gt;</code></p>
+            A simple <code class="[ p-0.5 ] [ text-indigo-600 ] [ dark:text-green-400 ] ">&lt;input type="text" /&gt;</code></p>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-code ] [ text-purple-700 ] [ fill-purple-500 ]" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - Text Box Component</h4>
-    <article id="f8768f96-13de-46c8-a504-133545c21642" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="6fe383d1-007f-43aa-9c93-4396f205b6a0" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <p>
-            A simple <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">&lt;input type="checkbox" /&gt;</code></p>
+            A simple <code class="[ p-0.5 ] [ text-indigo-600 ] [ dark:text-green-400 ] ">&lt;input type="checkbox" /&gt;</code></p>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-code ] [ text-purple-700 ] [ fill-purple-500 ]" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - Check Box Component</h4>
-    <article id="23faf17e-02d6-41c5-b9c5-2c1be5ec939d" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="8bfc965b-dd55-4fb3-bc8c-5e69b0b7464a" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <p>
-            A simple <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">&lt;input type="radio" /&gt;</code></p>
+            A simple <code class="[ p-0.5 ] [ text-indigo-600 ] [ dark:text-green-400 ] ">&lt;input type="radio" /&gt;</code></p>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-code ] [ text-purple-700 ] [ fill-purple-500 ]" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - Radio Button Component</h4>
-    <article id="6263d7c9-6bab-4f13-9652-894a194130ee" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="e7562c41-10d2-42da-82be-e1e14146846c" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <h3 id="steps" class="[ font-semibold text-lg ]">Steps</h3>
 
         <ol class="[ list-decimal ] [ ml-4 ]"><li>
-                Let's start by adding all the three components as option in <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">&lt;select&gt;</code> drop down and hook an 
-                <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">@onchange="RenderComponent"</code>.
+                Let's start by adding all the three components as option in <code class="[ p-0.5 ] [ text-indigo-600 ] [ dark:text-green-400 ] ">&lt;select&gt;</code> drop down and hook an 
+                <code class="[ p-0.5 ] [ text-indigo-600 ] [ dark:text-green-400 ] ">@onchange="RenderComponent"</code>.
             </li>
             <li>
-                When the user select's a choice from dropdown, we can get the component type in the <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">@onchange</code> event 
-                using event args as <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">type = Type.GetType($"BlazorDemoComponents.{eventArgs.Value}");</code>.
+                When the user select's a choice from dropdown, we can get the component type in the <code class="[ p-0.5 ] [ text-indigo-600 ] [ dark:text-green-400 ] ">@onchange</code> event 
+                using event args as <code class="[ p-0.5 ] [ text-indigo-600 ] [ dark:text-green-400 ] ">type = Type.GetType($"BlazorDemoComponents.{eventArgs.Value}");</code>.
             </li>
             <li>
-                Now <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">&lt;DynamicComponent&gt;</code> will render the selected component and pass the parameters using 
-                <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Parameters="@components[type.Name].Parameters"</code>. Here we are passing <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Label</code> 
-                parameter to each input component using <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">IDictionary&lt;string, object&gt;</code> parameter.
+                Now <code class="[ p-0.5 ] [ text-indigo-600 ] [ dark:text-green-400 ] ">&lt;DynamicComponent&gt;</code> will render the selected component and pass the parameters using 
+                <code class="[ p-0.5 ] [ text-indigo-600 ] [ dark:text-green-400 ] ">Parameters="@components[type.Name].Parameters"</code>. Here we are passing <code class="[ p-0.5 ] [ text-indigo-600 ] [ dark:text-green-400 ] ">Label</code> 
+                parameter to each input component using <code class="[ p-0.5 ] [ text-indigo-600 ] [ dark:text-green-400 ] ">IDictionary&lt;string, object&gt;</code> parameter.
             </li>
             <li>
-                Note that <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Type</code> is required parameter and <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">Parameters</code> is optional 
-                parameter in <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">&lt;DynamicComponent&gt;</code>.
+                Note that <code class="[ p-0.5 ] [ text-indigo-600 ] [ dark:text-green-400 ] ">Type</code> is required parameter and <code class="[ p-0.5 ] [ text-indigo-600 ] [ dark:text-green-400 ] ">Parameters</code> is optional 
+                parameter in <code class="[ p-0.5 ] [ text-indigo-600 ] [ dark:text-green-400 ] ">&lt;DynamicComponent&gt;</code>.
             </li></ol>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-code ] [ text-purple-700 ] [ fill-purple-500 ]" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - Dynamically Rendering Input Components</h4>
-    <article id="a4268b37-71c4-4298-b7ca-26dec21e4b74" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="b75ffea9-632c-4b7d-ac8c-2313b72662cf" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-caret-right ] [ text-lime-700 ] [ fill-lime-500 ]" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M18 15l-6 -6l-6 6h12" transform="rotate(90 12 12)"></path></svg> Demo - Dynamically Rendering Input Components Demo</h4>
@@ -440,29 +440,33 @@
         <h3 id="summary" class="[ font-semibold text-lg ]">Summary</h3>
 
         <p>
-            In this post, we walked through the new <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">&lt;DynamicComponent&gt;</code>, which allows you to render components when 
+            In this post, we walked through the new <code class="[ p-0.5 ] [ text-indigo-600 ] [ dark:text-green-400 ] ">&lt;DynamicComponent&gt;</code>, which allows you to render components when 
             you don’t know your types at runtime. We were able to render a component based on what a user selects from a drop-down list. We also explored how 
-            to pass in parameters to the <code class="[ p-0.5 ] [ text-fuchsia-400 ] [ dark:text-green-400 ] ">&lt;DynamicComponent&gt;</code> as well.
+            to pass in parameters to the <code class="[ p-0.5 ] [ text-indigo-600 ] [ dark:text-green-400 ] ">&lt;DynamicComponent&gt;</code> as well.
         </p></section>
         <footer class="[ max-w-full ]"><ul class="[ list-none ] [ flex items-center justify-start md:justify-center ] [ space-x-3 ] [ overflow-hidden overflow-x-auto ]"><li class="[ px-3 py-1 ] [ rounded-full ] [ bg-black text-white dark:bg-white dark:text-black ]">Blazor</li><li class="[ px-3 py-1 ] [ rounded-full ] [ bg-black text-white dark:bg-white dark:text-black ] [ whitespace-nowrap ]">Dynamic</li><li class="[ px-3 py-1 ] [ rounded-full ] [ bg-black text-white dark:bg-white dark:text-black ] [ whitespace-nowrap ]">Component</li><li class="[ px-3 py-1 ] [ rounded-full ] [ bg-black text-white dark:bg-white dark:text-black ] [ whitespace-nowrap ]">Dynamically-rendered</li></ul></footer>
         <hr class="[ dark:text-white my-1.5 ]"/></article>
-    <aside class="[ flex flex-col md:basis-1/4 ] [ space-y-2 ]"><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-except-to-find-difference-in-data"><figure><img src="image/blogs/linq/using-linq-except-to-find-difference-in-data.svg" class="[ w-full ]" alt="Using LINQ Except to Find Difference in data" loading="lazy"/></figure></a></header>
+    <aside class="[ flex flex-col md:basis-1/4 ] [ space-y-2 ]"><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-intersect-to-find-common-data"><figure><img src="image/blogs/linq/using-linq-intersect-to-find-common-data.svg" class="[ w-full ]" alt="Using LINQ Intersect to Find Common data" loading="lazy"/></figure></a></header>
+                <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
+                    <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-intersect-to-find-common-data"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ Intersect to Find Common data</h2></a>
+                        <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
+                            <time datetime="2022-12-18 22-30-00">9 hours from now</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-except-to-find-difference-in-data"><figure><img src="image/blogs/linq/using-linq-except-to-find-difference-in-data.svg" class="[ w-full ]" alt="Using LINQ Except to Find Difference in data" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-except-to-find-difference-in-data"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ Except to Find Difference in data</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2022-12-11 22-30-00">5 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-sequence-equal-to-find-equality-of-data"><figure><img src="image/blogs/linq/using-linq-sequence-equal-to-find-equality-of-data.svg" class="[ w-full ]" alt="Using LINQ Sequence Equal to Find Equality of data" loading="lazy"/></figure></a></header>
+                            <time datetime="2022-12-11 22-30-00">6 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-sequence-equal-to-find-equality-of-data"><figure><img src="image/blogs/linq/using-linq-sequence-equal-to-find-equality-of-data.svg" class="[ w-full ]" alt="Using LINQ Sequence Equal to Find Equality of data" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-sequence-equal-to-find-equality-of-data"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ Sequence Equal to Find Equality of data</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2022-12-04 22-30-00">12 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-contains-to-check-data"><figure><img src="image/blogs/linq/using-linq-contains-to-check-data.svg" class="[ w-full ]" alt="Using LINQ Contains to Check Data" loading="lazy"/></figure></a></header>
+                            <time datetime="2022-12-04 22-30-00">13 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-contains-to-check-data"><figure><img src="image/blogs/linq/using-linq-contains-to-check-data.svg" class="[ w-full ]" alt="Using LINQ Contains to Check Data" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-contains-to-check-data"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ Contains to Check Data</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2022-11-27 22-30-00">19 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-any-to-find-type-of-data"><figure><img src="image/blogs/linq/using-linq-any-to-find-type-of-data.svg" class="[ w-full ]" alt="Using LINQ Any to Find Type of Data" loading="lazy"/></figure></a></header>
+                            <time datetime="2022-11-27 22-30-00">20 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-any-to-find-type-of-data"><figure><img src="image/blogs/linq/using-linq-any-to-find-type-of-data.svg" class="[ w-full ]" alt="Using LINQ Any to Find Type of Data" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-any-to-find-type-of-data"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ Any to Find Type of Data</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2022-11-20 22-30-00">26 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-all-to-find-type-of-data"><figure><img src="image/blogs/linq/using-linq-all-to-find-type-of-data.svg" class="[ w-full ]" alt="Using LINQ All to Find Type of Data" loading="lazy"/></figure></a></header>
+                            <time datetime="2022-11-20 22-30-00">27 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-all-to-find-type-of-data"><figure><img src="image/blogs/linq/using-linq-all-to-find-type-of-data.svg" class="[ w-full ]" alt="Using LINQ All to Find Type of Data" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-all-to-find-type-of-data"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ All to Find Type of Data</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
@@ -514,7 +518,7 @@
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-to-select-and-project-data"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ to Select and Project Data</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2022-08-21 22-30-00">3 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/linq-introduction"><figure><img src="image/blogs/linq/linq-introduction.svg" class="[ w-full ]" alt="LINQ Introduction" loading="lazy"/></figure></a></header>
+                            <time datetime="2022-08-21 22-30-00">4 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/linq-introduction"><figure><img src="image/blogs/linq/linq-introduction.svg" class="[ w-full ]" alt="LINQ Introduction" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/linq-introduction"><h2 class="[ font-medium break-words hover:underline ]">LINQ Introduction</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
@@ -594,7 +598,7 @@
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/tdd"><figure><img src="image/icons/tdd.png" alt="TDD" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/introducing-tdd-in-csharp-dotnet"><h2 class="[ font-medium break-words hover:underline ]">Introducing TDD in C# .Net</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2022-03-27 22-30-00">8 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/blazor-wasm-introduction"><figure><img src="image/blogs/blazor/wasm/blazor-wasm-introduction.svg" class="[ w-full ]" alt="Blazor WASM Introduction" loading="lazy"/></figure></a></header>
+                            <time datetime="2022-03-27 22-30-00">9 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/blazor-wasm-introduction"><figure><img src="image/blogs/blazor/wasm/blazor-wasm-introduction.svg" class="[ w-full ]" alt="Blazor WASM Introduction" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/blazor"><figure><img src="image/icons/blazor.png" alt="Blazor" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/blazor-wasm-introduction"><h2 class="[ font-medium break-words hover:underline ]">Blazor WASM Introduction</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
@@ -654,7 +658,7 @@
             <line x1="12" y1="8" x2="12.01" y2="8"></line>
             <polyline points="11 12 12 12 12 16 13 16"></polyline></svg>
         <span class="[ text-xs text-center ]">About</span></a></nav>
-            <!--Blazor:{"prerenderId":"873891f657c74c0b8487992281718d8f"}-->
+            <!--Blazor:{"prerenderId":"92b18300b2b947a0afe8107d22229f89"}-->
 <!-- %%-PRERENDERING-END-%% -->
 <!--Blazor-Component-State:e30=--></div>
 
