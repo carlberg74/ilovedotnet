@@ -12,9 +12,9 @@
       "Blazor-Analytics.dat": "sha256-6tchh392UI2yNMj+jv2uGdSwo8ALVjDIzyBFNu5vFlg=",
       "FluentValidation.dat": "sha256-R6BBKUO17jpWpN+zmWG1Pux5O0k+7J\/PjvUecVNQ0ag=",
       "Humanizer.dat": "sha256-dLZ0Kwhi\/Vz4ntzLDgjNzoypYoV+IFR0JQvfFZjYe3U=",
-      "Microsoft.AspNetCore.Components.dat": "sha256-MwwN0wlu3JnFRM8IxRgbSzCjZdrdapZxg+ebdr0Rzv0=",
-      "Microsoft.AspNetCore.Components.Forms.dat": "sha256-Nee+sWU142+uoI5jdU2TujDdsvOzuSJ3+ArHNU9mMtY=",
-      "Microsoft.AspNetCore.Components.Web.dat": "sha256-Y762tFKM+c8Ivq7e3YvUZvyBhmtxPDRlDeQTLPWW0Ss=",
+      "Microsoft.AspNetCore.Components.dat": "sha256-0aJG29jw\/jKJhZ34vBvZUQg3lY1cTI6eNTfGp2D4wSA=",
+      "Microsoft.AspNetCore.Components.Forms.dat": "sha256-EWzJhOk5zFpdaXJEmDsnWnrKL5bHV5i1007jmEuJUeg=",
+      "Microsoft.AspNetCore.Components.Web.dat": "sha256-OqTDj0\/OzBR5Zq36bS70P9fOwy8zTSmWqrKDyfcn+No=",
       "Microsoft.AspNetCore.Components.WebAssembly.dat": "sha256-EFNwKnghvSSNzIYQSLn0M1jfXXEQ05bkTAWzjrzRZsU=",
       "Microsoft.CSharp.dat": "sha256-y59Fck1IO0jOYitGUYga1ONtFa1If6lIuVWvGdeOsP0=",
       "Microsoft.Extensions.Configuration.Abstractions.dat": "sha256-VfGz221HoKvPhYriCrOPEGg+BHAmT\/+D3wxbeM+F+Cg=",
@@ -27,10 +27,10 @@
       "Microsoft.Extensions.Logging.dat": "sha256-GtCT6tnSN92fZOhze+T3bK96C2uwxx8LDvoJpL1foxM=",
       "Microsoft.Extensions.Options.dat": "sha256-Z1Sw\/BifYodWkv7BwM3oEJQUv+YpnN84obroMfu2RLY=",
       "Microsoft.Extensions.Primitives.dat": "sha256-Ee6ZOF9CevF4uXufLVN9Iki6B2kCS3S3uk+0fNozHQ0=",
-      "Microsoft.JSInterop.dat": "sha256-gA1eatsespPA3csMIy8QiDpeI1p0y87ch25ta\/A62vk=",
+      "Microsoft.JSInterop.dat": "sha256-YKsHD3KqVB+HfoUGQlh+qicRXvH66UACArPHIHcRvk8=",
       "Microsoft.JSInterop.WebAssembly.dat": "sha256-HzBFCXqDvxfDgnygKsLZveEDwpmcXbCLE0WS0o5mWB4=",
       "netstandard.dat": "sha256-VgYq6CsmHwSEb1uhilBJG82bAXMZR9WS8R5jVhaJPTA=",
-      "SharedComponents.dat": "sha256-eLcCuWMVciLsol4FGxGaJ+6tdHFm8PtaqxkDkhDze9o=",
+      "SharedComponents.dat": "sha256-NyGIFAm3dKcmkzNxV6LwwZo0tLyiZqEfL\/bJiWDohfE=",
       "SharedModels.dat": "sha256-94lSOnBnLxKCyCEHGHFuZQV5duBUDAhz\/lRkGJznzww=",
       "System.Collections.Concurrent.dat": "sha256-g7kYdZnsdDbTBgAeqD\/G6AeFJO6knycScviYeUIQXPY=",
       "System.Collections.dat": "sha256-aIQ7nTAkZddEPatwct+4MirxJ\/m7UCgGszL79BvM2gE=",
@@ -71,7 +71,7 @@
       "Toolbelt.Blazor.HeadElement.Abstractions.dat": "sha256-UmsxKairtI0\/JkPBNi4nDpGlT0vxZV30RpF2obQpzxs=",
       "Toolbelt.Blazor.HeadElement.dat": "sha256-IWtLFwHVECUz4STdMM0wPDmmJeen63ycWmap2PfSdlM=",
       "Toolbelt.Blazor.HeadElement.Services.dat": "sha256-o9dihjDSgXTsAwXMC4mPwegM4sbp3BE8GVgWVt5jGHY=",
-      "Web.dat": "sha256-5J2t\/uppxSxQ9noyT3QQ6Ps2NeH4JrBqIJVblCB7Z2M="
+      "Web.dat": "sha256-\/vRbrfjnS5CikVuHoGwdCzRY99hcL0o9H363swMGNmg="
     },
     "extensions": {
       "avpsettings": {
@@ -79,11 +79,11 @@
       }
     },
     "lazyAssembly": {
-      "BlazorDemoComponents.dat": "sha256-OGpQQSw1FtwQX383ufefgZIMDP\/sazNtvvqki+JonnY=",
-      "Components.dat": "sha256-RZAAcGK8yP3MM0ygD7EvMKjXfgkrk\/7ThCPtAEWXsAk=",
-      "DependencyInjectionDemoComponents.dat": "sha256-VJN2rLDUj+oiObcMgM4Jx5H7wdwkuiKCSZSvs5XeVF4=",
-      "LINQDemoComponents.dat": "sha256-vterpmy2sWUUw09hbqM52wfgYzSjibubYT5UvM4nCx4=",
-      "OOPSDemoComponents.dat": "sha256-nvWmKwsxZxCBv492WNYPKx1dBpkZlHyuDFX\/3DfK2Pw="
+      "BlazorDemoComponents.dat": "sha256-qdIHIVZcEnELBnCFr+XeCVTpzJWvle2RCujbTkxdl8g=",
+      "Components.dat": "sha256-E4J5QwVdEKUG6V3l43Dix0sTrx\/vnD9o6+kf19P9r1k=",
+      "DependencyInjectionDemoComponents.dat": "sha256-\/9GxDs40Rki1k3DF4e\/3FSjFyV90nMOB0O5bxRJrYr0=",
+      "LINQDemoComponents.dat": "sha256-ZHgd8GYzg5rZsR7Wuwptjg9XLtyLpKkHNud5fSCAMIM=",
+      "OOPSDemoComponents.dat": "sha256-pRIPwgPyJS1or09kKxFZ6RGf2e1ukDwUh5X\/SWCbOU0="
     },
     "libraryInitializers": {
       "_content\/BlazorWasmAntivirusProtection\/BlazorWasmAntivirusProtection.lib.module.js": "sha256-OR6+lSoCe5oK8IgysXULNFu3+eC370PZSnllZAzA5TY="
