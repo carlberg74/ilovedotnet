@@ -82,7 +82,7 @@
     </script>
 
 <!-- %%-PRERENDERING-HEADOUTLET-BEGIN-%% -->
-<!--Blazor:{"type":"webassembly","assembly":"Microsoft.AspNetCore.Components.Web","typeName":"Microsoft.AspNetCore.Components.Web.HeadOutlet","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"ee57a1caa20444bf8904c1473e23d373"}--><script type="application/ld+json">
+<!--Blazor:{"type":"webassembly","assembly":"Microsoft.AspNetCore.Components.Web","typeName":"Microsoft.AspNetCore.Components.Web.HeadOutlet","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"a396a5466a744b1caa81ca81381394ca"}--><script type="application/ld+json">
 {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -131,13 +131,13 @@
         "@id": "https://ilovedotnet.org/"
     }
 }
-</script><!--Blazor:{"prerenderId":"ee57a1caa20444bf8904c1473e23d373"}-->
+</script><!--Blazor:{"prerenderId":"a396a5466a744b1caa81ca81381394ca"}-->
 <!-- %%-PRERENDERING-HEADOUTLET-END-%% -->
 
     <script type="text/default-title">I ❤️ DotNet</script>
     <script type="text/default-meta-elements">[[,"author",,,"Abdul Rahman Shabeek Mohamed"],[,"viewport",,,"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"],[,"copyright",,,"I Love DotNet"],[,"language",,,"EN"],[,"robots",,,"index,follow"],[,"owner",,,"Abdul Rahman Shabeek Mohamed"]]</script>
     <meta property="description" content="In this post I will teach you how to aggregate data in collections using LINQ in .NET. All with live working demo."/>
-    <meta property="keywords" content=".NET, DotNet, I Love DotNet, I ❤️ DotNet, Blazor, Blazor (WebAssembly), Blazor Wasm, C#, Entity Framework, LINQ, ML.NET, Web API, TDD, OOPS, Middleware, JWT, Dependency Injection, Count, Min, Max, MinBy, MaxBy, Average, Sum, Aggregate"/>
+    <meta property="keywords" content=".NET, DotNet, I Love DotNet, I ❤️ DotNet, Blazor, Blazor (WebAssembly), Blazor Wasm, C#, Entity Framework, LINQ, ML.NET, Web API, TDD, OOPS, Middleware, JWT, Dependency Injection, Report, Design Pattern Count, Min, Max, MinBy, MaxBy, Average, Sum, Aggregate"/>
     <meta property="url" content="https://ilovedotnet.org/blogs/using-linq-count-min-max-average-sum-to-aggregate-data/"/>
     <meta property="identifier-URL" content="https://ilovedotnet.org/blogs/using-linq-count-min-max-average-sum-to-aggregate-data/"/>
     <meta property="og:site_name" content="I Love DotNet"/>
@@ -160,6 +160,7 @@
     <link rel="sitemap" href="https://ilovedotnet.org/sitemap.xml" type="application/xml" title="Sitemap"/>
     <link rel="sitemap" href="https://ilovedotnet.org/sitemap-blog-blazor-wasm.xml" type="application/xml" title="Sitemap"/>
     <link rel="sitemap" href="https://ilovedotnet.org/sitemap-blog-dependency-injection.xml" type="application/xml" title="Sitemap"/>
+    <link rel="sitemap" href="https://ilovedotnet.org/sitemap-blog-design-pattern.xml" type="application/xml" title="Sitemap"/>
     <link rel="sitemap" href="https://ilovedotnet.org/sitemap-blog-linq.xml" type="application/xml" title="Sitemap"/>
     <link rel="sitemap" href="https://ilovedotnet.org/sitemap-blog-middleware.xml" type="application/xml" title="Sitemap"/>
     <link rel="sitemap" href="https://ilovedotnet.org/sitemap-blog-oops.xml" type="application/xml" title="Sitemap"/>
@@ -179,7 +180,7 @@
 <body class="[ m-0 ] [ h-full ] [ dark:bg-stone-900 ] [ bg-gray-100 ]">
     <div id="app" class="[ dark:text-white ]">
 <!-- %%-PRERENDERING-BEGIN-%% -->
-<!--Blazor:{"type":"webassembly","assembly":"Web","typeName":"Web.App","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"90289edf91e9435290d399cefa3a49ba"}--><header id="header" class="[ flex items-center justify-between ] [ bg-white ] [ px-5 ] [ dark:bg-gray-800 dark:bg-gray-800/80 ] [ h-14 ] [ sticky top-0 ] [ backdrop-blur-sm bg-white/80 ] [ z-10 ]"><button type="button" class="[ hidden md:block ] [ mr-4 ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-menu-2 ]" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+<!--Blazor:{"type":"webassembly","assembly":"Web","typeName":"Web.App","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"d74ca862f46044a1945bf5a4c5b5f38a"}--><header id="header" class="[ flex items-center justify-between ] [ bg-white ] [ px-5 ] [ dark:bg-gray-800 dark:bg-gray-800/80 ] [ h-14 ] [ sticky top-0 ] [ backdrop-blur-sm bg-white/80 ] [ z-10 ]"><button type="button" class="[ hidden md:block ] [ mr-4 ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-menu-2 ]" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
            <line x1="4" y1="6" x2="20" y2="6"></line>
            <line x1="4" y1="12" x2="20" y2="12"></line>
            <line x1="4" y1="18" x2="20" y2="18"></line></svg></button>
@@ -279,7 +280,7 @@
 
 <section class="[ flex flex-col md:flex-row ] [ p-5 md:px-20 ] [ md:space-x-5 space-y-5 md:space-y-0 ]"><article class="[ md:basis-3/4 ] [ space-y-5 ]"><header class="[ space-y-2 ]"><figure><img src="image/blogs/linq/using-linq-count-min-max-average-sum-to-aggregate-data.svg" alt="Using LINQ Count Min Max Average and Sum to Aggregate data" class="[ w-full ]" loading="lazy"/></figure><h2 class="[ dark:text-white ] [ font-semibold text-xl ]">Using LINQ Count Min Max Average and Sum to Aggregate data</h2>
     <section class="[ flex flex-col md:flex-row justify-between ] [ space-y-1 md:space-y-0 ] [ dark:text-white ] [ font-bold ]"><div><p>Authors - <a href="https://www.linkedin.com/in/fingers10" class="[ underline ]" target="_blank">Abdul Rahman (Content Writer)</a>, <a href="https://www.linkedin.com/in/regina-sharon" class="[ underline ]" target="_blank">Regina Sharon (Graphic Designer)</a></p>
-            <time datetime="2023-02-12 22:30:00">Last updated 23 days ago</time></div>
+            <time datetime="2023-02-12 22:30:00">Last updated 26 days ago</time></div>
         <div><section class="[ flex justify-between md:justify-start ]"><a href="https://github.com/sponsors/fingers10" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-heart ] [ text-red-500 ] [ fill-red-500 ]" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
            <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572"></path></svg></a>
     <a href="https://api.whatsapp.com/send?text=Using LINQ Count Min Max Average and Sum to Aggregate data%20https%3a%2f%2filovedotnet.org%2fblogs%2fusing-linq-count-min-max-average-sum-to-aggregate-data%2f" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-brand-whatsapp ] [ text-emerald-500 dark:text-emerald-300 ]" width="30" height="30" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -373,7 +374,7 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - LINQ Count Clause</h4>
-    <article id="c4d62696-21f5-4a4c-8f98-f7e17271c8eb" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="b5dbae3a-cc78-435f-a4da-559517a70912" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-caret-right ] [ text-lime-700 ] [ fill-lime-500 ]" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M18 15l-6 -6l-6 6h12" transform="rotate(90 12 12)"></path></svg> Demo - LINQ Count Demo</h4>
@@ -440,7 +441,7 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - LINQ Min Clause</h4>
-    <article id="da58bfc2-e283-469a-83bd-ba7a244af6b1" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="7a0fa3b0-7b5a-4484-b6aa-ff9dfcd661e7" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-caret-right ] [ text-lime-700 ] [ fill-lime-500 ]" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M18 15l-6 -6l-6 6h12" transform="rotate(90 12 12)"></path></svg> Demo - LINQ Min Demo</h4>
@@ -508,7 +509,7 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - LINQ Max Clause</h4>
-    <article id="071b5f52-fb07-46f1-a987-78d759c2f6eb" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="58b5d508-0bc9-495c-972e-a4d4d1a21441" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-caret-right ] [ text-lime-700 ] [ fill-lime-500 ]" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M18 15l-6 -6l-6 6h12" transform="rotate(90 12 12)"></path></svg> Demo - LINQ Max Demo</h4>
@@ -576,7 +577,7 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - LINQ MinBy Clause</h4>
-    <article id="fa622e74-4766-43b4-98e6-f2d4a0ab0a7f" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="ef305a31-adf1-46d5-9cd6-5c8f4828ee57" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-caret-right ] [ text-lime-700 ] [ fill-lime-500 ]" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M18 15l-6 -6l-6 6h12" transform="rotate(90 12 12)"></path></svg> Demo - LINQ MinBy Demo</h4>
@@ -640,7 +641,7 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - LINQ MaxBy Clause</h4>
-    <article id="87a1e34f-309b-44d2-8f8f-69e40b868b20" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="2efd6ff4-f34b-4041-8012-27437924001a" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-caret-right ] [ text-lime-700 ] [ fill-lime-500 ]" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M18 15l-6 -6l-6 6h12" transform="rotate(90 12 12)"></path></svg> Demo - LINQ MaxBy Demo</h4>
@@ -704,7 +705,7 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - LINQ Average Clause</h4>
-    <article id="951f4f7a-7b38-44fe-8b73-0a97b6a538c3" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="a56d1d9b-47c0-45b4-a037-a17b6268e147" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-caret-right ] [ text-lime-700 ] [ fill-lime-500 ]" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M18 15l-6 -6l-6 6h12" transform="rotate(90 12 12)"></path></svg> Demo - LINQ Average Demo</h4>
@@ -772,7 +773,7 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - LINQ Sum Clause</h4>
-    <article id="cf19aa8f-551e-4a04-9b69-d4f5850b2694" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="a07eae18-1f0e-4ce8-b719-d1de5a5d1172" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-caret-right ] [ text-lime-700 ] [ fill-lime-500 ]" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M18 15l-6 -6l-6 6h12" transform="rotate(90 12 12)"></path></svg> Demo - LINQ Sum Demo</h4>
@@ -841,7 +842,7 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - LINQ Aggregate Clause</h4>
-    <article id="d0ddf87f-0abf-4bef-a5c3-c67652fde00b" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="1c43a468-3ce5-46eb-a1ab-0ac47aed2a2b" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-caret-right ] [ text-lime-700 ] [ fill-lime-500 ]" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M18 15l-6 -6l-6 6h12" transform="rotate(90 12 12)"></path></svg> Demo - LINQ Aggregate Demo</h4>
@@ -913,15 +914,15 @@
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/understanding-linq-deferred-immediate-streaming-and-non-streaming-executions"><h2 class="[ font-medium break-words hover:underline ]">Understanding LINQ Deferred, Immediate, Streaming and Non-Streaming Executions</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2023-03-05 22-30-00">2 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-for-each-to-iterate-collections"><figure><img src="image/blogs/linq/using-linq-for-each-to-iterate-collections.svg" class="[ w-full ]" alt="Using LINQ For Each to Iterate Collections" loading="lazy"/></figure></a></header>
+                            <time datetime="2023-03-05 22-30-00">5 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-for-each-to-iterate-collections"><figure><img src="image/blogs/linq/using-linq-for-each-to-iterate-collections.svg" class="[ w-full ]" alt="Using LINQ For Each to Iterate Collections" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-for-each-to-iterate-collections"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ For Each to Iterate Collections</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2023-02-26 22-30-00">9 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/generate-pdf-report-using-quest-pdf-in-dotnet"><figure><img src="image/blogs/report/generate-pdf-report-using-quest-pdf-in-dotnet.svg" class="[ w-full ]" alt="Generate PDF Report using Quest PDF in .NET" loading="lazy"/></figure></a></header>
+                            <time datetime="2023-02-26 22-30-00">12 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/generate-pdf-report-using-quest-pdf-in-dotnet"><figure><img src="image/blogs/report/generate-pdf-report-using-quest-pdf-in-dotnet.svg" class="[ w-full ]" alt="Generate PDF Report using Quest PDF in .NET" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/report"><figure><img src="image/icons/report.png" alt="Report" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/generate-pdf-report-using-quest-pdf-in-dotnet"><h2 class="[ font-medium break-words hover:underline ]">Generate PDF Report using Quest PDF in .NET</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2023-02-19 22-30-00">16 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-group-by-to-group-data"><figure><img src="image/blogs/linq/using-linq-group-by-to-group-data.svg" class="[ w-full ]" alt="Using LINQ Group By to group data" loading="lazy"/></figure></a></header>
+                            <time datetime="2023-02-19 22-30-00">19 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-group-by-to-group-data"><figure><img src="image/blogs/linq/using-linq-group-by-to-group-data.svg" class="[ w-full ]" alt="Using LINQ Group By to group data" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-group-by-to-group-data"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ Group By to group data</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
@@ -941,7 +942,7 @@
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-join-to-combine-data"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ Join to combine data</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2023-01-08 22-30-00">one month ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-concat-to-combine-data"><figure><img src="image/blogs/linq/using-linq-concat-to-combine-data.svg" class="[ w-full ]" alt="Using LINQ Concat to combine data" loading="lazy"/></figure></a></header>
+                            <time datetime="2023-01-08 22-30-00">2 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-concat-to-combine-data"><figure><img src="image/blogs/linq/using-linq-concat-to-combine-data.svg" class="[ w-full ]" alt="Using LINQ Concat to combine data" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-concat-to-combine-data"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ Concat to combine data</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
@@ -957,7 +958,7 @@
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-except-to-find-difference-in-data"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ Except to Find Difference in data</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2022-12-11 22-30-00">2 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-sequence-equal-to-find-equality-of-data"><figure><img src="image/blogs/linq/using-linq-sequence-equal-to-find-equality-of-data.svg" class="[ w-full ]" alt="Using LINQ Sequence Equal to Find Equality of data" loading="lazy"/></figure></a></header>
+                            <time datetime="2022-12-11 22-30-00">3 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-sequence-equal-to-find-equality-of-data"><figure><img src="image/blogs/linq/using-linq-sequence-equal-to-find-equality-of-data.svg" class="[ w-full ]" alt="Using LINQ Sequence Equal to Find Equality of data" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-sequence-equal-to-find-equality-of-data"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ Sequence Equal to Find Equality of data</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
@@ -1025,7 +1026,7 @@
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/linq-introduction"><h2 class="[ font-medium break-words hover:underline ]">LINQ Introduction</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2022-08-14 22-30-00">6 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/blazor-wasm-pre-rendering"><figure><img src="image/blogs/blazor/wasm/blazor-wasm-pre-rendering.svg" class="[ w-full ]" alt="Blazor WASM Pre Rendering" loading="lazy"/></figure></a></header>
+                            <time datetime="2022-08-14 22-30-00">7 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/blazor-wasm-pre-rendering"><figure><img src="image/blogs/blazor/wasm/blazor-wasm-pre-rendering.svg" class="[ w-full ]" alt="Blazor WASM Pre Rendering" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/blazor"><figure><img src="image/icons/blazor.png" alt="Blazor" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/blazor-wasm-pre-rendering"><h2 class="[ font-medium break-words hover:underline ]">Blazor WASM Pre Rendering</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
@@ -1041,7 +1042,7 @@
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/blazor"><figure><img src="image/icons/blazor.png" alt="Blazor" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/blazor-wasm-publishing-to-github-pages"><h2 class="[ font-medium break-words hover:underline ]">Blazor WASM Publishing to GitHub Pages</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2022-07-17 22-30-00">7 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/blazor-wasm-publishing-to-iis"><figure><img src="image/blogs/blazor/wasm/blazor-wasm-publishing-to-iis.svg" class="[ w-full ]" alt="Blazor WASM Publishing to IIS" loading="lazy"/></figure></a></header>
+                            <time datetime="2022-07-17 22-30-00">8 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/blazor-wasm-publishing-to-iis"><figure><img src="image/blogs/blazor/wasm/blazor-wasm-publishing-to-iis.svg" class="[ w-full ]" alt="Blazor WASM Publishing to IIS" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/blazor"><figure><img src="image/icons/blazor.png" alt="Blazor" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/blazor-wasm-publishing-to-iis"><h2 class="[ font-medium break-words hover:underline ]">Blazor WASM Publishing to IIS</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
@@ -1165,7 +1166,7 @@
             <line x1="12" y1="8" x2="12.01" y2="8"></line>
             <polyline points="11 12 12 12 12 16 13 16"></polyline></svg>
         <span class="[ text-xs text-center ]">About</span></a></nav>
-            <!--Blazor:{"prerenderId":"90289edf91e9435290d399cefa3a49ba"}-->
+            <!--Blazor:{"prerenderId":"d74ca862f46044a1945bf5a4c5b5f38a"}-->
 <!-- %%-PRERENDERING-END-%% -->
 <!--Blazor-Component-State:e30=--></div>
 

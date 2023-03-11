@@ -82,7 +82,7 @@
     </script>
 
 <!-- %%-PRERENDERING-HEADOUTLET-BEGIN-%% -->
-<!--Blazor:{"type":"webassembly","assembly":"Microsoft.AspNetCore.Components.Web","typeName":"Microsoft.AspNetCore.Components.Web.HeadOutlet","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"553e08d2013a4adcacd5f3e0ccb79a56"}--><script type="application/ld+json">
+<!--Blazor:{"type":"webassembly","assembly":"Microsoft.AspNetCore.Components.Web","typeName":"Microsoft.AspNetCore.Components.Web.HeadOutlet","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"d3d5e1209f1b44d598566afa13a7aa7c"}--><script type="application/ld+json">
 {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -131,13 +131,13 @@
         "@id": "https://ilovedotnet.org/"
     }
 }
-</script><!--Blazor:{"prerenderId":"553e08d2013a4adcacd5f3e0ccb79a56"}-->
+</script><!--Blazor:{"prerenderId":"d3d5e1209f1b44d598566afa13a7aa7c"}-->
 <!-- %%-PRERENDERING-HEADOUTLET-END-%% -->
 
     <script type="text/default-title">I ❤️ DotNet</script>
     <script type="text/default-meta-elements">[[,"author",,,"Abdul Rahman Shabeek Mohamed"],[,"viewport",,,"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"],[,"copyright",,,"I Love DotNet"],[,"language",,,"EN"],[,"robots",,,"index,follow"],[,"owner",,,"Abdul Rahman Shabeek Mohamed"]]</script>
     <meta property="description" content="In this post I will teach you how to interact with javascript and isolate javascript in your Blazor applications. All with live working demo."/>
-    <meta property="keywords" content=".NET, DotNet, I Love DotNet, I ❤️ DotNet, Blazor, Blazor (WebAssembly), Blazor Wasm, C#, Entity Framework, LINQ, ML.NET, Web API, TDD, OOPS, Middleware, JWT, Dependency Injection, Javascript, Javascript Interop, Javascript Isolation"/>
+    <meta property="keywords" content=".NET, DotNet, I Love DotNet, I ❤️ DotNet, Blazor, Blazor (WebAssembly), Blazor Wasm, C#, Entity Framework, LINQ, ML.NET, Web API, TDD, OOPS, Middleware, JWT, Dependency Injection, Report, Design Pattern Javascript, Javascript Interop, Javascript Isolation"/>
     <meta property="url" content="https://ilovedotnet.org/blogs/blazor-wasm-javascript-interop-and-isolation/"/>
     <meta property="identifier-URL" content="https://ilovedotnet.org/blogs/blazor-wasm-javascript-interop-and-isolation/"/>
     <meta property="og:site_name" content="I Love DotNet"/>
@@ -160,6 +160,7 @@
     <link rel="sitemap" href="https://ilovedotnet.org/sitemap.xml" type="application/xml" title="Sitemap"/>
     <link rel="sitemap" href="https://ilovedotnet.org/sitemap-blog-blazor-wasm.xml" type="application/xml" title="Sitemap"/>
     <link rel="sitemap" href="https://ilovedotnet.org/sitemap-blog-dependency-injection.xml" type="application/xml" title="Sitemap"/>
+    <link rel="sitemap" href="https://ilovedotnet.org/sitemap-blog-design-pattern.xml" type="application/xml" title="Sitemap"/>
     <link rel="sitemap" href="https://ilovedotnet.org/sitemap-blog-linq.xml" type="application/xml" title="Sitemap"/>
     <link rel="sitemap" href="https://ilovedotnet.org/sitemap-blog-middleware.xml" type="application/xml" title="Sitemap"/>
     <link rel="sitemap" href="https://ilovedotnet.org/sitemap-blog-oops.xml" type="application/xml" title="Sitemap"/>
@@ -179,7 +180,7 @@
 <body class="[ m-0 ] [ h-full ] [ dark:bg-stone-900 ] [ bg-gray-100 ]">
     <div id="app" class="[ dark:text-white ]">
 <!-- %%-PRERENDERING-BEGIN-%% -->
-<!--Blazor:{"type":"webassembly","assembly":"Web","typeName":"Web.App","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"b7a0be67469143b9986d5d91faab3339"}--><header id="header" class="[ flex items-center justify-between ] [ bg-white ] [ px-5 ] [ dark:bg-gray-800 dark:bg-gray-800/80 ] [ h-14 ] [ sticky top-0 ] [ backdrop-blur-sm bg-white/80 ] [ z-10 ]"><button type="button" class="[ hidden md:block ] [ mr-4 ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-menu-2 ]" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+<!--Blazor:{"type":"webassembly","assembly":"Web","typeName":"Web.App","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"7c08551356294376bc45887c9bf26a19"}--><header id="header" class="[ flex items-center justify-between ] [ bg-white ] [ px-5 ] [ dark:bg-gray-800 dark:bg-gray-800/80 ] [ h-14 ] [ sticky top-0 ] [ backdrop-blur-sm bg-white/80 ] [ z-10 ]"><button type="button" class="[ hidden md:block ] [ mr-4 ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-menu-2 ]" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
            <line x1="4" y1="6" x2="20" y2="6"></line>
            <line x1="4" y1="12" x2="20" y2="12"></line>
            <line x1="4" y1="18" x2="20" y2="18"></line></svg></button>
@@ -354,7 +355,7 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - JS function to be called from .NET which returns no value</h4>
-    <article id="676944fb-b0f8-4519-b373-987e0231d13d" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="81d5422b-687b-4e7d-b044-807cda0ef431" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <h4 id="javascript-interop-js-from-dotnet" class="[ font-semibold text-base ]">Calling JS from .Net</h4>
 
@@ -368,7 +369,7 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - Alert Component to call JS from .NET which returns no value</h4>
-    <article id="44b4d44b-c610-4f4b-8dfe-0e18c7d251bc" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="821ccdb2-c84a-41eb-b6ba-574676f99c8b" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-caret-right ] [ text-lime-700 ] [ fill-lime-500 ]" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M18 15l-6 -6l-6 6h12" transform="rotate(90 12 12)"></path></svg> Demo - Javascript Interop - Displaying Alert</h4>
@@ -390,13 +391,13 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - JS function to be called from .NET which returns value</h4>
-    <article id="3813f89f-e233-4c80-ac4e-a379df07cf87" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="290577f1-cf33-4d75-97be-ab7aadc3072c" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-code ] [ text-purple-700 ] [ fill-purple-500 ]" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - JS function to be called from .NET which returns value</h4>
-    <article id="41ebe1a7-424e-412b-b640-f7851612dd99" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="992a9c1f-39bc-45d7-a935-86a378813aae" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-caret-right ] [ text-lime-700 ] [ fill-lime-500 ]" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M18 15l-6 -6l-6 6h12" transform="rotate(90 12 12)"></path></svg> Demo - Javascript Interop - Finding Viewport Dimensions</h4>
@@ -434,13 +435,13 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - .NET static method to be called from JS</h4>
-    <article id="cb9ddcf9-b52c-4ed3-ba3c-3f5f61d37de3" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="e4cb5920-0545-41fd-b975-3704b98dd71a" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-code ] [ text-purple-700 ] [ fill-purple-500 ]" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - .NET static method to be called from JS</h4>
-    <article id="ca3ad6e8-9018-4f09-9acf-ea0ac84eeac4" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="ad104642-9c7d-4962-8ce0-5411e256717d" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-caret-right ] [ text-lime-700 ] [ fill-lime-500 ]" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M18 15l-6 -6l-6 6h12" transform="rotate(90 12 12)"></path></svg> Demo - Javascript Interop - Calling .Net Static Method From JS</h4>
@@ -465,13 +466,13 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - .NET instance method to be called from JS</h4>
-    <article id="91a75f9e-dd1f-4b31-b7c2-537e9160f26e" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="ea580c5b-5e1a-40c1-8c9d-ed13360ccbfe" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-code ] [ text-purple-700 ] [ fill-purple-500 ]" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - .NET instance method to be called from JS</h4>
-    <article id="e8b98956-5817-42ec-9e34-ad5d9aef0e02" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="965cb14f-1724-4412-ac85-b97735fec9f0" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-caret-right ] [ text-lime-700 ] [ fill-lime-500 ]" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M18 15l-6 -6l-6 6h12" transform="rotate(90 12 12)"></path></svg> Demo - Javascript Interop - Calling .Net Instance Method From JS</h4>
@@ -502,13 +503,13 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - .NET instance method to be called from JS Module</h4>
-    <article id="51eff3df-4c7f-4baf-ac5f-42f80c6351a8" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="5b297ca3-2a42-46d5-83d8-b3e991d4f628" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-code ] [ text-purple-700 ] [ fill-purple-500 ]" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - .NET instance method to be called from JS Module</h4>
-    <article id="1c6ce796-bb45-4f21-aa61-c5acd24cb864" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="b9302a56-a6bf-4bf5-bb10-c3c2da5fe1a1" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-caret-right ] [ text-lime-700 ] [ fill-lime-500 ]" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M18 15l-6 -6l-6 6h12" transform="rotate(90 12 12)"></path></svg> Demo - Javascript Isolation - Calling Javascript prompt from JS Module</h4>
@@ -534,19 +535,19 @@
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/understanding-linq-deferred-immediate-streaming-and-non-streaming-executions"><h2 class="[ font-medium break-words hover:underline ]">Understanding LINQ Deferred, Immediate, Streaming and Non-Streaming Executions</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2023-03-05 22-30-00">2 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-for-each-to-iterate-collections"><figure><img src="image/blogs/linq/using-linq-for-each-to-iterate-collections.svg" class="[ w-full ]" alt="Using LINQ For Each to Iterate Collections" loading="lazy"/></figure></a></header>
+                            <time datetime="2023-03-05 22-30-00">5 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-for-each-to-iterate-collections"><figure><img src="image/blogs/linq/using-linq-for-each-to-iterate-collections.svg" class="[ w-full ]" alt="Using LINQ For Each to Iterate Collections" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-for-each-to-iterate-collections"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ For Each to Iterate Collections</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2023-02-26 22-30-00">9 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/generate-pdf-report-using-quest-pdf-in-dotnet"><figure><img src="image/blogs/report/generate-pdf-report-using-quest-pdf-in-dotnet.svg" class="[ w-full ]" alt="Generate PDF Report using Quest PDF in .NET" loading="lazy"/></figure></a></header>
+                            <time datetime="2023-02-26 22-30-00">12 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/generate-pdf-report-using-quest-pdf-in-dotnet"><figure><img src="image/blogs/report/generate-pdf-report-using-quest-pdf-in-dotnet.svg" class="[ w-full ]" alt="Generate PDF Report using Quest PDF in .NET" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/report"><figure><img src="image/icons/report.png" alt="Report" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/generate-pdf-report-using-quest-pdf-in-dotnet"><h2 class="[ font-medium break-words hover:underline ]">Generate PDF Report using Quest PDF in .NET</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2023-02-19 22-30-00">16 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-count-min-max-average-sum-to-aggregate-data"><figure><img src="image/blogs/linq/using-linq-count-min-max-average-sum-to-aggregate-data.svg" class="[ w-full ]" alt="Using LINQ Count Min Max Average and Sum to Aggregate data" loading="lazy"/></figure></a></header>
+                            <time datetime="2023-02-19 22-30-00">19 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-count-min-max-average-sum-to-aggregate-data"><figure><img src="image/blogs/linq/using-linq-count-min-max-average-sum-to-aggregate-data.svg" class="[ w-full ]" alt="Using LINQ Count Min Max Average and Sum to Aggregate data" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-count-min-max-average-sum-to-aggregate-data"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ Count Min Max Average and Sum to Aggregate data</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2023-02-12 22-30-00">23 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-group-by-to-group-data"><figure><img src="image/blogs/linq/using-linq-group-by-to-group-data.svg" class="[ w-full ]" alt="Using LINQ Group By to group data" loading="lazy"/></figure></a></header>
+                            <time datetime="2023-02-12 22-30-00">26 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-group-by-to-group-data"><figure><img src="image/blogs/linq/using-linq-group-by-to-group-data.svg" class="[ w-full ]" alt="Using LINQ Group By to group data" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-group-by-to-group-data"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ Group By to group data</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
@@ -566,7 +567,7 @@
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-join-to-combine-data"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ Join to combine data</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2023-01-08 22-30-00">one month ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-concat-to-combine-data"><figure><img src="image/blogs/linq/using-linq-concat-to-combine-data.svg" class="[ w-full ]" alt="Using LINQ Concat to combine data" loading="lazy"/></figure></a></header>
+                            <time datetime="2023-01-08 22-30-00">2 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-concat-to-combine-data"><figure><img src="image/blogs/linq/using-linq-concat-to-combine-data.svg" class="[ w-full ]" alt="Using LINQ Concat to combine data" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-concat-to-combine-data"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ Concat to combine data</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
@@ -582,7 +583,7 @@
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-except-to-find-difference-in-data"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ Except to Find Difference in data</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2022-12-11 22-30-00">2 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-sequence-equal-to-find-equality-of-data"><figure><img src="image/blogs/linq/using-linq-sequence-equal-to-find-equality-of-data.svg" class="[ w-full ]" alt="Using LINQ Sequence Equal to Find Equality of data" loading="lazy"/></figure></a></header>
+                            <time datetime="2022-12-11 22-30-00">3 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-sequence-equal-to-find-equality-of-data"><figure><img src="image/blogs/linq/using-linq-sequence-equal-to-find-equality-of-data.svg" class="[ w-full ]" alt="Using LINQ Sequence Equal to Find Equality of data" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-sequence-equal-to-find-equality-of-data"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ Sequence Equal to Find Equality of data</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
@@ -650,7 +651,7 @@
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/linq-introduction"><h2 class="[ font-medium break-words hover:underline ]">LINQ Introduction</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2022-08-14 22-30-00">6 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/blazor-wasm-pre-rendering"><figure><img src="image/blogs/blazor/wasm/blazor-wasm-pre-rendering.svg" class="[ w-full ]" alt="Blazor WASM Pre Rendering" loading="lazy"/></figure></a></header>
+                            <time datetime="2022-08-14 22-30-00">7 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/blazor-wasm-pre-rendering"><figure><img src="image/blogs/blazor/wasm/blazor-wasm-pre-rendering.svg" class="[ w-full ]" alt="Blazor WASM Pre Rendering" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/blazor"><figure><img src="image/icons/blazor.png" alt="Blazor" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/blazor-wasm-pre-rendering"><h2 class="[ font-medium break-words hover:underline ]">Blazor WASM Pre Rendering</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
@@ -666,7 +667,7 @@
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/blazor"><figure><img src="image/icons/blazor.png" alt="Blazor" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/blazor-wasm-publishing-to-github-pages"><h2 class="[ font-medium break-words hover:underline ]">Blazor WASM Publishing to GitHub Pages</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2022-07-17 22-30-00">7 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/blazor-wasm-publishing-to-iis"><figure><img src="image/blogs/blazor/wasm/blazor-wasm-publishing-to-iis.svg" class="[ w-full ]" alt="Blazor WASM Publishing to IIS" loading="lazy"/></figure></a></header>
+                            <time datetime="2022-07-17 22-30-00">8 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/blazor-wasm-publishing-to-iis"><figure><img src="image/blogs/blazor/wasm/blazor-wasm-publishing-to-iis.svg" class="[ w-full ]" alt="Blazor WASM Publishing to IIS" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/blazor"><figure><img src="image/icons/blazor.png" alt="Blazor" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/blazor-wasm-publishing-to-iis"><h2 class="[ font-medium break-words hover:underline ]">Blazor WASM Publishing to IIS</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
@@ -786,7 +787,7 @@
             <line x1="12" y1="8" x2="12.01" y2="8"></line>
             <polyline points="11 12 12 12 12 16 13 16"></polyline></svg>
         <span class="[ text-xs text-center ]">About</span></a></nav>
-            <!--Blazor:{"prerenderId":"b7a0be67469143b9986d5d91faab3339"}-->
+            <!--Blazor:{"prerenderId":"7c08551356294376bc45887c9bf26a19"}-->
 <!-- %%-PRERENDERING-END-%% -->
 <!--Blazor-Component-State:e30=--></div>
 

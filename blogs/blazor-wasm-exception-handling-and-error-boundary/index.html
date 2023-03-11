@@ -82,7 +82,7 @@
     </script>
 
 <!-- %%-PRERENDERING-HEADOUTLET-BEGIN-%% -->
-<!--Blazor:{"type":"webassembly","assembly":"Microsoft.AspNetCore.Components.Web","typeName":"Microsoft.AspNetCore.Components.Web.HeadOutlet","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"b379d426a57b45d3abf557818f932476"}--><script type="application/ld+json">
+<!--Blazor:{"type":"webassembly","assembly":"Microsoft.AspNetCore.Components.Web","typeName":"Microsoft.AspNetCore.Components.Web.HeadOutlet","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"3a2c2844565e4e9286133fce7c04757b"}--><script type="application/ld+json">
 {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -131,13 +131,13 @@
         "@id": "https://ilovedotnet.org/"
     }
 }
-</script><!--Blazor:{"prerenderId":"b379d426a57b45d3abf557818f932476"}-->
+</script><!--Blazor:{"prerenderId":"3a2c2844565e4e9286133fce7c04757b"}-->
 <!-- %%-PRERENDERING-HEADOUTLET-END-%% -->
 
     <script type="text/default-title">I ❤️ DotNet</script>
     <script type="text/default-meta-elements">[[,"author",,,"Abdul Rahman Shabeek Mohamed"],[,"viewport",,,"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"],[,"copyright",,,"I Love DotNet"],[,"language",,,"EN"],[,"robots",,,"index,follow"],[,"owner",,,"Abdul Rahman Shabeek Mohamed"]]</script>
     <meta property="description" content="In this post I will teach you how exception handling works and how to use error boundary in your Blazor applications. All with live working demo."/>
-    <meta property="keywords" content=".NET, DotNet, I Love DotNet, I ❤️ DotNet, Blazor, Blazor (WebAssembly), Blazor Wasm, C#, Entity Framework, LINQ, ML.NET, Web API, TDD, OOPS, Middleware, JWT, Dependency Injection, Exception Handling, Error Boundary"/>
+    <meta property="keywords" content=".NET, DotNet, I Love DotNet, I ❤️ DotNet, Blazor, Blazor (WebAssembly), Blazor Wasm, C#, Entity Framework, LINQ, ML.NET, Web API, TDD, OOPS, Middleware, JWT, Dependency Injection, Report, Design Pattern Exception Handling, Error Boundary"/>
     <meta property="url" content="https://ilovedotnet.org/blogs/blazor-wasm-exception-handling-and-error-boundary/"/>
     <meta property="identifier-URL" content="https://ilovedotnet.org/blogs/blazor-wasm-exception-handling-and-error-boundary/"/>
     <meta property="og:site_name" content="I Love DotNet"/>
@@ -160,6 +160,7 @@
     <link rel="sitemap" href="https://ilovedotnet.org/sitemap.xml" type="application/xml" title="Sitemap"/>
     <link rel="sitemap" href="https://ilovedotnet.org/sitemap-blog-blazor-wasm.xml" type="application/xml" title="Sitemap"/>
     <link rel="sitemap" href="https://ilovedotnet.org/sitemap-blog-dependency-injection.xml" type="application/xml" title="Sitemap"/>
+    <link rel="sitemap" href="https://ilovedotnet.org/sitemap-blog-design-pattern.xml" type="application/xml" title="Sitemap"/>
     <link rel="sitemap" href="https://ilovedotnet.org/sitemap-blog-linq.xml" type="application/xml" title="Sitemap"/>
     <link rel="sitemap" href="https://ilovedotnet.org/sitemap-blog-middleware.xml" type="application/xml" title="Sitemap"/>
     <link rel="sitemap" href="https://ilovedotnet.org/sitemap-blog-oops.xml" type="application/xml" title="Sitemap"/>
@@ -179,7 +180,7 @@
 <body class="[ m-0 ] [ h-full ] [ dark:bg-stone-900 ] [ bg-gray-100 ]">
     <div id="app" class="[ dark:text-white ]">
 <!-- %%-PRERENDERING-BEGIN-%% -->
-<!--Blazor:{"type":"webassembly","assembly":"Web","typeName":"Web.App","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"ebc156f1233243cfb79fc286d60b674f"}--><header id="header" class="[ flex items-center justify-between ] [ bg-white ] [ px-5 ] [ dark:bg-gray-800 dark:bg-gray-800/80 ] [ h-14 ] [ sticky top-0 ] [ backdrop-blur-sm bg-white/80 ] [ z-10 ]"><button type="button" class="[ hidden md:block ] [ mr-4 ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-menu-2 ]" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+<!--Blazor:{"type":"webassembly","assembly":"Web","typeName":"Web.App","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"d8cc6823fac64bf2a0bdf5f5d8af5ea2"}--><header id="header" class="[ flex items-center justify-between ] [ bg-white ] [ px-5 ] [ dark:bg-gray-800 dark:bg-gray-800/80 ] [ h-14 ] [ sticky top-0 ] [ backdrop-blur-sm bg-white/80 ] [ z-10 ]"><button type="button" class="[ hidden md:block ] [ mr-4 ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-menu-2 ]" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
            <line x1="4" y1="6" x2="20" y2="6"></line>
            <line x1="4" y1="12" x2="20" y2="12"></line>
            <line x1="4" y1="18" x2="20" y2="18"></line></svg></button>
@@ -334,7 +335,7 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - Chat component to simulate exception</h4>
-    <article id="4a7db2a8-510e-4844-b82c-8fb8d4cc6c3d" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="7664bdd5-7cef-4d58-b62e-e11aee5f6313" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <h3 id="global-exception-handling" class="[ font-semibold text-lg ]">Global Exception Handling</h3>
 
@@ -349,7 +350,7 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - Blazor Global Exception Handling</h4>
-    <article id="fb1e3a73-541a-474e-ae34-6215ca043548" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="de0259cf-39a7-41e7-ae0f-898be5e20876" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-caret-right ] [ text-lime-700 ] [ fill-lime-500 ]" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M18 15l-6 -6l-6 6h12" transform="rotate(90 12 12)"></path></svg> Demo - Global Exception Handling</h4>
@@ -376,7 +377,7 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - Blazor Error Boundary</h4>
-    <article id="725b509d-dd9d-4116-ade4-0d3f5e7b85f0" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="b0cdbafd-fa9e-4c74-be53-c6efcf97c340" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-caret-right ] [ text-lime-700 ] [ fill-lime-500 ]" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M18 15l-6 -6l-6 6h12" transform="rotate(90 12 12)"></path></svg> Demo - Error Boundary</h4>
@@ -399,7 +400,7 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - Blazor Error Boundary with custom Error UI</h4>
-    <article id="3ccd4c5a-b38e-49e1-8274-9fe7d5c2bd83" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="e9ea11da-b44e-4cee-957c-9c0a86a0ebac" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-caret-right ] [ text-lime-700 ] [ fill-lime-500 ]" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M18 15l-6 -6l-6 6h12" transform="rotate(90 12 12)"></path></svg> Demo - Error Boundary with Custom Error UI</h4>
@@ -422,7 +423,7 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - Blazor Error Boundary with custom Error UI and Recovery</h4>
-    <article id="3e06214f-190d-4e30-b08a-841c35433258" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="845d113d-d60f-4103-8896-2ff00d9c635d" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-caret-right ] [ text-lime-700 ] [ fill-lime-500 ]" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M18 15l-6 -6l-6 6h12" transform="rotate(90 12 12)"></path></svg> Demo - Error Boundary with Custom Error UI and Recovery</h4>
@@ -448,7 +449,7 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - Error component</h4>
-    <article id="0c1a3334-e44a-458a-8194-1e3f9afb9663" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="b3586fee-1d7e-4892-a873-b18c5454c8ce" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <p>
             Now in the <code class="[ p-0.5 ] [ text-indigo-600 ] [ dark:text-green-400 ] ">App</code> component, wrap the <code class="[ p-0.5 ] [ text-indigo-600 ] [ dark:text-green-400 ] ">Router</code> component with the <code class="[ p-0.5 ] [ text-indigo-600 ] [ dark:text-green-400 ] ">Error</code> 
@@ -461,7 +462,7 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - Alternative Global Exception Handling</h4>
-    <article id="91565698-d7c9-4b6a-b0b7-95490064705f" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="f7bd51f4-cc43-4d6e-b6a8-157a145526a0" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         
 
@@ -477,19 +478,19 @@
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/understanding-linq-deferred-immediate-streaming-and-non-streaming-executions"><h2 class="[ font-medium break-words hover:underline ]">Understanding LINQ Deferred, Immediate, Streaming and Non-Streaming Executions</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2023-03-05 22-30-00">2 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-for-each-to-iterate-collections"><figure><img src="image/blogs/linq/using-linq-for-each-to-iterate-collections.svg" class="[ w-full ]" alt="Using LINQ For Each to Iterate Collections" loading="lazy"/></figure></a></header>
+                            <time datetime="2023-03-05 22-30-00">5 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-for-each-to-iterate-collections"><figure><img src="image/blogs/linq/using-linq-for-each-to-iterate-collections.svg" class="[ w-full ]" alt="Using LINQ For Each to Iterate Collections" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-for-each-to-iterate-collections"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ For Each to Iterate Collections</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2023-02-26 22-30-00">9 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/generate-pdf-report-using-quest-pdf-in-dotnet"><figure><img src="image/blogs/report/generate-pdf-report-using-quest-pdf-in-dotnet.svg" class="[ w-full ]" alt="Generate PDF Report using Quest PDF in .NET" loading="lazy"/></figure></a></header>
+                            <time datetime="2023-02-26 22-30-00">12 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/generate-pdf-report-using-quest-pdf-in-dotnet"><figure><img src="image/blogs/report/generate-pdf-report-using-quest-pdf-in-dotnet.svg" class="[ w-full ]" alt="Generate PDF Report using Quest PDF in .NET" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/report"><figure><img src="image/icons/report.png" alt="Report" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/generate-pdf-report-using-quest-pdf-in-dotnet"><h2 class="[ font-medium break-words hover:underline ]">Generate PDF Report using Quest PDF in .NET</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2023-02-19 22-30-00">16 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-count-min-max-average-sum-to-aggregate-data"><figure><img src="image/blogs/linq/using-linq-count-min-max-average-sum-to-aggregate-data.svg" class="[ w-full ]" alt="Using LINQ Count Min Max Average and Sum to Aggregate data" loading="lazy"/></figure></a></header>
+                            <time datetime="2023-02-19 22-30-00">19 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-count-min-max-average-sum-to-aggregate-data"><figure><img src="image/blogs/linq/using-linq-count-min-max-average-sum-to-aggregate-data.svg" class="[ w-full ]" alt="Using LINQ Count Min Max Average and Sum to Aggregate data" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-count-min-max-average-sum-to-aggregate-data"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ Count Min Max Average and Sum to Aggregate data</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2023-02-12 22-30-00">23 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-group-by-to-group-data"><figure><img src="image/blogs/linq/using-linq-group-by-to-group-data.svg" class="[ w-full ]" alt="Using LINQ Group By to group data" loading="lazy"/></figure></a></header>
+                            <time datetime="2023-02-12 22-30-00">26 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-group-by-to-group-data"><figure><img src="image/blogs/linq/using-linq-group-by-to-group-data.svg" class="[ w-full ]" alt="Using LINQ Group By to group data" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-group-by-to-group-data"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ Group By to group data</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
@@ -509,7 +510,7 @@
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-join-to-combine-data"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ Join to combine data</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2023-01-08 22-30-00">one month ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-concat-to-combine-data"><figure><img src="image/blogs/linq/using-linq-concat-to-combine-data.svg" class="[ w-full ]" alt="Using LINQ Concat to combine data" loading="lazy"/></figure></a></header>
+                            <time datetime="2023-01-08 22-30-00">2 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-concat-to-combine-data"><figure><img src="image/blogs/linq/using-linq-concat-to-combine-data.svg" class="[ w-full ]" alt="Using LINQ Concat to combine data" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-concat-to-combine-data"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ Concat to combine data</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
@@ -525,7 +526,7 @@
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-except-to-find-difference-in-data"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ Except to Find Difference in data</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2022-12-11 22-30-00">2 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-sequence-equal-to-find-equality-of-data"><figure><img src="image/blogs/linq/using-linq-sequence-equal-to-find-equality-of-data.svg" class="[ w-full ]" alt="Using LINQ Sequence Equal to Find Equality of data" loading="lazy"/></figure></a></header>
+                            <time datetime="2022-12-11 22-30-00">3 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-sequence-equal-to-find-equality-of-data"><figure><img src="image/blogs/linq/using-linq-sequence-equal-to-find-equality-of-data.svg" class="[ w-full ]" alt="Using LINQ Sequence Equal to Find Equality of data" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-sequence-equal-to-find-equality-of-data"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ Sequence Equal to Find Equality of data</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
@@ -593,7 +594,7 @@
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/linq-introduction"><h2 class="[ font-medium break-words hover:underline ]">LINQ Introduction</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2022-08-14 22-30-00">6 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/blazor-wasm-pre-rendering"><figure><img src="image/blogs/blazor/wasm/blazor-wasm-pre-rendering.svg" class="[ w-full ]" alt="Blazor WASM Pre Rendering" loading="lazy"/></figure></a></header>
+                            <time datetime="2022-08-14 22-30-00">7 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/blazor-wasm-pre-rendering"><figure><img src="image/blogs/blazor/wasm/blazor-wasm-pre-rendering.svg" class="[ w-full ]" alt="Blazor WASM Pre Rendering" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/blazor"><figure><img src="image/icons/blazor.png" alt="Blazor" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/blazor-wasm-pre-rendering"><h2 class="[ font-medium break-words hover:underline ]">Blazor WASM Pre Rendering</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
@@ -609,7 +610,7 @@
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/blazor"><figure><img src="image/icons/blazor.png" alt="Blazor" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/blazor-wasm-publishing-to-github-pages"><h2 class="[ font-medium break-words hover:underline ]">Blazor WASM Publishing to GitHub Pages</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2022-07-17 22-30-00">7 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/blazor-wasm-publishing-to-iis"><figure><img src="image/blogs/blazor/wasm/blazor-wasm-publishing-to-iis.svg" class="[ w-full ]" alt="Blazor WASM Publishing to IIS" loading="lazy"/></figure></a></header>
+                            <time datetime="2022-07-17 22-30-00">8 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/blazor-wasm-publishing-to-iis"><figure><img src="image/blogs/blazor/wasm/blazor-wasm-publishing-to-iis.svg" class="[ w-full ]" alt="Blazor WASM Publishing to IIS" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/blazor"><figure><img src="image/icons/blazor.png" alt="Blazor" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/blazor-wasm-publishing-to-iis"><h2 class="[ font-medium break-words hover:underline ]">Blazor WASM Publishing to IIS</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
@@ -729,7 +730,7 @@
             <line x1="12" y1="8" x2="12.01" y2="8"></line>
             <polyline points="11 12 12 12 12 16 13 16"></polyline></svg>
         <span class="[ text-xs text-center ]">About</span></a></nav>
-            <!--Blazor:{"prerenderId":"ebc156f1233243cfb79fc286d60b674f"}-->
+            <!--Blazor:{"prerenderId":"d8cc6823fac64bf2a0bdf5f5d8af5ea2"}-->
 <!-- %%-PRERENDERING-END-%% -->
 <!--Blazor-Component-State:e30=--></div>
 
