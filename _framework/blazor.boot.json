@@ -18,7 +18,7 @@
       "Microsoft.AspNetCore.Components.WebAssembly.dat": "sha256-pbV57We+M+GyauaxjaPomt7jwurm1EOAJhzgC0PXJis=",
       "Microsoft.CSharp.dat": "sha256-oC2j\/QKKn4qd23oO\/O9xrzGBHpHG7Gg0JfinL1EmFh8=",
       "Microsoft.Extensions.Configuration.Abstractions.dat": "sha256-VfGz221HoKvPhYriCrOPEGg+BHAmT\/+D3wxbeM+F+Cg=",
-      "Microsoft.Extensions.Configuration.Binder.dat": "sha256-5IpC7XHQGTUs0bVjUFllYthFdkGlUGbAAOoVqJ0agGU=",
+      "Microsoft.Extensions.Configuration.Binder.dat": "sha256-mvjRvL0p2F3Kf52KzLD1Vi3OtylQN7BgpreNa0qOgi8=",
       "Microsoft.Extensions.Configuration.dat": "sha256-B4wFjGcMzJYIUAtBeb6MH4DZFUFE98pUV8YF\/4J8r58=",
       "Microsoft.Extensions.Configuration.Json.dat": "sha256-BMYMwZQvBYXHvmesBbPg5VOwQ+PrgfmQ5Gk8rzn4bfM=",
       "Microsoft.Extensions.DependencyInjection.Abstractions.dat": "sha256-C0LcR+08\/IQST3Izqn\/ROYFarlLWTTjO58kc7ZMNq98=",
@@ -71,7 +71,7 @@
       "Toolbelt.Blazor.HeadElement.Abstractions.dat": "sha256-UmsxKairtI0\/JkPBNi4nDpGlT0vxZV30RpF2obQpzxs=",
       "Toolbelt.Blazor.HeadElement.dat": "sha256-IWtLFwHVECUz4STdMM0wPDmmJeen63ycWmap2PfSdlM=",
       "Toolbelt.Blazor.HeadElement.Services.dat": "sha256-o9dihjDSgXTsAwXMC4mPwegM4sbp3BE8GVgWVt5jGHY=",
-      "Web.dat": "sha256-hDfpEaNYynj93f9+H7CRTQ8xLjb33MvTOqy8GISHqZU="
+      "Web.dat": "sha256-0+\/XHIhc0VzVealKYrrsc4lj2znkrw2Wyydg64ZE0Gk="
     },
     "extensions": {
       "avpsettings": {
@@ -79,8 +79,8 @@
       }
     },
     "lazyAssembly": {
-      "BlazorDemoComponents.dat": "sha256-5zklg5o0Np4okL5Guwm79UgBX7WiuX4CfQTPKv3Yu38=",
-      "Components.dat": "sha256-A6JTGx697\/d9SOzzvnI6wIQMVnRXzGBxq33dMUGHRR0=",
+      "BlazorDemoComponents.dat": "sha256-72\/xcva\/CI8x0PSSYbGeTOYuvIYhbP72M9YTZN6NOwY=",
+      "Components.dat": "sha256-MTHOS+AS\/tibhNL+g4jERVBDGntCrWzdn\/5O+KjmcFQ=",
       "DependencyInjectionDemoComponents.dat": "sha256-lFXMTVmbLAXL7jYV5vtly8pMqS\/9551KzPmWyoWGYKo=",
       "DesignPatternDemoComponents.dat": "sha256-bvgxK9f5XzSe4y5ra6Rp48XxKQMIgfJMR1aqjOk\/HKQ=",
       "LINQDemoComponents.dat": "sha256-t7+6PEjCPuSEhsQHRXcHfg95ukkY\/tiqQEGsr1m5Upg=",
