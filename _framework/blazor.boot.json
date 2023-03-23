@@ -15,7 +15,7 @@
       "Microsoft.AspNetCore.Components.dat": "sha256-TnpDhV+PKOkmkcd4hyLBQqk+VfVoa68eadzYHWS3+GU=",
       "Microsoft.AspNetCore.Components.Forms.dat": "sha256-bfFVB97hfqx2E00hijwG7a\/\/gZ7JuES1Adhm19VrvTE=",
       "Microsoft.AspNetCore.Components.Web.dat": "sha256-8T+FuDcmGKnIJFObTWjZEc1KVKVaHiGxLKtBh4I8BJ0=",
-      "Microsoft.AspNetCore.Components.WebAssembly.dat": "sha256-pbV57We+M+GyauaxjaPomt7jwurm1EOAJhzgC0PXJis=",
+      "Microsoft.AspNetCore.Components.WebAssembly.dat": "sha256-Jt6Mkf0MUs3Un\/Cs\/BQY+iijdj9wxFTDCMlyfW8ovt0=",
       "Microsoft.CSharp.dat": "sha256-oC2j\/QKKn4qd23oO\/O9xrzGBHpHG7Gg0JfinL1EmFh8=",
       "Microsoft.Extensions.Configuration.Abstractions.dat": "sha256-VfGz221HoKvPhYriCrOPEGg+BHAmT\/+D3wxbeM+F+Cg=",
       "Microsoft.Extensions.Configuration.Binder.dat": "sha256-mvjRvL0p2F3Kf52KzLD1Vi3OtylQN7BgpreNa0qOgi8=",
@@ -28,9 +28,9 @@
       "Microsoft.Extensions.Options.dat": "sha256-s5ZBn5kkfMRk0vKl3tri3tvw3vrBOg8eZX7TUXTQimY=",
       "Microsoft.Extensions.Primitives.dat": "sha256-Ee6ZOF9CevF4uXufLVN9Iki6B2kCS3S3uk+0fNozHQ0=",
       "Microsoft.JSInterop.dat": "sha256-L7fb49koydjl0vdRA4gNg+UJYr653hmvsvGboeZMj98=",
-      "Microsoft.JSInterop.WebAssembly.dat": "sha256-ktLYs5ljvIsm50k59hQ6FSfNMRO4e4x\/Nn83x1x2Ji0=",
+      "Microsoft.JSInterop.WebAssembly.dat": "sha256-MIf4HrVqJecnhZlmVqzYyhVWepRYu1FGmJMTy5956JI=",
       "netstandard.dat": "sha256-Q2hkl14FrozQ\/xlARcdSLttxPShBfxWv3v\/p2cPpe34=",
-      "SharedComponents.dat": "sha256-HwPatVCAfVLV1l\/mXzJ8tR541YnqwaXl8Dd6WZ\/5CwY=",
+      "SharedComponents.dat": "sha256-73eZdEPDhEZEFyXreRIn5fxOFaIWOR1O2QkXgSTDRjI=",
       "SharedModels.dat": "sha256-IBTSbeNVyToFmJ4o4TCpIQdziSKBYoiWJmIw4c2rmWI=",
       "System.Collections.Concurrent.dat": "sha256-RVH0OHxcSngnnc8j7\/67uJbQhBudmY+2GDIMhuMLZeM=",
       "System.Collections.dat": "sha256-0qLUkdhjb2NP+GFQFVt4ayOCgA4cXHkrpAb8ID7BH1o=",
@@ -71,7 +71,7 @@
       "Toolbelt.Blazor.HeadElement.Abstractions.dat": "sha256-UmsxKairtI0\/JkPBNi4nDpGlT0vxZV30RpF2obQpzxs=",
       "Toolbelt.Blazor.HeadElement.dat": "sha256-IWtLFwHVECUz4STdMM0wPDmmJeen63ycWmap2PfSdlM=",
       "Toolbelt.Blazor.HeadElement.Services.dat": "sha256-o9dihjDSgXTsAwXMC4mPwegM4sbp3BE8GVgWVt5jGHY=",
-      "Web.dat": "sha256-qOJCalS3+gXUuYMhyDelyR0DxXflzpj7FsqhvPZU7JQ="
+      "Web.dat": "sha256-SrVJa5SEk80lWgDSE\/6tWuOEOBsZlRLLul5D2GNC4W8="
     },
     "extensions": {
       "avpsettings": {
@@ -80,7 +80,7 @@
     },
     "lazyAssembly": {
       "BlazorDemoComponents.dat": "sha256-W0oBJDHLARHaqOeEEeDDkG642pLhW29wbTmLg2kdICE=",
-      "Components.dat": "sha256-51SoZas1jkZWMmXRHMdPeX+MBqv83GpGbGqc48rM4u8=",
+      "Components.dat": "sha256-wg9azQWQeUOPgzX8qjtD3vzuPgAsLIaxnmB47\/sHrcg=",
       "DependencyInjectionDemoComponents.dat": "sha256-B8cVNJd4Eh1zRkakHgqU+ZbAr7JjmMsOLITEjqy4Suo=",
       "DesignPatternDemoComponents.dat": "sha256-mLdsPqrsZ2eAoeZkRbPRvTYLUQ+bt0gip9pRumgsH2o=",
       "LINQDemoComponents.dat": "sha256-Y+PmIp+hysM6+GeryBPwJDaBbRPJkaUuTvbq8K3\/czg=",
