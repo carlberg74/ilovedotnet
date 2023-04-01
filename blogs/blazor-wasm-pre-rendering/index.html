@@ -82,7 +82,7 @@
     </script>
 
 <!-- %%-PRERENDERING-HEADOUTLET-BEGIN-%% -->
-<!--Blazor:{"type":"webassembly","assembly":"Microsoft.AspNetCore.Components.Web","typeName":"Microsoft.AspNetCore.Components.Web.HeadOutlet","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"28ebab4540334f0289d0041b4eb62b18"}--><script type="application/ld+json">
+<!--Blazor:{"type":"webassembly","assembly":"Microsoft.AspNetCore.Components.Web","typeName":"Microsoft.AspNetCore.Components.Web.HeadOutlet","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"2ddd2f736a7b4bf493207cd1549efb45"}--><script type="application/ld+json">
 {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -131,13 +131,13 @@
         "@id": "https://ilovedotnet.org/"
     }
 }
-</script><!--Blazor:{"prerenderId":"28ebab4540334f0289d0041b4eb62b18"}-->
+</script><!--Blazor:{"prerenderId":"2ddd2f736a7b4bf493207cd1549efb45"}-->
 <!-- %%-PRERENDERING-HEADOUTLET-END-%% -->
 
     <script type="text/default-title">I ❤️ DotNet</script>
     <script type="text/default-meta-elements">[[,"author",,,"Abdul Rahman Shabeek Mohamed"],[,"viewport",,,"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"],[,"copyright",,,"I Love DotNet"],[,"language",,,"EN"],[,"robots",,,"index,follow"],[,"owner",,,"Abdul Rahman Shabeek Mohamed"]]</script>
     <meta property="description" content="In this post I will teach how to prerender Blazor applications during publish time to improve SEO. All with live working demo."/>
-    <meta property="keywords" content=".NET, DotNet, I Love DotNet, I ❤️ DotNet, Blazor, Blazor (WebAssembly), Blazor Wasm, C#, Entity Framework, LINQ, ML.NET, Web API, TDD, OOPS, Middleware, JWT, Dependency Injection, Report, Design Pattern Pre Rendering, SPA Prerendering, Blazor WASM Prerendering, Search Engine Optimization, SEO, Social Media Optimization, SMO"/>
+    <meta property="keywords" content=".NET, DotNet, I Love DotNet, I ❤️ DotNet, Blazor, Blazor (WebAssembly), Blazor Wasm, C#, Entity Framework, LINQ, ML.NET, Web API, TDD, OOPS, Middleware, JWT, Dependency Injection, Report, Design Pattern, SOLID Pre Rendering, SPA Prerendering, Blazor WASM Prerendering, Search Engine Optimization, SEO, Social Media Optimization, SMO"/>
     <meta property="url" content="https://ilovedotnet.org/blogs/blazor-wasm-pre-rendering/"/>
     <meta property="identifier-URL" content="https://ilovedotnet.org/blogs/blazor-wasm-pre-rendering/"/>
     <meta property="og:site_name" content="I Love DotNet"/>
@@ -166,6 +166,7 @@
     <link rel="sitemap" href="https://ilovedotnet.org/sitemap-blog-oops.xml" type="application/xml" title="Sitemap"/>
     <link rel="sitemap" href="https://ilovedotnet.org/sitemap-blog-python.xml" type="application/xml" title="Sitemap"/>
     <link rel="sitemap" href="https://ilovedotnet.org/sitemap-blog-report.xml" type="application/xml" title="Sitemap"/>
+    <link rel="sitemap" href="https://ilovedotnet.org/sitemap-blog-solid.xml" type="application/xml" title="Sitemap"/>
     <link rel="sitemap" href="https://ilovedotnet.org/sitemap-blog-tdd.xml" type="application/xml" title="Sitemap"/>
     <link rel="sitemap" href="https://ilovedotnet.org/sitemap-blog-webapi.xml" type="application/xml" title="Sitemap"/>
     <link rel="sitemap" href="https://ilovedotnet.org/sitemap-channels.xml" type="application/xml" title="Sitemap"/>
@@ -180,7 +181,7 @@
 <body class="[ m-0 ] [ h-full ] [ dark:bg-stone-900 ] [ bg-gray-100 ]">
     <div id="app" class="[ dark:text-white ]">
 <!-- %%-PRERENDERING-BEGIN-%% -->
-<!--Blazor:{"type":"webassembly","assembly":"Web","typeName":"Web.App","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"c9fde839511843d9bf98e06c46e22022"}--><header id="header" class="[ flex items-center justify-between ] [ bg-white ] [ px-5 ] [ dark:bg-gray-800 dark:bg-gray-800/80 ] [ h-14 ] [ sticky top-0 ] [ backdrop-blur-sm bg-white/80 ] [ z-10 ]"><button type="button" class="[ hidden md:block ] [ mr-4 ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-menu-2 ]" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+<!--Blazor:{"type":"webassembly","assembly":"Web","typeName":"Web.App","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"8f6b612892ab46bca45bb54a8933a5fd"}--><header id="header" class="[ flex items-center justify-between ] [ bg-white ] [ px-5 ] [ dark:bg-gray-800 dark:bg-gray-800/80 ] [ h-14 ] [ sticky top-0 ] [ backdrop-blur-sm bg-white/80 ] [ z-10 ]"><button type="button" class="[ hidden md:block ] [ mr-4 ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-menu-2 ]" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
            <line x1="4" y1="6" x2="20" y2="6"></line>
            <line x1="4" y1="12" x2="20" y2="12"></line>
            <line x1="4" y1="18" x2="20" y2="18"></line></svg></button>
@@ -289,7 +290,7 @@
 
 <section class="[ flex flex-col md:flex-row ] [ p-5 md:px-20 ] [ md:space-x-5 space-y-5 md:space-y-0 ]"><article class="[ md:basis-3/4 ] [ space-y-5 ]"><header class="[ space-y-2 ]"><figure><img src="image/blogs/blazor/wasm/blazor-wasm-pre-rendering.svg" alt="Blazor WASM Pre Rendering" class="[ w-full ]" loading="lazy"/></figure><h2 class="[ dark:text-white ] [ font-semibold text-xl ]">Blazor WASM Pre Rendering</h2>
     <section class="[ flex flex-col md:flex-row justify-between ] [ space-y-1 md:space-y-0 ] [ dark:text-white ] [ font-bold ]"><div><p>Authors - <a href="https://www.linkedin.com/in/fingers10" class="[ underline ]" target="_blank">Abdul Rahman (Content Writer)</a>, <a href="https://www.linkedin.com/in/regina-sharon" class="[ underline ]" target="_blank">Regina Sharon (Graphic Designer)</a></p>
-            <time datetime="2022-08-07 22:30:00">Last updated 7 months ago</time></div>
+            <time datetime="2022-08-07 22:30:00">Last updated 8 months ago</time></div>
         <div><section class="[ flex justify-between md:justify-start ]"><a href="https://github.com/sponsors/fingers10" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-heart ] [ text-red-500 ] [ fill-red-500 ]" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
            <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572"></path></svg></a>
     <a href="https://api.whatsapp.com/send?text=Blazor WASM Pre Rendering%20https%3a%2f%2filovedotnet.org%2fblogs%2fblazor-wasm-pre-rendering%2f" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-brand-whatsapp ] [ text-emerald-500 dark:text-emerald-300 ]" width="30" height="30" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -359,7 +360,7 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - What crawlers see without prerendering</h4>
-    <article id="985041dc-2305-4578-9570-325dd2c1b85e" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="bb804fd7-25c0-4984-b303-aa7e2d2c3597" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <p>
             Here is the snapshot of what crawlers see without prerendering <code class="[ p-0.5 ] [ text-indigo-600 ] [ dark:text-green-400 ] ">Index.razor</code>.
@@ -407,13 +408,13 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - Blazor Wasm Pre Rendering Program Before Extraction</h4>
-    <article id="2dd6d227-4606-4551-b520-61659db4a34a" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="f9c8a472-6b52-4a53-9b6e-8bbe35ccc87b" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
                 <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-code ] [ text-purple-700 ] [ fill-purple-500 ]" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - Blazor Wasm Pre Rendering Program After Extraction</h4>
-    <article id="650ba177-722e-456c-b999-182d0eb24445" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="118a7078-a606-430d-92d6-cc4af637f28e" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
                 <p><strong>Note:</strong> The "ConfigureServices" local function must be "static" local function.
                 </p>
@@ -433,7 +434,7 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - What crawlers see with prerendering</h4>
-    <article id="988e38d5-12a8-4d98-a41f-f7777793f5a2" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="38414da3-3344-4414-bce8-abb6ecb704d3" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <p>
             Here is the snapshot of what crawlers see with prerendering <code class="[ p-0.5 ] [ text-indigo-600 ] [ dark:text-green-400 ] ">Index.razor</code>.
@@ -472,23 +473,23 @@
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/blazor"><figure><img src="image/icons/blazor.png" alt="Blazor" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/blazor-wasm-dockerizing"><h2 class="[ font-medium break-words hover:underline ]">Blazor WASM Dockerizing</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2023-03-26 22-30-00">5 hours from now</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/creational-design-pattern-singleton"><figure><img src="image/blogs/design-pattern/creational-design-pattern-singleton.svg" class="[ w-full ]" alt="Creational Design Pattern - Singleton" loading="lazy"/></figure></a></header>
+                            <time datetime="2023-03-26 22-30-00">5 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/creational-design-pattern-singleton"><figure><img src="image/blogs/design-pattern/creational-design-pattern-singleton.svg" class="[ w-full ]" alt="Creational Design Pattern - Singleton" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/design-pattern"><figure><img src="image/icons/design-pattern.png" alt="Design-Pattern" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/creational-design-pattern-singleton"><h2 class="[ font-medium break-words hover:underline ]">Creational Design Pattern - Singleton</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2023-03-19 22-30-00">6 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/design-pattern-introduction"><figure><img src="image/blogs/design-pattern/design-pattern-introduction.svg" class="[ w-full ]" alt="Design Pattern Introduction" loading="lazy"/></figure></a></header>
+                            <time datetime="2023-03-19 22-30-00">12 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/design-pattern-introduction"><figure><img src="image/blogs/design-pattern/design-pattern-introduction.svg" class="[ w-full ]" alt="Design Pattern Introduction" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/design-pattern"><figure><img src="image/icons/design-pattern.png" alt="Design-Pattern" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/design-pattern-introduction"><h2 class="[ font-medium break-words hover:underline ]">Design Pattern Introduction</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2023-03-12 22-30-00">13 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/understanding-linq-deferred-immediate-streaming-and-non-streaming-executions"><figure><img src="image/blogs/linq/understanding-linq-deferred-immediate-streaming-and-non-streaming-executions.svg" class="[ w-full ]" alt="Understanding LINQ Deferred, Immediate, Streaming and Non-Streaming Executions" loading="lazy"/></figure></a></header>
+                            <time datetime="2023-03-12 22-30-00">19 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/understanding-linq-deferred-immediate-streaming-and-non-streaming-executions"><figure><img src="image/blogs/linq/understanding-linq-deferred-immediate-streaming-and-non-streaming-executions.svg" class="[ w-full ]" alt="Understanding LINQ Deferred, Immediate, Streaming and Non-Streaming Executions" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/understanding-linq-deferred-immediate-streaming-and-non-streaming-executions"><h2 class="[ font-medium break-words hover:underline ]">Understanding LINQ Deferred, Immediate, Streaming and Non-Streaming Executions</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2023-03-05 22-30-00">20 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-for-each-to-iterate-collections"><figure><img src="image/blogs/linq/using-linq-for-each-to-iterate-collections.svg" class="[ w-full ]" alt="Using LINQ For Each to Iterate Collections" loading="lazy"/></figure></a></header>
+                            <time datetime="2023-03-05 22-30-00">26 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-for-each-to-iterate-collections"><figure><img src="image/blogs/linq/using-linq-for-each-to-iterate-collections.svg" class="[ w-full ]" alt="Using LINQ For Each to Iterate Collections" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-for-each-to-iterate-collections"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ For Each to Iterate Collections</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2023-02-26 22-30-00">27 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/generate-pdf-report-using-quest-pdf-in-dotnet"><figure><img src="image/blogs/report/generate-pdf-report-using-quest-pdf-in-dotnet.svg" class="[ w-full ]" alt="Generate PDF Report using Quest PDF in .NET" loading="lazy"/></figure></a></header>
+                            <time datetime="2023-02-26 22-30-00">one month ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/generate-pdf-report-using-quest-pdf-in-dotnet"><figure><img src="image/blogs/report/generate-pdf-report-using-quest-pdf-in-dotnet.svg" class="[ w-full ]" alt="Generate PDF Report using Quest PDF in .NET" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/report"><figure><img src="image/icons/report.png" alt="Report" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/generate-pdf-report-using-quest-pdf-in-dotnet"><h2 class="[ font-medium break-words hover:underline ]">Generate PDF Report using Quest PDF in .NET</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
@@ -504,7 +505,7 @@
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/report"><figure><img src="image/icons/report.png" alt="Report" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/generate-excel-report-using-closed-xml-in-dotnet"><h2 class="[ font-medium break-words hover:underline ]">Generate Excel Report using Closed XML in .NET</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2023-01-29 22-30-00">one month ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/simulating-left-outer-join-using-linq"><figure><img src="image/blogs/linq/simulating-left-outer-join-using-linq.svg" class="[ w-full ]" alt="Simulating Left Outer Join using LINQ" loading="lazy"/></figure></a></header>
+                            <time datetime="2023-01-29 22-30-00">2 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/simulating-left-outer-join-using-linq"><figure><img src="image/blogs/linq/simulating-left-outer-join-using-linq.svg" class="[ w-full ]" alt="Simulating Left Outer Join using LINQ" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/simulating-left-outer-join-using-linq"><h2 class="[ font-medium break-words hover:underline ]">Simulating Left Outer Join using LINQ</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
@@ -520,7 +521,7 @@
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-concat-to-combine-data"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ Concat to combine data</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2023-01-01 22-30-00">2 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-union-to-combine-data"><figure><img src="image/blogs/linq/using-linq-union-to-combine-data.svg" class="[ w-full ]" alt="Using LINQ Union to combine data" loading="lazy"/></figure></a></header>
+                            <time datetime="2023-01-01 22-30-00">3 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-union-to-combine-data"><figure><img src="image/blogs/linq/using-linq-union-to-combine-data.svg" class="[ w-full ]" alt="Using LINQ Union to combine data" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-union-to-combine-data"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ Union to combine data</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
@@ -556,7 +557,7 @@
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-distinct-to-select-unique-data"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ Distinct to Select Unique Data</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2022-10-30 22-30-00">4 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-skip-to-select-specific-data"><figure><img src="image/blogs/linq/using-linq-skip-to-select-specific-data.svg" class="[ w-full ]" alt="Using LINQ Skip to Select Specific Data" loading="lazy"/></figure></a></header>
+                            <time datetime="2022-10-30 22-30-00">5 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-skip-to-select-specific-data"><figure><img src="image/blogs/linq/using-linq-skip-to-select-specific-data.svg" class="[ w-full ]" alt="Using LINQ Skip to Select Specific Data" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-skip-to-select-specific-data"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ Skip to Select Specific Data</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
@@ -572,7 +573,7 @@
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-last-to-select-single-data"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ Last to Select Single Data</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2022-10-02 22-30-00">5 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-first-to-select-single-data"><figure><img src="image/blogs/linq/using-linq-first-to-select-single-data.svg" class="[ w-full ]" alt="Using LINQ First to Select Single Data" loading="lazy"/></figure></a></header>
+                            <time datetime="2022-10-02 22-30-00">6 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-first-to-select-single-data"><figure><img src="image/blogs/linq/using-linq-first-to-select-single-data.svg" class="[ w-full ]" alt="Using LINQ First to Select Single Data" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-first-to-select-single-data"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ First to Select Single Data</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
@@ -588,7 +589,7 @@
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-where-to-filter-data"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ Where to Filter Data</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2022-09-04 22-30-00">6 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-orderby-to-sort-data"><figure><img src="image/blogs/linq/using-linq-orderby-to-sort-data.svg" class="[ w-full ]" alt="Using LINQ OrderBy to Sort Data" loading="lazy"/></figure></a></header>
+                            <time datetime="2022-09-04 22-30-00">7 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-orderby-to-sort-data"><figure><img src="image/blogs/linq/using-linq-orderby-to-sort-data.svg" class="[ w-full ]" alt="Using LINQ OrderBy to Sort Data" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-orderby-to-sort-data"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ OrderBy to Sort Data</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
@@ -636,7 +637,7 @@
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/blazor"><figure><img src="image/icons/blazor.png" alt="Blazor" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/blazor-wasm-forms-validation"><h2 class="[ font-medium break-words hover:underline ]">Blazor WASM Forms Validation</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2022-06-05 22-30-00">9 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/blazor-wasm-forms"><figure><img src="image/blogs/blazor/wasm/blazor-wasm-forms.svg" class="[ w-full ]" alt="Blazor WASM Forms" loading="lazy"/></figure></a></header>
+                            <time datetime="2022-06-05 22-30-00">10 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/blazor-wasm-forms"><figure><img src="image/blogs/blazor/wasm/blazor-wasm-forms.svg" class="[ w-full ]" alt="Blazor WASM Forms" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/blazor"><figure><img src="image/icons/blazor.png" alt="Blazor" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/blazor-wasm-forms"><h2 class="[ font-medium break-words hover:underline ]">Blazor WASM Forms</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
@@ -652,7 +653,7 @@
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/blazor"><figure><img src="image/icons/blazor.png" alt="Blazor" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/blazor-wasm-controlling-head-content"><h2 class="[ font-medium break-words hover:underline ]">Blazor WASM Controlling Head Content</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2022-05-08 22-30-00">10 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/oops-encapsulation"><figure><img src="image/blogs/oops/oops-encapsulation.svg" class="[ w-full ]" alt="OOPS Encapsulation" loading="lazy"/></figure></a></header>
+                            <time datetime="2022-05-08 22-30-00">11 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/oops-encapsulation"><figure><img src="image/blogs/oops/oops-encapsulation.svg" class="[ w-full ]" alt="OOPS Encapsulation" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/oops"><figure><img src="image/icons/oops.png" alt="OOPS" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/oops-encapsulation"><h2 class="[ font-medium break-words hover:underline ]">OOPS Encapsulation</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
@@ -664,7 +665,7 @@
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/blazor"><figure><img src="image/icons/blazor.png" alt="Blazor" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/blazor-wasm-event-handling-and-event-arguments"><h2 class="[ font-medium break-words hover:underline ]">Blazor WASM Event Handling And Event Arguments</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2022-04-17 22-30-00">11 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/blazor-wasm-components"><figure><img src="image/blogs/blazor/wasm/blazor-wasm-components.svg" class="[ w-full ]" alt="Blazor WASM Components" loading="lazy"/></figure></a></header>
+                            <time datetime="2022-04-17 22-30-00">one year ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/blazor-wasm-components"><figure><img src="image/blogs/blazor/wasm/blazor-wasm-components.svg" class="[ w-full ]" alt="Blazor WASM Components" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/blazor"><figure><img src="image/icons/blazor.png" alt="Blazor" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/blazor-wasm-components"><h2 class="[ font-medium break-words hover:underline ]">Blazor WASM Components</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
@@ -736,7 +737,7 @@
             <line x1="12" y1="8" x2="12.01" y2="8"></line>
             <polyline points="11 12 12 12 12 16 13 16"></polyline></svg>
         <span class="[ text-xs text-center ]">About</span></a></nav>
-            <!--Blazor:{"prerenderId":"c9fde839511843d9bf98e06c46e22022"}-->
+            <!--Blazor:{"prerenderId":"8f6b612892ab46bca45bb54a8933a5fd"}-->
 <!-- %%-PRERENDERING-END-%% -->
 <!--Blazor-Component-State:e30=--></div>
 

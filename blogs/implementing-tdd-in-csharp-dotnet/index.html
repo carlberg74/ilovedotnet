@@ -82,7 +82,7 @@
     </script>
 
 <!-- %%-PRERENDERING-HEADOUTLET-BEGIN-%% -->
-<!--Blazor:{"type":"webassembly","assembly":"Microsoft.AspNetCore.Components.Web","typeName":"Microsoft.AspNetCore.Components.Web.HeadOutlet","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"3655d56d66074ec7be53134f1cd0b88d"}--><script type="application/ld+json">
+<!--Blazor:{"type":"webassembly","assembly":"Microsoft.AspNetCore.Components.Web","typeName":"Microsoft.AspNetCore.Components.Web.HeadOutlet","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"fd624339a61849399a30fd3c0cb786fa"}--><script type="application/ld+json">
 {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -131,13 +131,13 @@
         "@id": "https://ilovedotnet.org/"
     }
 }
-</script><!--Blazor:{"prerenderId":"3655d56d66074ec7be53134f1cd0b88d"}-->
+</script><!--Blazor:{"prerenderId":"fd624339a61849399a30fd3c0cb786fa"}-->
 <!-- %%-PRERENDERING-HEADOUTLET-END-%% -->
 
     <script type="text/default-title">I ❤️ DotNet</script>
     <script type="text/default-meta-elements">[[,"author",,,"Abdul Rahman Shabeek Mohamed"],[,"viewport",,,"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"],[,"copyright",,,"I Love DotNet"],[,"language",,,"EN"],[,"robots",,,"index,follow"],[,"owner",,,"Abdul Rahman Shabeek Mohamed"]]</script>
     <meta property="description" content="In this post I will teach you how to practice and implement TDD in C# .NET. All with live working demo."/>
-    <meta property="keywords" content=".NET, DotNet, I Love DotNet, I ❤️ DotNet, Blazor, Blazor (WebAssembly), Blazor Wasm, C#, Entity Framework, LINQ, ML.NET, Web API, TDD, OOPS, Middleware, JWT, Dependency Injection, Report, Design Pattern Test Driven Development"/>
+    <meta property="keywords" content=".NET, DotNet, I Love DotNet, I ❤️ DotNet, Blazor, Blazor (WebAssembly), Blazor Wasm, C#, Entity Framework, LINQ, ML.NET, Web API, TDD, OOPS, Middleware, JWT, Dependency Injection, Report, Design Pattern, SOLID Test Driven Development"/>
     <meta property="url" content="https://ilovedotnet.org/blogs/implementing-tdd-in-csharp-dotnet/"/>
     <meta property="identifier-URL" content="https://ilovedotnet.org/blogs/implementing-tdd-in-csharp-dotnet/"/>
     <meta property="og:site_name" content="I Love DotNet"/>
@@ -166,6 +166,7 @@
     <link rel="sitemap" href="https://ilovedotnet.org/sitemap-blog-oops.xml" type="application/xml" title="Sitemap"/>
     <link rel="sitemap" href="https://ilovedotnet.org/sitemap-blog-python.xml" type="application/xml" title="Sitemap"/>
     <link rel="sitemap" href="https://ilovedotnet.org/sitemap-blog-report.xml" type="application/xml" title="Sitemap"/>
+    <link rel="sitemap" href="https://ilovedotnet.org/sitemap-blog-solid.xml" type="application/xml" title="Sitemap"/>
     <link rel="sitemap" href="https://ilovedotnet.org/sitemap-blog-tdd.xml" type="application/xml" title="Sitemap"/>
     <link rel="sitemap" href="https://ilovedotnet.org/sitemap-blog-webapi.xml" type="application/xml" title="Sitemap"/>
     <link rel="sitemap" href="https://ilovedotnet.org/sitemap-channels.xml" type="application/xml" title="Sitemap"/>
@@ -180,7 +181,7 @@
 <body class="[ m-0 ] [ h-full ] [ dark:bg-stone-900 ] [ bg-gray-100 ]">
     <div id="app" class="[ dark:text-white ]">
 <!-- %%-PRERENDERING-BEGIN-%% -->
-<!--Blazor:{"type":"webassembly","assembly":"Web","typeName":"Web.App","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"858959aa75a445e59817e6d619e1ab46"}--><header id="header" class="[ flex items-center justify-between ] [ bg-white ] [ px-5 ] [ dark:bg-gray-800 dark:bg-gray-800/80 ] [ h-14 ] [ sticky top-0 ] [ backdrop-blur-sm bg-white/80 ] [ z-10 ]"><button type="button" class="[ hidden md:block ] [ mr-4 ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-menu-2 ]" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+<!--Blazor:{"type":"webassembly","assembly":"Web","typeName":"Web.App","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"4a3ecdae6fee4b9e93edf272bc45c45a"}--><header id="header" class="[ flex items-center justify-between ] [ bg-white ] [ px-5 ] [ dark:bg-gray-800 dark:bg-gray-800/80 ] [ h-14 ] [ sticky top-0 ] [ backdrop-blur-sm bg-white/80 ] [ z-10 ]"><button type="button" class="[ hidden md:block ] [ mr-4 ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-menu-2 ]" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
            <line x1="4" y1="6" x2="20" y2="6"></line>
            <line x1="4" y1="12" x2="20" y2="12"></line>
            <line x1="4" y1="18" x2="20" y2="18"></line></svg></button>
@@ -409,7 +410,7 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - TDD Red Phase - First Requirement - New Unit Test</h4>
-    <article id="57e40a7c-9973-437e-a4b4-d4b231364ff6" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="2e934407-479c-4e27-acb7-9776151904de" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
         
         <p>
             Create a TicketBookingRequest with FirstName, LastName and Email properties and set the values and again press Ctrl + . to create the class in new file.
@@ -419,7 +420,7 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - TDD Red Phase - First Requirement - Creating Request Class</h4>
-    <article id="8ce112bb-7b8e-4adc-8460-81bcb9131dd9" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="1d1ad8c9-4ed1-4714-a7b2-12cd08a97b65" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <p>
             Add the following line TicketBookingResponse response = processor.Book(request); and press Ctrl + . to generate the Book method in TicketBookingRequestProcessor class.
@@ -441,7 +442,7 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - TDD Red Phase - First Requirement - Creating Response Class</h4>
-    <article id="15a06da7-df03-498c-a469-409e4ac6db9f" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="41759c26-1bbe-4513-a88a-d14e7986ead6" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
         
         <p>
             We are all set with AAA (Arrange, Act, and Assert) of unit tests.
@@ -451,7 +452,7 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - TDD Red Phase - First Requriement - Arrange Assert Act</h4>
-    <article id="8da5d00d-b18a-4f1e-86a7-81987cefb0b2" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="b3d95301-daea-4339-a077-ff72bf1dc7c5" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <p>
             Press Ctrl + E, T to open Test Explorer. You can now see the test is listed in the test explorer. Now Click on the Run (Green Triangle) button. You can see that the test fails with 
@@ -480,7 +481,7 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - TDD Green Phase - First Requirement - Adding Minimal Requried Code</h4>
-    <article id="8c82c831-5ff3-4d33-afaf-e9daea2dc970" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="943b1542-5bb4-44e9-b8d3-811781de8433" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <p>
             That’s it. Now again run the test. The test passes and turns green.
@@ -524,7 +525,7 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - TDD Red Phase - First Requirement - Another Unit Test</h4>
-    <article id="e0c72ba5-78f3-4f2b-8f94-991d919ef96b" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="b7872f39-ddd0-4fa5-aac8-f7e1985c10a9" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <p>
             Now if you run the above from test explorer, the test will fail with NullReferenceException instead of ArgumentNullException, as shown below:
@@ -540,7 +541,7 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - TDD Green Phase - First Requriement - Minimal Required Code to Make Test Pass</h4>
-    <article id="a08bf96b-c650-46cc-b5c4-5d8c62dc6a42" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="70835845-75b3-4856-adb5-e5c73c4d64fb" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <p>
             Now run the test again and the test will pass.
@@ -561,7 +562,7 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - TDD Refactor Phase - First Requriement - Refactoring Tests</h4>
-    <article id="ceb7e9c0-cdec-4242-8713-9ac3ecaf7ed6" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="f0648970-79d8-4352-9f59-f7a8f41e038f" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         
 
@@ -612,7 +613,7 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - TDD Red Phase - Second Requirement - New Failing Test</h4>
-    <article id="152ee328-c52c-4ff1-bc21-991d00ed759a" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="22dede55-a5f6-45cf-ad38-8c0e6caecdd5" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <p>
             Now to save to database, we need ITicketBookingRepository and that needs to be injected to TicketBookingRequestProcessor.
@@ -626,7 +627,7 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - TDD Red Phase - Second Requirement - New Failing Test Compilation Fix</h4>
-    <article id="734ec80c-c54f-4551-97f7-139362ce456c" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="3d0a74f7-6257-4051-a37f-d4879bc4c728" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <p>
             Now we need a mock object for ITicketBookingRepository. We can use the mock library to fake the repository.
@@ -640,7 +641,7 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - TDD Red Phase - Second Requirement - New Failing Test Mocking Dependencies</h4>
-    <article id="38858c36-2c2d-4b63-931a-86ac8d946439" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="37778add-a223-4564-80e5-9363e7898e6e" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <p>
             Now we need to write a setup in mock repository to make a callback when Save is called in that repository. And we need to assert that the Save method in the repository is called at 
@@ -651,7 +652,7 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - TDD Red Phase - Second Requirement - New Failing Test Asserting</h4>
-    <article id="b07e7e60-f34a-4520-81a7-cb0f3de0b84f" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="90f78f0d-6d51-4df1-8431-66bfdeed3df8" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <p>Now we are done with test setup. Run the test and the test should fail.</p>
 
@@ -670,7 +671,7 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - TDD Green Phase - Second Requirement - Minimal Requried Code</h4>
-    <article id="ff358dc9-a8d3-4c0a-8890-81dea9ca0a53" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="8dec9bfe-26e7-46d5-b7f7-d9be4f12c1ed" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <p>Now if you run the test, the test will pass.</p>
 
@@ -695,7 +696,7 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - TDD Complete Code</h4>
-    <article id="d8019e4f-dd31-405d-af2a-22a8ddb78765" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="b32e5e50-36f0-4266-a382-5a03b7ea4dcc" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         <p>Now run all the tests. All the tests should pass.</p>
 
@@ -717,23 +718,23 @@
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/blazor"><figure><img src="image/icons/blazor.png" alt="Blazor" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/blazor-wasm-dockerizing"><h2 class="[ font-medium break-words hover:underline ]">Blazor WASM Dockerizing</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2023-03-26 22-30-00">5 hours from now</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/creational-design-pattern-singleton"><figure><img src="image/blogs/design-pattern/creational-design-pattern-singleton.svg" class="[ w-full ]" alt="Creational Design Pattern - Singleton" loading="lazy"/></figure></a></header>
+                            <time datetime="2023-03-26 22-30-00">5 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/creational-design-pattern-singleton"><figure><img src="image/blogs/design-pattern/creational-design-pattern-singleton.svg" class="[ w-full ]" alt="Creational Design Pattern - Singleton" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/design-pattern"><figure><img src="image/icons/design-pattern.png" alt="Design-Pattern" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/creational-design-pattern-singleton"><h2 class="[ font-medium break-words hover:underline ]">Creational Design Pattern - Singleton</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2023-03-19 22-30-00">6 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/design-pattern-introduction"><figure><img src="image/blogs/design-pattern/design-pattern-introduction.svg" class="[ w-full ]" alt="Design Pattern Introduction" loading="lazy"/></figure></a></header>
+                            <time datetime="2023-03-19 22-30-00">12 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/design-pattern-introduction"><figure><img src="image/blogs/design-pattern/design-pattern-introduction.svg" class="[ w-full ]" alt="Design Pattern Introduction" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/design-pattern"><figure><img src="image/icons/design-pattern.png" alt="Design-Pattern" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/design-pattern-introduction"><h2 class="[ font-medium break-words hover:underline ]">Design Pattern Introduction</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2023-03-12 22-30-00">13 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/understanding-linq-deferred-immediate-streaming-and-non-streaming-executions"><figure><img src="image/blogs/linq/understanding-linq-deferred-immediate-streaming-and-non-streaming-executions.svg" class="[ w-full ]" alt="Understanding LINQ Deferred, Immediate, Streaming and Non-Streaming Executions" loading="lazy"/></figure></a></header>
+                            <time datetime="2023-03-12 22-30-00">19 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/understanding-linq-deferred-immediate-streaming-and-non-streaming-executions"><figure><img src="image/blogs/linq/understanding-linq-deferred-immediate-streaming-and-non-streaming-executions.svg" class="[ w-full ]" alt="Understanding LINQ Deferred, Immediate, Streaming and Non-Streaming Executions" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/understanding-linq-deferred-immediate-streaming-and-non-streaming-executions"><h2 class="[ font-medium break-words hover:underline ]">Understanding LINQ Deferred, Immediate, Streaming and Non-Streaming Executions</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2023-03-05 22-30-00">20 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-for-each-to-iterate-collections"><figure><img src="image/blogs/linq/using-linq-for-each-to-iterate-collections.svg" class="[ w-full ]" alt="Using LINQ For Each to Iterate Collections" loading="lazy"/></figure></a></header>
+                            <time datetime="2023-03-05 22-30-00">26 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-for-each-to-iterate-collections"><figure><img src="image/blogs/linq/using-linq-for-each-to-iterate-collections.svg" class="[ w-full ]" alt="Using LINQ For Each to Iterate Collections" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-for-each-to-iterate-collections"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ For Each to Iterate Collections</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2023-02-26 22-30-00">27 days ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/generate-pdf-report-using-quest-pdf-in-dotnet"><figure><img src="image/blogs/report/generate-pdf-report-using-quest-pdf-in-dotnet.svg" class="[ w-full ]" alt="Generate PDF Report using Quest PDF in .NET" loading="lazy"/></figure></a></header>
+                            <time datetime="2023-02-26 22-30-00">one month ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/generate-pdf-report-using-quest-pdf-in-dotnet"><figure><img src="image/blogs/report/generate-pdf-report-using-quest-pdf-in-dotnet.svg" class="[ w-full ]" alt="Generate PDF Report using Quest PDF in .NET" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/report"><figure><img src="image/icons/report.png" alt="Report" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/generate-pdf-report-using-quest-pdf-in-dotnet"><h2 class="[ font-medium break-words hover:underline ]">Generate PDF Report using Quest PDF in .NET</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
@@ -749,7 +750,7 @@
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/report"><figure><img src="image/icons/report.png" alt="Report" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/generate-excel-report-using-closed-xml-in-dotnet"><h2 class="[ font-medium break-words hover:underline ]">Generate Excel Report using Closed XML in .NET</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2023-01-29 22-30-00">one month ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/simulating-left-outer-join-using-linq"><figure><img src="image/blogs/linq/simulating-left-outer-join-using-linq.svg" class="[ w-full ]" alt="Simulating Left Outer Join using LINQ" loading="lazy"/></figure></a></header>
+                            <time datetime="2023-01-29 22-30-00">2 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/simulating-left-outer-join-using-linq"><figure><img src="image/blogs/linq/simulating-left-outer-join-using-linq.svg" class="[ w-full ]" alt="Simulating Left Outer Join using LINQ" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/simulating-left-outer-join-using-linq"><h2 class="[ font-medium break-words hover:underline ]">Simulating Left Outer Join using LINQ</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
@@ -765,7 +766,7 @@
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-concat-to-combine-data"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ Concat to combine data</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2023-01-01 22-30-00">2 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-union-to-combine-data"><figure><img src="image/blogs/linq/using-linq-union-to-combine-data.svg" class="[ w-full ]" alt="Using LINQ Union to combine data" loading="lazy"/></figure></a></header>
+                            <time datetime="2023-01-01 22-30-00">3 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-union-to-combine-data"><figure><img src="image/blogs/linq/using-linq-union-to-combine-data.svg" class="[ w-full ]" alt="Using LINQ Union to combine data" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-union-to-combine-data"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ Union to combine data</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
@@ -801,7 +802,7 @@
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-distinct-to-select-unique-data"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ Distinct to Select Unique Data</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2022-10-30 22-30-00">4 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-skip-to-select-specific-data"><figure><img src="image/blogs/linq/using-linq-skip-to-select-specific-data.svg" class="[ w-full ]" alt="Using LINQ Skip to Select Specific Data" loading="lazy"/></figure></a></header>
+                            <time datetime="2022-10-30 22-30-00">5 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-skip-to-select-specific-data"><figure><img src="image/blogs/linq/using-linq-skip-to-select-specific-data.svg" class="[ w-full ]" alt="Using LINQ Skip to Select Specific Data" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-skip-to-select-specific-data"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ Skip to Select Specific Data</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
@@ -817,7 +818,7 @@
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-last-to-select-single-data"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ Last to Select Single Data</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2022-10-02 22-30-00">5 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-first-to-select-single-data"><figure><img src="image/blogs/linq/using-linq-first-to-select-single-data.svg" class="[ w-full ]" alt="Using LINQ First to Select Single Data" loading="lazy"/></figure></a></header>
+                            <time datetime="2022-10-02 22-30-00">6 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-first-to-select-single-data"><figure><img src="image/blogs/linq/using-linq-first-to-select-single-data.svg" class="[ w-full ]" alt="Using LINQ First to Select Single Data" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-first-to-select-single-data"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ First to Select Single Data</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
@@ -833,7 +834,7 @@
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-where-to-filter-data"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ Where to Filter Data</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2022-09-04 22-30-00">6 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-orderby-to-sort-data"><figure><img src="image/blogs/linq/using-linq-orderby-to-sort-data.svg" class="[ w-full ]" alt="Using LINQ OrderBy to Sort Data" loading="lazy"/></figure></a></header>
+                            <time datetime="2022-09-04 22-30-00">7 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/using-linq-orderby-to-sort-data"><figure><img src="image/blogs/linq/using-linq-orderby-to-sort-data.svg" class="[ w-full ]" alt="Using LINQ OrderBy to Sort Data" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/linq"><figure><img src="image/icons/linq.png" alt="LINQ" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/using-linq-orderby-to-sort-data"><h2 class="[ font-medium break-words hover:underline ]">Using LINQ OrderBy to Sort Data</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
@@ -849,7 +850,7 @@
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/blazor"><figure><img src="image/icons/blazor.png" alt="Blazor" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/blazor-wasm-pre-rendering"><h2 class="[ font-medium break-words hover:underline ]">Blazor WASM Pre Rendering</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2022-08-07 22-30-00">7 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/dependency-injection-lifetimes-in-dotnet"><figure><img src="image/blogs/dependency-injection/dependency-injection-lifetimes-in-dotnet.svg" class="[ w-full ]" alt="Dependency Injection Lifetimes in .NET" loading="lazy"/></figure></a></header>
+                            <time datetime="2022-08-07 22-30-00">8 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/dependency-injection-lifetimes-in-dotnet"><figure><img src="image/blogs/dependency-injection/dependency-injection-lifetimes-in-dotnet.svg" class="[ w-full ]" alt="Dependency Injection Lifetimes in .NET" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/dependency-injection"><figure><img src="image/icons/dependency-injection.png" alt="Dependency-Injection" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/dependency-injection-lifetimes-in-dotnet"><h2 class="[ font-medium break-words hover:underline ]">Dependency Injection Lifetimes in .NET</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
@@ -885,7 +886,7 @@
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/blazor"><figure><img src="image/icons/blazor.png" alt="Blazor" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/blazor-wasm-forms-validation"><h2 class="[ font-medium break-words hover:underline ]">Blazor WASM Forms Validation</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2022-06-05 22-30-00">9 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/blazor-wasm-forms"><figure><img src="image/blogs/blazor/wasm/blazor-wasm-forms.svg" class="[ w-full ]" alt="Blazor WASM Forms" loading="lazy"/></figure></a></header>
+                            <time datetime="2022-06-05 22-30-00">10 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/blazor-wasm-forms"><figure><img src="image/blogs/blazor/wasm/blazor-wasm-forms.svg" class="[ w-full ]" alt="Blazor WASM Forms" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/blazor"><figure><img src="image/icons/blazor.png" alt="Blazor" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/blazor-wasm-forms"><h2 class="[ font-medium break-words hover:underline ]">Blazor WASM Forms</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
@@ -901,7 +902,7 @@
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/blazor"><figure><img src="image/icons/blazor.png" alt="Blazor" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/blazor-wasm-controlling-head-content"><h2 class="[ font-medium break-words hover:underline ]">Blazor WASM Controlling Head Content</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2022-05-08 22-30-00">10 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/oops-encapsulation"><figure><img src="image/blogs/oops/oops-encapsulation.svg" class="[ w-full ]" alt="OOPS Encapsulation" loading="lazy"/></figure></a></header>
+                            <time datetime="2022-05-08 22-30-00">11 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/oops-encapsulation"><figure><img src="image/blogs/oops/oops-encapsulation.svg" class="[ w-full ]" alt="OOPS Encapsulation" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/oops"><figure><img src="image/icons/oops.png" alt="OOPS" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/oops-encapsulation"><h2 class="[ font-medium break-words hover:underline ]">OOPS Encapsulation</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
@@ -913,7 +914,7 @@
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/blazor"><figure><img src="image/icons/blazor.png" alt="Blazor" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/blazor-wasm-event-handling-and-event-arguments"><h2 class="[ font-medium break-words hover:underline ]">Blazor WASM Event Handling And Event Arguments</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
-                            <time datetime="2022-04-17 22-30-00">11 months ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/blazor-wasm-components"><figure><img src="image/blogs/blazor/wasm/blazor-wasm-components.svg" class="[ w-full ]" alt="Blazor WASM Components" loading="lazy"/></figure></a></header>
+                            <time datetime="2022-04-17 22-30-00">one year ago</time></section></article></div></section><section class="[ flex flex-col justify-between ] [ h-full ]"><header><a href="blogs/blazor-wasm-components"><figure><img src="image/blogs/blazor/wasm/blazor-wasm-components.svg" class="[ w-full ]" alt="Blazor WASM Components" loading="lazy"/></figure></a></header>
                 <div class="[ grow flex ]"><aside class="[ basis-1/6 flex items-center ]"><a href="channels/blazor"><figure><img src="image/icons/blazor.png" alt="Blazor" loading="lazy" height="48" width="48" class="[ rounded-full ]"/></figure></a></aside>
                     <article class="[ grow flex flex-col justify-between basis-5/6 ] [ dark:text-white ] [ mt-2 ]"><a href="blogs/blazor-wasm-components"><h2 class="[ font-medium break-words hover:underline ]">Blazor WASM Components</h2></a>
                         <section class="[ flex justify-between ]"><p>Abdul Rahman</p>
@@ -981,7 +982,7 @@
             <line x1="12" y1="8" x2="12.01" y2="8"></line>
             <polyline points="11 12 12 12 12 16 13 16"></polyline></svg>
         <span class="[ text-xs text-center ]">About</span></a></nav>
-            <!--Blazor:{"prerenderId":"858959aa75a445e59817e6d619e1ab46"}-->
+            <!--Blazor:{"prerenderId":"4a3ecdae6fee4b9e93edf272bc45c45a"}-->
 <!-- %%-PRERENDERING-END-%% -->
 <!--Blazor-Component-State:e30=--></div>
 

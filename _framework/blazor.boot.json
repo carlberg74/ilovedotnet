@@ -30,8 +30,8 @@
       "Microsoft.JSInterop.dat": "sha256-L7fb49koydjl0vdRA4gNg+UJYr653hmvsvGboeZMj98=",
       "Microsoft.JSInterop.WebAssembly.dat": "sha256-MIf4HrVqJecnhZlmVqzYyhVWepRYu1FGmJMTy5956JI=",
       "netstandard.dat": "sha256-Q2hkl14FrozQ\/xlARcdSLttxPShBfxWv3v\/p2cPpe34=",
-      "SharedComponents.dat": "sha256-73eZdEPDhEZEFyXreRIn5fxOFaIWOR1O2QkXgSTDRjI=",
-      "SharedModels.dat": "sha256-IldjJPqLMyKYPiwWd4ElViOOW0iG3Fwiy+25hswu7ds=",
+      "SharedComponents.dat": "sha256-ugWzQv\/rqpmFPkVOxsdLixFC7j1E\/6jXA\/5LnI+4WmA=",
+      "SharedModels.dat": "sha256-zs20i+v6L\/n6N8lx27Ff8+XHGy0BsVmEkoO7344LhUM=",
       "System.Collections.Concurrent.dat": "sha256-RVH0OHxcSngnnc8j7\/67uJbQhBudmY+2GDIMhuMLZeM=",
       "System.Collections.dat": "sha256-0qLUkdhjb2NP+GFQFVt4ayOCgA4cXHkrpAb8ID7BH1o=",
       "System.Collections.Immutable.dat": "sha256-0TwFcDJJ0HfAGbNHCv8lQx1cSO83TinX3EC1Rt1aIrM=",
@@ -71,7 +71,7 @@
       "Toolbelt.Blazor.HeadElement.Abstractions.dat": "sha256-UmsxKairtI0\/JkPBNi4nDpGlT0vxZV30RpF2obQpzxs=",
       "Toolbelt.Blazor.HeadElement.dat": "sha256-IWtLFwHVECUz4STdMM0wPDmmJeen63ycWmap2PfSdlM=",
       "Toolbelt.Blazor.HeadElement.Services.dat": "sha256-o9dihjDSgXTsAwXMC4mPwegM4sbp3BE8GVgWVt5jGHY=",
-      "Web.dat": "sha256-Z91JE5+7liQ3PQNwI6yjoclWivPBprPMcLoNO0ggKys="
+      "Web.dat": "sha256-\/nY128yMSY0r0TGkmfKWWLOLHTMpvtI7zkZDZqJV\/Ag="
     },
     "extensions": {
       "avpsettings": {
@@ -79,11 +79,11 @@
       }
     },
     "lazyAssembly": {
-      "BlazorDemoComponents.dat": "sha256-W0oBJDHLARHaqOeEEeDDkG642pLhW29wbTmLg2kdICE=",
-      "Components.dat": "sha256-wg9azQWQeUOPgzX8qjtD3vzuPgAsLIaxnmB47\/sHrcg=",
-      "DependencyInjectionDemoComponents.dat": "sha256-B8cVNJd4Eh1zRkakHgqU+ZbAr7JjmMsOLITEjqy4Suo=",
+      "BlazorDemoComponents.dat": "sha256-Cwxrrvbw4ip\/Xz70BWiuLtcPkr1zYaHZAg73BH0wk4M=",
+      "Components.dat": "sha256-PphXHTswLokdrTM4ciJx6XP0crdDGYfLh5LhDPXKgOU=",
+      "DependencyInjectionDemoComponents.dat": "sha256-QRCNVuOVaGL45XQrJWHoxW0yc0McJguEI2YQk2L0NiE=",
       "DesignPatternDemoComponents.dat": "sha256-mLdsPqrsZ2eAoeZkRbPRvTYLUQ+bt0gip9pRumgsH2o=",
-      "LINQDemoComponents.dat": "sha256-Y+PmIp+hysM6+GeryBPwJDaBbRPJkaUuTvbq8K3\/czg=",
+      "LINQDemoComponents.dat": "sha256-qwokB35j6NciMZBNK1LoTJIHEb7AwbSu1C3UMqqJoG8=",
       "OOPSDemoComponents.dat": "sha256-ht+nQfXWKWLNg6uPpA\/QK1KqQIGtwQYeYl7a7g\/KJc4="
     },
     "libraryInitializers": {
