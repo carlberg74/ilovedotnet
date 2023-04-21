@@ -31,7 +31,7 @@
       "Microsoft.JSInterop.WebAssembly.dat": "sha256-PNLxKejvQadGfCPIY0\/ops0C7Er\/gznGTFNQQXpPxxM=",
       "netstandard.dat": "sha256-pCBBLUc5HXORVRHzfsNr4tK8+uIolfXj9NvtX9MQm9Y=",
       "SharedComponents.dat": "sha256-InoLPbP9ZumEcgy1uNniYkA5vwHQbyMt48r8zCC4PyQ=",
-      "SharedModels.dat": "sha256-NKRzDfteTABj4t1L\/cqwfAyHLz8i5nDR7Tz0fLTGVfE=",
+      "SharedModels.dat": "sha256-eA+og+BYh9D5Y9ZGPb1aA1TSekLmxvSWLDFi0uuqrH8=",
       "System.Collections.Concurrent.dat": "sha256-XH3N9Sl8y0jEWuTrogX4YBHnBc3i5xt0sh9mQaiA6WQ=",
       "System.Collections.dat": "sha256-iNilpIULO0GA8Jno\/2+t+P0l+KBLgijAO+x4g+VhkxI=",
       "System.Collections.Immutable.dat": "sha256-J+LISSBTqlOBfTgCOL99IOLZXnujs5tbuuXBFggUDOU=",
@@ -80,7 +80,7 @@
     },
     "lazyAssembly": {
       "BlazorDemoComponents.dat": "sha256-M5+QJr0i2wUgXShJQetGsfu6VxkMVceN6d1skpCMQPo=",
-      "Components.dat": "sha256-t1pqdXRErAQgVCCTqQp\/QlqGszFncI0iO2iNiW82YW4=",
+      "Components.dat": "sha256-UBHmzrrAx6GLbgxZMew2syASkwuvkPVUlaLThKhkD9c=",
       "DependencyInjectionDemoComponents.dat": "sha256-dk9IisZK64j2rWI7QKHOZ4Wrolkr2sBTtjv0lQpT32E=",
       "DesignPatternDemoComponents.dat": "sha256-4vKDsDg3l4OCpXLtr2Ja6nSI\/sGTJbKg+RO7nUTqU+M=",
       "LINQDemoComponents.dat": "sha256-VJFTloiEc\/MTgc8B6f0y2oCX1GiW\/dtq6sNARNDgLnM=",
