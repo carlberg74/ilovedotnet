@@ -31,7 +31,7 @@
       "Microsoft.JSInterop.WebAssembly.dat": "sha256-I1z5RF5mAQ+29WdYHIkS\/PoMbcNTPZUr9\/2\/3zPF7WM=",
       "netstandard.dat": "sha256-pCBBLUc5HXORVRHzfsNr4tK8+uIolfXj9NvtX9MQm9Y=",
       "SharedComponents.dat": "sha256-rgBSsF0x7lPR7X1Bcp2XBDUzXJEZZq1odwHX3CLy4\/A=",
-      "SharedModels.dat": "sha256-\/MrFqJI9+skkk7oSV8h5EmzRd19iWtZ0+ocDRvaYHLM=",
+      "SharedModels.dat": "sha256-CGs4+Wst5MOM6eFjiTntLiAbDX50iXqcrr2QeX21\/AY=",
       "System.Collections.Concurrent.dat": "sha256-UFBXFf\/KhLsMGWhE+Z+anshKvEqP5EA4YFWDJGKvTw4=",
       "System.Collections.dat": "sha256-iNilpIULO0GA8Jno\/2+t+P0l+KBLgijAO+x4g+VhkxI=",
       "System.Collections.Immutable.dat": "sha256-J+LISSBTqlOBfTgCOL99IOLZXnujs5tbuuXBFggUDOU=",
@@ -71,7 +71,7 @@
       "Toolbelt.Blazor.HeadElement.Abstractions.dat": "sha256-UmsxKairtI0\/JkPBNi4nDpGlT0vxZV30RpF2obQpzxs=",
       "Toolbelt.Blazor.HeadElement.dat": "sha256-IWtLFwHVECUz4STdMM0wPDmmJeen63ycWmap2PfSdlM=",
       "Toolbelt.Blazor.HeadElement.Services.dat": "sha256-o9dihjDSgXTsAwXMC4mPwegM4sbp3BE8GVgWVt5jGHY=",
-      "Web.dat": "sha256-TQDr1DeKk0Urom+ger85ywIu0FNrHS6eBIz3V1avU9U="
+      "Web.dat": "sha256-kyBFgMn4iNHp913GfAdoL0MRL8XsvpCdurd23RkY4qI="
     },
     "extensions": {
       "avpsettings": {
