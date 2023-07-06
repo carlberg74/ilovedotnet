@@ -14,7 +14,7 @@
       "Humanizer.dat": "sha256-dLZ0Kwhi\/Vz4ntzLDgjNzoypYoV+IFR0JQvfFZjYe3U=",
       "Microsoft.AspNetCore.Components.dat": "sha256-HuQwLmxGsF1HzmjQ1IDUBUXjgR8Z7PNGtctw\/zxbFNM=",
       "Microsoft.AspNetCore.Components.Forms.dat": "sha256-lt9CVSCKUS2MPh6lyfEUw70QF7TO0a5HmcaCgswj4NY=",
-      "Microsoft.AspNetCore.Components.Web.dat": "sha256-E+17V56ZfLJQUlPaOaQa8yi3o1QkC\/nSoi3pDqv8ZsU=",
+      "Microsoft.AspNetCore.Components.Web.dat": "sha256-Nvxg8edYnJ2RhIZiIosJqfIC+mlT6IZmOQ9n3r3pkmI=",
       "Microsoft.AspNetCore.Components.WebAssembly.dat": "sha256-141wKtwOJAEBkcqEavvYxTFAk7gzWCfRXxZrBQh2Qzc=",
       "Microsoft.CSharp.dat": "sha256-JApwwuEVQq0wa7J9OoE9fHIDcije7ZM\/4n5qG2pkO+s=",
       "Microsoft.Extensions.Configuration.Abstractions.dat": "sha256-VfGz221HoKvPhYriCrOPEGg+BHAmT\/+D3wxbeM+F+Cg=",
@@ -71,7 +71,7 @@
       "Toolbelt.Blazor.HeadElement.Abstractions.dat": "sha256-UmsxKairtI0\/JkPBNi4nDpGlT0vxZV30RpF2obQpzxs=",
       "Toolbelt.Blazor.HeadElement.dat": "sha256-IWtLFwHVECUz4STdMM0wPDmmJeen63ycWmap2PfSdlM=",
       "Toolbelt.Blazor.HeadElement.Services.dat": "sha256-o9dihjDSgXTsAwXMC4mPwegM4sbp3BE8GVgWVt5jGHY=",
-      "Web.dat": "sha256-KqdIWVRfKikv3ivRJ96fGjMKx4r\/pntuGEEN5c\/us0E="
+      "Web.dat": "sha256-K\/mI358fdNVdL2n0j9L9xQLw7TFJHeKjxa+Z3XBWw1k="
     },
     "extensions": {
       "avpsettings": {
