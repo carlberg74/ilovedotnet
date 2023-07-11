@@ -10,7 +10,7 @@
   "resources": {
     "assembly": {
       "Blazor-Analytics.dat": "sha256-q\/Y4YLsJKIEY2mYvFpGUfTZT15Fva1zGS32sFwCs+Ik=",
-      "FluentValidation.dat": "sha256-a2Wo5tM9RiVc9HE2e1isILALOln8I9bVj0oJc37MmBM=",
+      "FluentValidation.dat": "sha256-pl3pMiaziOD+pB4EtT+d18ajLAwCZTzdfFHy0FfnjFM=",
       "Humanizer.dat": "sha256-dLZ0Kwhi\/Vz4ntzLDgjNzoypYoV+IFR0JQvfFZjYe3U=",
       "Microsoft.AspNetCore.Components.dat": "sha256-HuQwLmxGsF1HzmjQ1IDUBUXjgR8Z7PNGtctw\/zxbFNM=",
       "Microsoft.AspNetCore.Components.Forms.dat": "sha256-lt9CVSCKUS2MPh6lyfEUw70QF7TO0a5HmcaCgswj4NY=",
@@ -60,7 +60,7 @@
       "System.Reflection.Emit.ILGeneration.dat": "sha256-4rIAUz6VXmyLGOV1XJzREmnjJZvXbMlwfdDmgUB90yQ=",
       "System.Reflection.Metadata.dat": "sha256-Qp+li4D2JNjACtMimy1VPiJFGv9esM7jMAHMbSfWmHM=",
       "System.Reflection.Primitives.dat": "sha256-IjbtUQ+R3w8p6e8iX\/8BnBK8+ll54aU9sDv7hjwiIOI=",
-      "System.Runtime.dat": "sha256-FFakXnM4+vxjYUURYcEIKDuzAo2IlYLoFfRBhzZaVJY=",
+      "System.Runtime.dat": "sha256-jeW7l8+On0cZgyKzDuivs5ExJw\/sKV4xa0YoMP4hczM=",
       "System.Runtime.InteropServices.JavaScript.dat": "sha256-sePMqhDeNnSpeQVO2cI3kf8mUBOsQiaSMpADbZcrDF8=",
       "System.Text.Encodings.Web.dat": "sha256-uCbYMfjEdG\/PXj8nuIKon+bWfsXrSpRzqqbwo4Qiod0=",
       "System.Text.Json.dat": "sha256-\/XueSHM2AALCXolDiIOXtA2nYoFaPDy9R4O6IPxG1\/g=",
@@ -71,7 +71,7 @@
       "Toolbelt.Blazor.HeadElement.Abstractions.dat": "sha256-UmsxKairtI0\/JkPBNi4nDpGlT0vxZV30RpF2obQpzxs=",
       "Toolbelt.Blazor.HeadElement.dat": "sha256-IWtLFwHVECUz4STdMM0wPDmmJeen63ycWmap2PfSdlM=",
       "Toolbelt.Blazor.HeadElement.Services.dat": "sha256-o9dihjDSgXTsAwXMC4mPwegM4sbp3BE8GVgWVt5jGHY=",
-      "Web.dat": "sha256-ctjQnuHi\/TRgswNP4I6ykRse85fDZSPfa8TJJc61U9I="
+      "Web.dat": "sha256-RvPCu555xiaL6jihQC0o12u35jfL6Ds6lxqiuD2dxpk="
     },
     "extensions": {
       "avpsettings": {
@@ -79,7 +79,7 @@
       }
     },
     "lazyAssembly": {
-      "BlazorDemoComponents.dat": "sha256-u9\/y5pmtr1eGTqYnoYoPvtW9ByTdaJwPAR5vB\/LderA=",
+      "BlazorDemoComponents.dat": "sha256-k6DMLWIC1AnbQwgTP02WtGhxFHBBYg0FOm5Zr1wr7kM=",
       "Components.dat": "sha256-G0KQ2Mu15Wbg20gNygZeYtQqqggDEMBlYq21NMFgP50=",
       "DependencyInjectionDemoComponents.dat": "sha256-Uc2ynnI5KS5zWb3ZOqUYHR26WQZ7W3uqz8KF485Afsw=",
       "DesignPatternDemoComponents.dat": "sha256-\/\/haom0cUWGsfCVb85yc2BbPnjUguiNMbHfnzRyWnMc=",
