@@ -71,7 +71,7 @@
       "Toolbelt.Blazor.HeadElement.Abstractions.dat": "sha256-UmsxKairtI0\/JkPBNi4nDpGlT0vxZV30RpF2obQpzxs=",
       "Toolbelt.Blazor.HeadElement.dat": "sha256-IWtLFwHVECUz4STdMM0wPDmmJeen63ycWmap2PfSdlM=",
       "Toolbelt.Blazor.HeadElement.Services.dat": "sha256-o9dihjDSgXTsAwXMC4mPwegM4sbp3BE8GVgWVt5jGHY=",
-      "Web.dat": "sha256-Y3qRxe7Sr4o\/\/6aPMQt8bKCkcvSZxV8MpoeHvzL\/njM="
+      "Web.dat": "sha256-8vGbapSWDxzqpciHa2wl7pRqM7De1ujQyjdW2kcrIKs="
     },
     "extensions": {
       "avpsettings": {
@@ -80,7 +80,7 @@
     },
     "lazyAssembly": {
       "BlazorDemoComponents.dat": "sha256-KMc6t2NF2uh1K1mxnjfcmvLMmTyQzPgS\/\/l794jN0H8=",
-      "Components.dat": "sha256-QPABFR7xFoYkTJexC+aDwr7XwLnqfq+mJEj+Y4vVH1g=",
+      "Components.dat": "sha256-DE44HWM26mZ9aXuAqXxiWm2idepJFlxfqOEXcYH926U=",
       "DependencyInjectionDemoComponents.dat": "sha256-OM4uU1u1xtO5d1EK1odkFsscprV3NNf1\/no7GvhO1J4=",
       "DesignPatternDemoComponents.dat": "sha256-fGHMSw7Gr3dQ\/6Ydi4PRyrM8\/3SpkbWyg+iOlcRlwXc=",
       "LINQDemoComponents.dat": "sha256-cCga0asI4WJnozybo3vRr38iWSC+gmIY9ciwB1k9YEg=",
