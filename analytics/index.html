@@ -83,7 +83,7 @@
     </script>
 
 <!-- %%-PRERENDERING-HEADOUTLET-BEGIN-%% -->
-<!--Blazor:{"type":"webassembly","assembly":"Microsoft.AspNetCore.Components.Web","typeName":"Microsoft.AspNetCore.Components.Web.HeadOutlet","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"9b705e20418541399ecb9b311e64f5ec"}--><script type="application/ld+json">
+<!--Blazor:{"type":"webassembly","assembly":"Microsoft.AspNetCore.Components.Web","typeName":"Microsoft.AspNetCore.Components.Web.HeadOutlet","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"765b65e2f3a64e928c75a64c18fc1563"}--><script type="application/ld+json">
 {
     "@context": "https://schema.org",
     "@type": "WebSite",
@@ -105,7 +105,31 @@
     },
     "description": "This is a .NET knowledge sharing platform with live demos crafted by developers for developers with love."
 }
-</script><!--Blazor:{"prerenderId":"9b705e20418541399ecb9b311e64f5ec"}-->
+</script>
+
+    <style type="text/css">
+        #google-search-impact-chart {
+            display: grid;
+            align-items: center;
+            justify-items: center;
+            grid-template-columns: 20px 1fr;
+            grid-template-rows: 400px 60px;
+            grid-template-areas:
+                "data-axis chart"
+                ".         primary-axis";
+        }
+        #google-search-impact-chart > table {
+            grid-area: chart;
+        }
+        #google-search-impact-chart > .primary-axis {
+            grid-area: primary-axis;
+        }
+        #google-search-impact-chart > .data-axis {
+            grid-area: data-axis;
+            writing-mode: tb-rl;
+            transform: rotateZ(180deg);
+        }
+    </style><!--Blazor:{"prerenderId":"765b65e2f3a64e928c75a64c18fc1563"}-->
 <!-- %%-PRERENDERING-HEADOUTLET-END-%% -->
 
     <script type="text/default-title">I ❤️ DotNet</script>
@@ -153,7 +177,7 @@
 <body class="[ m-0 ] [ h-full ] [ dark:bg-stone-900 ] [ bg-gray-100 ]">
     <div id="app" class="[ dark:text-white ]">
 <!-- %%-PRERENDERING-BEGIN-%% -->
-<!--Blazor:{"type":"webassembly","assembly":"Web","typeName":"Web.App","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"b5699b6ad6a349ddb92634534dd70f20"}--><header id="header" class="[ flex items-center justify-between ] [ bg-white ] [ px-5 ] [ dark:bg-gray-800 dark:bg-gray-800/80 ] [ h-14 ] [ sticky top-0 ] [ backdrop-blur-sm bg-white/80 ] [ z-10 ]"><button type="button" class="[ hidden md:block ] [ mr-4 ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-menu-2 ]" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+<!--Blazor:{"type":"webassembly","assembly":"Web","typeName":"Web.App","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"6a8dbec0a2a44c6890d72dd289ca8d5b"}--><header id="header" class="[ flex items-center justify-between ] [ bg-white ] [ px-5 ] [ dark:bg-gray-800 dark:bg-gray-800/80 ] [ h-14 ] [ sticky top-0 ] [ backdrop-blur-sm bg-white/80 ] [ z-10 ]"><button type="button" class="[ hidden md:block ] [ mr-4 ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-menu-2 ]" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
            <line x1="4" y1="6" x2="20" y2="6"></line>
            <line x1="4" y1="12" x2="20" y2="12"></line>
            <line x1="4" y1="18" x2="20" y2="18"></line></svg></button>
@@ -254,26 +278,23 @@
 
     <h3 class="[ dark:text-white ] [ font-semibold text-lg ]">Google Search Impact</h3>
 
-    <div class="[ grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-6 gap-4 ]"><article><header class="[ bg-black text-white text-center ] [ dark:bg-white dark:text-black ]">2023-07-25</header>
-                <div class="[ bg-cover bg-center ] [ h-48 w-48 ] [ flex items-center justify-center ] [ mx-auto ]" style="background-image: url(./image/analytics/google-search-console/achievement.svg)"><span class="[ text-black text-lg ] [ font-bold ]">3000</span></div></article><article><header class="[ bg-black text-white text-center ] [ dark:bg-white dark:text-black ]">2023-07-07</header>
-                <div class="[ bg-cover bg-center ] [ h-48 w-48 ] [ flex items-center justify-center ] [ mx-auto ]" style="background-image: url(./image/analytics/google-search-console/achievement.svg)"><span class="[ text-black text-lg ] [ font-bold ]">2500</span></div></article><article><header class="[ bg-black text-white text-center ] [ dark:bg-white dark:text-black ]">2023-06-16</header>
-                <div class="[ bg-cover bg-center ] [ h-48 w-48 ] [ flex items-center justify-center ] [ mx-auto ]" style="background-image: url(./image/analytics/google-search-console/achievement.svg)"><span class="[ text-black text-lg ] [ font-bold ]">2200</span></div></article><article><header class="[ bg-black text-white text-center ] [ dark:bg-white dark:text-black ]">2023-06-08</header>
-                <div class="[ bg-cover bg-center ] [ h-48 w-48 ] [ flex items-center justify-center ] [ mx-auto ]" style="background-image: url(./image/analytics/google-search-console/achievement.svg)"><span class="[ text-black text-lg ] [ font-bold ]">2000</span></div></article><article><header class="[ bg-black text-white text-center ] [ dark:bg-white dark:text-black ]">2023-05-31</header>
-                <div class="[ bg-cover bg-center ] [ h-48 w-48 ] [ flex items-center justify-center ] [ mx-auto ]" style="background-image: url(./image/analytics/google-search-console/achievement.svg)"><span class="[ text-black text-lg ] [ font-bold ]">1800</span></div></article><article><header class="[ bg-black text-white text-center ] [ dark:bg-white dark:text-black ]">2023-05-07</header>
-                <div class="[ bg-cover bg-center ] [ h-48 w-48 ] [ flex items-center justify-center ] [ mx-auto ]" style="background-image: url(./image/analytics/google-search-console/achievement.svg)"><span class="[ text-black text-lg ] [ font-bold ]">1500</span></div></article><article><header class="[ bg-black text-white text-center ] [ dark:bg-white dark:text-black ]">2023-03-26</header>
-                <div class="[ bg-cover bg-center ] [ h-48 w-48 ] [ flex items-center justify-center ] [ mx-auto ]" style="background-image: url(./image/analytics/google-search-console/achievement.svg)"><span class="[ text-black text-lg ] [ font-bold ]">1200</span></div></article><article><header class="[ bg-black text-white text-center ] [ dark:bg-white dark:text-black ]">2023-03-12</header>
-                <div class="[ bg-cover bg-center ] [ h-48 w-48 ] [ flex items-center justify-center ] [ mx-auto ]" style="background-image: url(./image/analytics/google-search-console/achievement.svg)"><span class="[ text-black text-lg ] [ font-bold ]">1000</span></div></article><article><header class="[ bg-black text-white text-center ] [ dark:bg-white dark:text-black ]">2023-02-27</header>
-                <div class="[ bg-cover bg-center ] [ h-48 w-48 ] [ flex items-center justify-center ] [ mx-auto ]" style="background-image: url(./image/analytics/google-search-console/achievement.svg)"><span class="[ text-black text-lg ] [ font-bold ]">900</span></div></article><article><header class="[ bg-black text-white text-center ] [ dark:bg-white dark:text-black ]">2023-02-20</header>
-                <div class="[ bg-cover bg-center ] [ h-48 w-48 ] [ flex items-center justify-center ] [ mx-auto ]" style="background-image: url(./image/analytics/google-search-console/achievement.svg)"><span class="[ text-black text-lg ] [ font-bold ]">800</span></div></article><article><header class="[ bg-black text-white text-center ] [ dark:bg-white dark:text-black ]">2023-01-30</header>
-                <div class="[ bg-cover bg-center ] [ h-48 w-48 ] [ flex items-center justify-center ] [ mx-auto ]" style="background-image: url(./image/analytics/google-search-console/achievement.svg)"><span class="[ text-black text-lg ] [ font-bold ]">700</span></div></article><article><header class="[ bg-black text-white text-center ] [ dark:bg-white dark:text-black ]">2023-01-17</header>
-                <div class="[ bg-cover bg-center ] [ h-48 w-48 ] [ flex items-center justify-center ] [ mx-auto ]" style="background-image: url(./image/analytics/google-search-console/achievement.svg)"><span class="[ text-black text-lg ] [ font-bold ]">600</span></div></article><article><header class="[ bg-black text-white text-center ] [ dark:bg-white dark:text-black ]">2022-11-16</header>
-                <div class="[ bg-cover bg-center ] [ h-48 w-48 ] [ flex items-center justify-center ] [ mx-auto ]" style="background-image: url(./image/analytics/google-search-console/achievement.svg)"><span class="[ text-black text-lg ] [ font-bold ]">500</span></div></article><article><header class="[ bg-black text-white text-center ] [ dark:bg-white dark:text-black ]">2022-11-01</header>
-                <div class="[ bg-cover bg-center ] [ h-48 w-48 ] [ flex items-center justify-center ] [ mx-auto ]" style="background-image: url(./image/analytics/google-search-console/achievement.svg)"><span class="[ text-black text-lg ] [ font-bold ]">400</span></div></article><article><header class="[ bg-black text-white text-center ] [ dark:bg-white dark:text-black ]">2022-10-24</header>
-                <div class="[ bg-cover bg-center ] [ h-48 w-48 ] [ flex items-center justify-center ] [ mx-auto ]" style="background-image: url(./image/analytics/google-search-console/achievement.svg)"><span class="[ text-black text-lg ] [ font-bold ]">350</span></div></article><article><header class="[ bg-black text-white text-center ] [ dark:bg-white dark:text-black ]">2022-10-14</header>
-                <div class="[ bg-cover bg-center ] [ h-48 w-48 ] [ flex items-center justify-center ] [ mx-auto ]" style="background-image: url(./image/analytics/google-search-console/achievement.svg)"><span class="[ text-black text-lg ] [ font-bold ]">250</span></div></article><article><header class="[ bg-black text-white text-center ] [ dark:bg-white dark:text-black ]">2022-10-03</header>
-                <div class="[ bg-cover bg-center ] [ h-48 w-48 ] [ flex items-center justify-center ] [ mx-auto ]" style="background-image: url(./image/analytics/google-search-console/achievement.svg)"><span class="[ text-black text-lg ] [ font-bold ]">120</span></div></article><article><header class="[ bg-black text-white text-center ] [ dark:bg-white dark:text-black ]">2022-09-26</header>
-                <div class="[ bg-cover bg-center ] [ h-48 w-48 ] [ flex items-center justify-center ] [ mx-auto ]" style="background-image: url(./image/analytics/google-search-console/achievement.svg)"><span class="[ text-black text-lg ] [ font-bold ]">50</span></div></article><article><header class="[ bg-black text-white text-center ] [ dark:bg-white dark:text-black ]">2022-09-18</header>
-                <div class="[ bg-cover bg-center ] [ h-48 w-48 ] [ flex items-center justify-center ] [ mx-auto ]" style="background-image: url(./image/analytics/google-search-console/achievement.svg)"><span class="[ text-black text-lg ] [ font-bold ]">5</span></div></article></div></section></main><nav class="[ fixed bottom-0 h-14 w-full md:top-14 md:left-0 md:h-full md:w-16 ] 
+    <div id="google-search-impact-chart" class="[ w-full ]"><table class="[ charts-css column show-heading show-labels show-data-axes show-primary-axis data-spacing-5 ]" style="height: 400px"><caption> Google Search Impact </caption>
+            <thead><tr><th scope="col"> Achieved On </th>
+                    <th scope="col"> Clicks </th></tr></thead>
+            <tbody><tr><th scope="row" class="[ pt-16 md:pt-8 ]">Sep 22</th>
+                        <td style="--size: calc( 55 / 5500 )" class="[ bg-gradient-to-b from-indigo-500 via-purple-500 to-pink-500 ]"><span class="data" style="margin-top: -20px;">55</span></td></tr><tr><th scope="row" class="[ pt-16 md:pt-8 ]">Oct 22</th>
+                        <td style="--size: calc( 720 / 5500 )" class="[ bg-gradient-to-b from-indigo-500 via-purple-500 to-pink-500 ]"><span class="data" style="margin-top: -20px;">720</span></td></tr><tr><th scope="row" class="[ pt-16 md:pt-8 ]">Nov 22</th>
+                        <td style="--size: calc( 900 / 5500 )" class="[ bg-gradient-to-b from-indigo-500 via-purple-500 to-pink-500 ]"><span class="data" style="margin-top: -20px;">900</span></td></tr><tr><th scope="row" class="[ pt-16 md:pt-8 ]">Jan 23</th>
+                        <td style="--size: calc( 1300 / 5500 )" class="[ bg-gradient-to-b from-indigo-500 via-purple-500 to-pink-500 ]"><span class="data" style="margin-top: -20px;">1300</span></td></tr><tr><th scope="row" class="[ pt-16 md:pt-8 ]">Feb 23</th>
+                        <td style="--size: calc( 1700 / 5500 )" class="[ bg-gradient-to-b from-indigo-500 via-purple-500 to-pink-500 ]"><span class="data" style="margin-top: -20px;">1700</span></td></tr><tr><th scope="row" class="[ pt-16 md:pt-8 ]">Mar 23</th>
+                        <td style="--size: calc( 2200 / 5500 )" class="[ bg-gradient-to-b from-indigo-500 via-purple-500 to-pink-500 ]"><span class="data" style="margin-top: -20px;">2200</span></td></tr><tr><th scope="row" class="[ pt-16 md:pt-8 ]">May 23</th>
+                        <td style="--size: calc( 3300 / 5500 )" class="[ bg-gradient-to-b from-indigo-500 via-purple-500 to-pink-500 ]"><span class="data" style="margin-top: -20px;">3300</span></td></tr><tr><th scope="row" class="[ pt-16 md:pt-8 ]">Jun 23</th>
+                        <td style="--size: calc( 4200 / 5500 )" class="[ bg-gradient-to-b from-indigo-500 via-purple-500 to-pink-500 ]"><span class="data" style="margin-top: -20px;">4200</span></td></tr><tr><th scope="row" class="[ pt-16 md:pt-8 ]">Jul 23</th>
+                        <td style="--size: calc( 5500 / 5500 )" class="[ bg-gradient-to-b from-indigo-500 via-purple-500 to-pink-500 ]"><span class="data" style="margin-top: -20px;">5500</span></td></tr></tbody></table>
+
+        <div class="primary-axis"> Achieved On </div>
+
+        <div class="data-axis"> Clicks </div></div></section></main><nav class="[ fixed bottom-0 h-14 w-full md:top-14 md:left-0 md:h-full md:w-16 ] 
             [ bg-white ] [ dark:bg-gray-800 dark:bg-gray-800/80 ] [ backdrop-blur-sm bg-white/80 ] [ md:pt-2 ]
             [ flex justify-around items-center md:flex-col md:justify-start md:space-y-4 ]"><a href="/" class="[ flex flex-col items-center ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-home ]" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
            <polyline points="5 12 3 12 12 3 21 12 19 12"></polyline>
@@ -298,7 +319,7 @@
             <polyline points="11 12 12 12 12 16 13 16"></polyline></svg>
         <span class="[ text-xs text-center ]">About</span></a></nav><aside class="[ fixed bottom-14 md:bottom-0 right-2 ]"><button type="button"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-square-rounded-chevron-up-filled ]" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M12 2c-.218 0 -.432 .002 -.642 .005l-.616 .017l-.299 .013l-.579 .034l-.553 .046c-4.785 .464 -6.732 2.411 -7.196 7.196l-.046 .553l-.034 .579c-.005 .098 -.01 .198 -.013 .299l-.017 .616l-.004 .318l-.001 .324c0 .218 .002 .432 .005 .642l.017 .616l.013 .299l.034 .579l.046 .553c.464 4.785 2.411 6.732 7.196 7.196l.553 .046l.579 .034c.098 .005 .198 .01 .299 .013l.616 .017l.642 .005l.642 -.005l.616 -.017l.299 -.013l.579 -.034l.553 -.046c4.785 -.464 6.732 -2.411 7.196 -7.196l.046 -.553l.034 -.579c.005 -.098 .01 -.198 .013 -.299l.017 -.616l.005 -.642l-.005 -.642l-.017 -.616l-.013 -.299l-.034 -.579l-.046 -.553c-.464 -4.785 -2.411 -6.732 -7.196 -7.196l-.553 -.046l-.579 -.034a28.058 28.058 0 0 0 -.299 -.013l-.616 -.017l-.318 -.004l-.324 -.001zm-.707 7.293a1 1 0 0 1 1.32 -.083l.094 .083l3 3a1 1 0 0 1 -1.32 1.497l-.094 -.083l-2.293 -2.292l-2.293 2.292a1 1 0 0 1 -1.32 .083l-.094 -.083a1 1 0 0 1 -.083 -1.32l.083 -.094l3 -3z" fill="currentColor" stroke-width="0"></path></svg></button></aside>
-            <!--Blazor:{"prerenderId":"b5699b6ad6a349ddb92634534dd70f20"}-->
+            <!--Blazor:{"prerenderId":"6a8dbec0a2a44c6890d72dd289ca8d5b"}-->
 <!-- %%-PRERENDERING-END-%% -->
 <!--Blazor-Component-State:e30=--></div>
 
