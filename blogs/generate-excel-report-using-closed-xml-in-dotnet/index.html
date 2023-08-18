@@ -25,6 +25,7 @@
                upgrade-insecure-requests;">-->
     <title>Generate Excel Report using Closed XML in .NET - I ❤️ DotNet</title>
     <base href="/"/>
+    <link href="css/charts.min.css" rel="stylesheet"/>
     <link href="css/app.min.css" rel="stylesheet"/>
     <link href="manifest.json" rel="manifest"/>
     <link rel="icon" type="image/x-icon" href="favicon.ico"/>
@@ -82,7 +83,7 @@
     </script>
 
 <!-- %%-PRERENDERING-HEADOUTLET-BEGIN-%% -->
-<!--Blazor:{"type":"webassembly","assembly":"Microsoft.AspNetCore.Components.Web","typeName":"Microsoft.AspNetCore.Components.Web.HeadOutlet","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"941daed8b9dd425786c8bc6e04a3fba2"}--><script type="application/ld+json">
+<!--Blazor:{"type":"webassembly","assembly":"Microsoft.AspNetCore.Components.Web","typeName":"Microsoft.AspNetCore.Components.Web.HeadOutlet","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"55803b8c873840d6a8c7d654f1652dd4"}--><script type="application/ld+json">
 {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -131,7 +132,7 @@
         "@id": "https://ilovedotnet.org/"
     }
 }
-</script><!--Blazor:{"prerenderId":"941daed8b9dd425786c8bc6e04a3fba2"}-->
+</script><!--Blazor:{"prerenderId":"55803b8c873840d6a8c7d654f1652dd4"}-->
 <!-- %%-PRERENDERING-HEADOUTLET-END-%% -->
 
     <script type="text/default-title">I ❤️ DotNet</script>
@@ -156,7 +157,7 @@
     <meta property="article:published_time" content="2023-01-29T22:30:00.000Z"/>
     <meta property="article:modified_time" content="2023-01-29T22:30:00.000Z"/>
     <meta property="article:tag" content="xls"/>
-    <script type="text/default-link-elements">[["stylesheet","css/app.min.css"],["manifest","manifest.json"],["icon","favicon.ico",,"image/x-icon"],["me","https://www.linkedin.com/in/fingers10",,"text/html"],["apple-touch-icon-precomposed","appicons/apple-touch-icon-144x144.png","144x144"],["apple-touch-icon-precomposed","appicons/apple-touch-icon-152x152.png","152x152"],["icon","appicons/favicon-196x196.png","196x196","image/png"],["icon","appicons/favicon-128.png","128x128","image/png"]]</script>
+    <script type="text/default-link-elements">[["stylesheet","css/charts.min.css"],["stylesheet","css/app.min.css"],["manifest","manifest.json"],["icon","favicon.ico",,"image/x-icon"],["me","https://www.linkedin.com/in/fingers10",,"text/html"],["apple-touch-icon-precomposed","appicons/apple-touch-icon-144x144.png","144x144"],["apple-touch-icon-precomposed","appicons/apple-touch-icon-152x152.png","152x152"],["icon","appicons/favicon-196x196.png","196x196","image/png"],["icon","appicons/favicon-128.png","128x128","image/png"]]</script>
     <link rel="sitemap" href="https://ilovedotnet.org/sitemap.xml" type="application/xml" title="Sitemap"/>
     <link rel="sitemap" href="https://ilovedotnet.org/sitemap-blog-blazor-wasm.xml" type="application/xml" title="Sitemap"/>
     <link rel="sitemap" href="https://ilovedotnet.org/sitemap-blog-dependency-injection.xml" type="application/xml" title="Sitemap"/>
@@ -182,7 +183,7 @@
 <body class="[ m-0 ] [ h-full ] [ dark:bg-stone-900 ] [ bg-gray-100 ]">
     <div id="app" class="[ dark:text-white ]">
 <!-- %%-PRERENDERING-BEGIN-%% -->
-<!--Blazor:{"type":"webassembly","assembly":"Web","typeName":"Web.App","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"ddb18a5de408463f86896b052618a2fc"}--><header id="header" class="[ flex items-center justify-between ] [ bg-white ] [ px-5 ] [ dark:bg-gray-800 dark:bg-gray-800/80 ] [ h-14 ] [ sticky top-0 ] [ backdrop-blur-sm bg-white/80 ] [ z-10 ]"><button type="button" class="[ hidden md:block ] [ mr-4 ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-menu-2 ]" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+<!--Blazor:{"type":"webassembly","assembly":"Web","typeName":"Web.App","parameterDefinitions":"W10=","parameterValues":"W10=","prerenderId":"4b9657f0ae07448fbd66c5ec2d1e1195"}--><header id="header" class="[ flex items-center justify-between ] [ bg-white ] [ px-5 ] [ dark:bg-gray-800 dark:bg-gray-800/80 ] [ h-14 ] [ sticky top-0 ] [ backdrop-blur-sm bg-white/80 ] [ z-10 ]"><button type="button" class="[ hidden md:block ] [ mr-4 ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-menu-2 ]" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
            <line x1="4" y1="6" x2="20" y2="6"></line>
            <line x1="4" y1="12" x2="20" y2="12"></line>
            <line x1="4" y1="18" x2="20" y2="18"></line></svg></button>
@@ -401,25 +402,25 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - Convert IEnumerable to DataTable</h4>
-    <article id="f6262d6b-51af-4d68-825e-687953a7e2b7" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section></li>
+    <article id="8e6bc359-8f4b-4d61-808f-6059624ec23f" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section></li>
             <li><p>Add <code class="[ p-0.5 ] [ text-indigo-600 ] [ dark:text-green-400 ] ">DataTable</code> to Excel <code class="[ p-0.5 ] [ text-indigo-600 ] [ dark:text-green-400 ] ">WorkSheet</code></p>
                 <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-code ] [ text-purple-700 ] [ fill-purple-500 ]" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - Add DataTable to Excel WorkSheet using Closed XML</h4>
-    <article id="92d8fadf-a358-4d3f-a257-0717e8ee7c91" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section></li>
+    <article id="fc8a46c4-7a59-4921-8295-48980d8d4ca3" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section></li>
             <li><p>Save it to excel file or <code class="[ p-0.5 ] [ text-indigo-600 ] [ dark:text-green-400 ] ">MemoryStream</code> and get <code class="[ p-0.5 ] [ text-indigo-600 ] [ dark:text-green-400 ] ">bytes[]</code> from workbook and send to browser for download</p>
                 <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-code ] [ text-purple-700 ] [ fill-purple-500 ]" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - Save Closed XML WorkSheet to File</h4>
-    <article id="d1dba287-9a27-4523-947a-e1d413c107c9" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section></li></ol>
+    <article id="9812c4bd-5f1b-4338-aeab-2974ae53a686" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section></li></ol>
 
         <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-code ] [ text-purple-700 ] [ fill-purple-500 ]" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - Generating Simple Excel Report</h4>
-    <article id="8149d764-d1cf-483f-a916-6a888a4a83a4" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="50e39edf-22f9-4e55-bbd9-51cacab0d4d3" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         
 
@@ -490,19 +491,19 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - Load the Excel Template and Data Variable to Template</h4>
-    <article id="3aded2f5-07d0-478d-88db-daa10af96991" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section></li>
+    <article id="05b47750-cb41-4bf5-9bcb-d79b1184a172" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section></li>
             <li><p>Generate the report using template</p>
                 <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-code ] [ text-purple-700 ] [ fill-purple-500 ]" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - Generate Excel using ClosedXML Report Template</h4>
-    <article id="847c1376-cd22-4c6f-a135-804eee7dc912" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section></li>
+    <article id="45cc197f-2179-4322-bd80-2549f1217413" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section></li>
             <li><p>Save it to excel file or <code class="[ p-0.5 ] [ text-indigo-600 ] [ dark:text-green-400 ] ">MemoryStream</code> and get <code class="[ p-0.5 ] [ text-indigo-600 ] [ dark:text-green-400 ] ">bytes[]</code> from workbook and send to browser for download</p>
                 <section class="[ flex flex-col ]"><h4 class="[ bg-gray-200 ] [ p-2 ] [ font-semibold ] [ text-black ] [ flex items-center ] [ dark:bg-gray-800 dark:bg-gray-800/80 dark:text-white ]"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-code ] [ text-purple-700 ] [ fill-purple-500 ]" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - Save Closed XML Template to File</h4>
-    <article id="0ef6a3cb-94ce-472d-b787-2a5e1a1074af" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section></li></ol>
+    <article id="9654b6a9-001d-4a46-a7ba-8ab3bf22caf3" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section></li></ol>
 
         
 
@@ -510,7 +511,7 @@
             <polyline points="7 8 3 12 7 16"></polyline>
             <polyline points="17 8 21 12 17 16"></polyline>
             <line x1="14" y1="4" x2="10" y2="20"></line></svg> Code Sample - Generate Complex Report Using Closed XML</h4>
-    <article id="41660290-c823-4f04-a9a6-a2ebd9b9e391" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
+    <article id="c8ec85e2-1a44-4f82-b5f5-a3b6fa0519ea" class="[ bg-gray-300 ] [ dark:bg-gray-700 ]"></article></section>
 
         
 
@@ -604,7 +605,7 @@
             <polyline points="11 12 12 12 12 16 13 16"></polyline></svg>
         <span class="[ text-xs text-center ]">About</span></a></nav><aside class="[ fixed bottom-14 md:bottom-0 right-2 ]"><button type="button"><svg xmlns="http://www.w3.org/2000/svg" class="[ icon icon-tabler icon-tabler-square-rounded-chevron-up-filled ]" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M12 2c-.218 0 -.432 .002 -.642 .005l-.616 .017l-.299 .013l-.579 .034l-.553 .046c-4.785 .464 -6.732 2.411 -7.196 7.196l-.046 .553l-.034 .579c-.005 .098 -.01 .198 -.013 .299l-.017 .616l-.004 .318l-.001 .324c0 .218 .002 .432 .005 .642l.017 .616l.013 .299l.034 .579l.046 .553c.464 4.785 2.411 6.732 7.196 7.196l.553 .046l.579 .034c.098 .005 .198 .01 .299 .013l.616 .017l.642 .005l.642 -.005l.616 -.017l.299 -.013l.579 -.034l.553 -.046c4.785 -.464 6.732 -2.411 7.196 -7.196l.046 -.553l.034 -.579c.005 -.098 .01 -.198 .013 -.299l.017 -.616l.005 -.642l-.005 -.642l-.017 -.616l-.013 -.299l-.034 -.579l-.046 -.553c-.464 -4.785 -2.411 -6.732 -7.196 -7.196l-.553 -.046l-.579 -.034a28.058 28.058 0 0 0 -.299 -.013l-.616 -.017l-.318 -.004l-.324 -.001zm-.707 7.293a1 1 0 0 1 1.32 -.083l.094 .083l3 3a1 1 0 0 1 -1.32 1.497l-.094 -.083l-2.293 -2.292l-2.293 2.292a1 1 0 0 1 -1.32 .083l-.094 -.083a1 1 0 0 1 -.083 -1.32l.083 -.094l3 -3z" fill="currentColor" stroke-width="0"></path></svg></button></aside>
-            <!--Blazor:{"prerenderId":"ddb18a5de408463f86896b052618a2fc"}-->
+            <!--Blazor:{"prerenderId":"4b9657f0ae07448fbd66c5ec2d1e1195"}-->
 <!-- %%-PRERENDERING-END-%% -->
 <!--Blazor-Component-State:e30=--></div>
 
