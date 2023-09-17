@@ -31,8 +31,8 @@
       "Microsoft.JSInterop.dat": "sha256-gjACZlWHoz7V0up5m30PVmwNI6IJ2Npw7MSv9MP7Wjs=",
       "Microsoft.JSInterop.WebAssembly.dat": "sha256-kDI8iZQPRfGxGfJjSpdB87vMOp5SAlL40aaisUMlQ14=",
       "netstandard.dat": "sha256-uXuc1S1ejfK8tWsSe0J13Z9JwOsKSondnRtEZIncTy0=",
-      "SharedComponents.dat": "sha256-YZi7+zP8b6Ho39SJ92N3dUonQHqZhDswReT1xNTJkbg=",
-      "SharedModels.dat": "sha256-WIV1Vojb11YUSWQUQRbJcGeHA3j9zPBDoIXx0dys+d8=",
+      "SharedComponents.dat": "sha256-zG08zzZNNhshO1\/UEvJuGHDYVY2Yr6UDAPXIIS0Jm4E=",
+      "SharedModels.dat": "sha256-wl4tTkPlYjF3UnNv8L14CZrL8UiyX2ysMAnDQF3RjWQ=",
       "System.Collections.Concurrent.dat": "sha256-gvR1NqdaMCxWByajToNkm0w2VP4GhfE2bNJYip7WOVI=",
       "System.Collections.dat": "sha256-Mmh32AUm34GAr0adDSVUcAQaxqjqsfz10CIwR1H174Q=",
       "System.Collections.Immutable.dat": "sha256-PAoO+y++B6Fg5GKSt\/2Dy8JAnBJ90ARG+fAXH2G1VlQ=",
@@ -52,7 +52,7 @@
       "System.Linq.Expressions.dat": "sha256-JRi0s0XrqWCOX3J57JKP8AbsR38D5eQc3lrtSlJ5KgA=",
       "System.Linq.Queryable.dat": "sha256-OSzy\/c8mehlOg1yR4x7mhWV3cJhZOzSQF++U9DxiwRU=",
       "System.Memory.dat": "sha256-4RDvvFZRHtER85mMl+FWrwgv1IFlJcNrUj34PowoAXw=",
-      "System.Net.Http.dat": "sha256-IWgkfMVeGWi9qNoEa3JnpjZ0XM6zA0yOEyTlqG14zBY=",
+      "System.Net.Http.dat": "sha256-vmOg+\/uvehMPmG9+hxXHfbytTahFiWKNjJ+TVHka8jQ=",
       "System.Net.Primitives.dat": "sha256-b5D23TnO9a4S2ZxAMh9Z1mwkL30mnsVdNwHtGW7VxJo=",
       "System.ObjectModel.dat": "sha256-HR7xPb3nQTvPB39X\/cblijs0brkoh92Stmjxr0nL\/6Q=",
       "System.Private.CoreLib.dat": "sha256-dCehRaRPm7b660mLlkAPxB0EL1rRYf3UcPD7HOP6XzE=",
@@ -73,7 +73,7 @@
       "Toolbelt.Blazor.HeadElement.dat": "sha256-IWtLFwHVECUz4STdMM0wPDmmJeen63ycWmap2PfSdlM=",
       "Toolbelt.Blazor.HeadElement.Services.dat": "sha256-o9dihjDSgXTsAwXMC4mPwegM4sbp3BE8GVgWVt5jGHY=",
       "Toolbelt.Blazor.HotKeys2.dat": "sha256-SnIs3NxXjzsBKOz3rNjcsaaLEJIhWXb4DRAMvTYUtkc=",
-      "Web.dat": "sha256-jX4WFLl46PIx9HLO\/71Xg2WT1keON7szAyIat1UgWHk="
+      "Web.dat": "sha256-AkrGk5s2AvTbTgKGvlCMnxMZw9pLrDk5OFHxcDrGCn8="
     },
     "extensions": {
       "avpsettings": {
@@ -81,12 +81,12 @@
       }
     },
     "lazyAssembly": {
-      "BlazorDemoComponents.dat": "sha256-Bsyu3GKOUl2N87hPvlLGAo9Z\/LLBmTP44XPXtow6AWk=",
-      "Components.dat": "sha256-+Nrp1UtUd\/4QRRehcqePI0DfGHagreblIV2IAtt\/XLg=",
-      "DependencyInjectionDemoComponents.dat": "sha256-k1Nl\/LcBz3nAc2ub0mUtittD098AOmjR0kUFXDRXF\/4=",
+      "BlazorDemoComponents.dat": "sha256-UqoXO9E6RVWVQDXNp56Z1vhLPqx85b0CX0Dk9e3Y+00=",
+      "Components.dat": "sha256-EZO7XwttU5ra8ZcE5TpPYWoQaVYNajJ\/\/0SdVUazDDs=",
+      "DependencyInjectionDemoComponents.dat": "sha256-deO1BVuLpRp1KAm4jMDEPVW8Z+k5SnW0skQTVh+z2q4=",
       "DesignPatternDemoComponents.dat": "sha256-zN2xKX\/6bihB5B9S60xcKG+HBzyR7hGgmfN1NHlqx0Q=",
-      "HTTPClientDemoComponents.dat": "sha256-ykL9Vr+MdvpZDs1XzadduFalm3s3S\/JOsFxe2vbFljY=",
-      "LINQDemoComponents.dat": "sha256-rxEdaO8sJ9yAHXoN4hxzbI4Qlk+tSKPhase0DoyEnDw=",
+      "HTTPClientDemoComponents.dat": "sha256-8+gLMTDl+9k3mW\/HXxOta+WMf9H4GEOM6ftZyXJjCbM=",
+      "LINQDemoComponents.dat": "sha256-TB2PzDkOyER4GYi4Bjcm6SLF6h0YPBtDcIVTC5flEKg=",
       "OOPSDemoComponents.dat": "sha256-+D+WiUkqYmPTSTp1LcEeEUQoL81wL9fhpahhIp7jtwM=",
       "ReportDemoComponents.dat": "sha256-js9sbeMZNdM19MeymwjspnY7rU\/+N6H+y0tyMpJVwDk="
     },
