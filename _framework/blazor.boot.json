@@ -84,7 +84,7 @@
       "Toolbelt.Blazor.HeadElement.dat": "sha256-IWtLFwHVECUz4STdMM0wPDmmJeen63ycWmap2PfSdlM=",
       "Toolbelt.Blazor.HeadElement.Services.dat": "sha256-o9dihjDSgXTsAwXMC4mPwegM4sbp3BE8GVgWVt5jGHY=",
       "Toolbelt.Blazor.HotKeys2.dat": "sha256-6tFXAYMHHJwfCBNkOOvuZXB7hqKHe1idl96hYAgAIto=",
-      "Web.dat": "sha256-uM60tLjQYrWLiVoZakkB2wve0W+DFp6YSJBA0SRxxDg="
+      "Web.dat": "sha256-rnWftG8COj5riNBTZ8ehN7sAL94y6oTc\/mt1TBYYS+A="
     },
     "extensions": {
       "avpsettings": {
@@ -93,7 +93,7 @@
     },
     "lazyAssembly": {
       "BlazorDemoComponents.dat": "sha256-nD5m0qixP206iOKptMaqA0ndDkuj+554n6cFCnjVOgs=",
-      "Components.dat": "sha256-ex\/2BDnLW1BAJBqZ2QYsTsTC9Q\/c1aTptuYjCnfE7s4=",
+      "Components.dat": "sha256-s7kbuaCaHWhb\/ZIMbm8snNrZJ32PBBjcAWe6elGEcOc=",
       "DependencyInjectionDemoComponents.dat": "sha256-jo6Wjz7YkgKGIKpOnrqA3iLdJWnTcTZTYVbKIKCVFXs=",
       "DesignPatternDemoComponents.dat": "sha256-YQsWsaKoT8mln95rBH2V8cqXWA27bAckTbxe8W\/ah3k=",
       "HTTPClientDemoComponents.dat": "sha256-5cpsKHXjFdaYPH1slLZDRi9Q9ES\/WopvIbb6wd+pFBE=",
