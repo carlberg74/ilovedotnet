@@ -36,7 +36,7 @@
       "Serilog.Extensions.Logging.dll": "sha256-85YCOyM1CT0q\/5pxPzmukp0IhBlR1RRNVa4YU8Zbv4Q=",
       "Serilog.Formatting.Compact.dll": "sha256-NV476RN2A+lAavGzmX35DDd5IiN1igKW4+HURe7lATA=",
       "Serilog.Settings.Configuration.dll": "sha256-L+pxt4SxHKSshABqScZqvjCM5jvrZ9VhDFPrBgLqyiQ=",
-      "Serilog.Sinks.BrowserConsole.dll": "sha256-NuDd7d9GYIROpzG9P08hpufugkhYyrUWnGR4DxWEegM=",
+      "Serilog.Sinks.BrowserConsole.dll": "sha256-FVzN0vCFWrqCKGj7L94abH8GYrtuGevqUaW2pKe0gVQ=",
       "Serilog.Sinks.BrowserHttp.dll": "sha256-04x8dVPbN\/QATT+QEF2Y+ZaGWTCECU\/dhtJrr\/YXMyE=",
       "Serilog.Sinks.PeriodicBatching.dll": "sha256-MVVd8HnPEhQXRzOCE7Xt88Rl2wNpO0HN+I5py6Ezi10=",
       "SharedComponents.dll": "sha256-v8s7mYXnAoqDuxEkwlXWyxmLHH846QW4rRgZJuQTpG4=",
@@ -84,7 +84,7 @@
       "Toolbelt.Blazor.HeadElement.dll": "sha256-JfuZ+f7KU1ffO6UvjlK0I2nwxL9NuAL3O354MHaFHOo=",
       "Toolbelt.Blazor.HeadElement.Services.dll": "sha256-L835s2HA1OTlzHg1G5gAW7a1PogAcmlhZSgKJKaBIuA=",
       "Toolbelt.Blazor.HotKeys2.dll": "sha256-1Uyy0b4+s5rmlb3ialvIfkRUM+RVw6ZspKKH7l7mOIY=",
-      "Web.dll": "sha256-LX\/CVCw8QUFrBKuRUYPHS5G70cAlUxZrbSiclLowQfA="
+      "Web.dll": "sha256-fIviMENJBX4s8tBTzAVhsWuwrRcTP6Zs363smD7PTug="
     },
     "extensions": null,
     "lazyAssembly": {
