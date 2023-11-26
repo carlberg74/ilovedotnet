@@ -1,7 +1,7 @@
 {
   "entryAssembly": "Web",
   "resources": {
-    "hash": "sha256-12SBveKmGDcJu5uuv2L1M8n67BR3NZQGqrGGMfXKFu0=",
+    "hash": "sha256-frUHHP2PM9MOpsMpkMN6eCHUR7bZw3E735TRyp3c+Jo=",
     "runtime": {
       "dotnet.7.0.14.mikshhdjmu.js": "sha256-YWGUknGRzP/fgO6YjvCJKPVQNZAPEd6ll+rHfQEIW+I=",
       "dotnet.wasm": "sha256-Oyo/i3KkRvFfEKDQqn9DjK1HWx19Z6eCVCNsUFQPSJU=",
@@ -40,8 +40,8 @@
       "Serilog.Sinks.BrowserConsole.dll": "sha256-FVzN0vCFWrqCKGj7L94abH8GYrtuGevqUaW2pKe0gVQ=",
       "Serilog.Sinks.BrowserHttp.dll": "sha256-04x8dVPbN/QATT+QEF2Y+ZaGWTCECU/dhtJrr/YXMyE=",
       "Serilog.Sinks.PeriodicBatching.dll": "sha256-MVVd8HnPEhQXRzOCE7Xt88Rl2wNpO0HN+I5py6Ezi10=",
-      "SharedComponents.dll": "sha256-JXrcCvc4BNgPQQUSg3PU4CpJgFBKzZXD9pmR2ny7sXU=",
-      "SharedModels.dll": "sha256-rHmN3OrMK61d078tpxexnOOBUg47WCobIiz1fKvoIKo=",
+      "SharedComponents.dll": "sha256-liT3Tzt5zB8GXhK+Ep+C36Guih/ODiAoMKV1cdzLfh4=",
+      "SharedModels.dll": "sha256-cxHriZQ5NsG5/Kp7llP7qU5pC90nEm3lWSAsmDsNMpU=",
       "System.Collections.Concurrent.dll": "sha256-tSTH1ogDq2IV+9tmpsdDHL3nyLs0zagmSSSVlGzwzCY=",
       "System.Collections.dll": "sha256-z6r9St0IAqnNug/lCg9dcRCv3PfsTeuR3mRw8ps8Ve4=",
       "System.Collections.Immutable.dll": "sha256-JOCtUVE6NVpAqrUOl9g/OMCFkHhqg3RoJm9YP394v5Q=",
@@ -57,7 +57,7 @@
       "System.dll": "sha256-6ikjWsGy0Vvl2DPgoSvgFFGjtng+mEdqfQ735EeaORs=",
       "System.IO.MemoryMappedFiles.dll": "sha256-kaEuAjv0s1HlvI8HDgK2ySxviQwHuET/pvgrCJrHzBs=",
       "System.Linq.dll": "sha256-BPouKfuNSVSybMsLbFWTymkbqxB+eouyceCPDId9Ulo=",
-      "System.Linq.Dynamic.Core.dll": "sha256-mS+v6s535K2aiChqJ0jdgdOZApeY4k4ymeWbySzu7MU=",
+      "System.Linq.Dynamic.Core.dll": "sha256-KsA1AmkQWza4o3AJK/0Vuz7nJGCUGjiYUf7b+8QwKsA=",
       "System.Linq.Expressions.dll": "sha256-t/n3QeVJAYbi3jrXXYIIei17zuox/6NOvyrLptBf6Dw=",
       "System.Linq.Queryable.dll": "sha256-0V4DZ9XD6zW17MNmVsZQXEraBFNH9qbr2QuUX/aQYNc=",
       "System.Memory.dll": "sha256-Kx9yJAl5CNYgG9hbPU366+eKl0c/p5sGsx7Z4I8GVOU=",
@@ -85,17 +85,17 @@
       "Toolbelt.Blazor.HeadElement.dll": "sha256-JfuZ+f7KU1ffO6UvjlK0I2nwxL9NuAL3O354MHaFHOo=",
       "Toolbelt.Blazor.HeadElement.Services.dll": "sha256-L835s2HA1OTlzHg1G5gAW7a1PogAcmlhZSgKJKaBIuA=",
       "Toolbelt.Blazor.HotKeys2.dll": "sha256-1Uyy0b4+s5rmlb3ialvIfkRUM+RVw6ZspKKH7l7mOIY=",
-      "Web.dll": "sha256-NJFHPPCtjlJ/JxI9ZpPuc636JcmiZx9aC3sZ2NLCoEI="
+      "Web.dll": "sha256-p4UXtLEHyx/5d+kT3aH3laJWQFJcfPDxKCmvUVAOM30="
     },
     "lazyAssembly": {
-      "BlazorDemoComponents.dll": "sha256-U14gBq7MfFYTIqPiXu1r0UxgF/RA3F9wn6rFMz0a1vo=",
-      "Components.dll": "sha256-+GyxbUa/V42XjDW8dCir9HY+GCEx8SKrLRbObFcRfdk=",
-      "DependencyInjectionDemoComponents.dll": "sha256-962zbklNqGuWRSiHghLPnVGpecijt8AuEBiwR6eTHqc=",
-      "DesignPatternDemoComponents.dll": "sha256-sHye1/eEEC61xffCxK4PrkqZUV8zdcrgYEvg6cN3xfs=",
-      "HTTPClientDemoComponents.dll": "sha256-NG0hfNAKNXk0ZjwTBAFN/Tdq7LLOnnt16VWHnATL1lM=",
-      "LINQDemoComponents.dll": "sha256-fElwUHj2Bb7tba4NmaHk+nAneKGdV+IJqmETr3OenNU=",
-      "OOPSDemoComponents.dll": "sha256-ZNPtNzOIhLBmPDtFs4QT5mR5Nf4JZVWrGIAPlYjB0G4=",
-      "ReportDemoComponents.dll": "sha256-qK+/y0lTUEtsqhdQTE3wbrT+SGxr/QNoNbIdRONQU4A="
+      "BlazorDemoComponents.dll": "sha256-H6x4d8D3xKndGigk+8T2GD655fgB5jbbf85Aepe7dKk=",
+      "Components.dll": "sha256-kh2aVYz1sM6oQ1CpBwRBc4Wpd6gVY6kAyNQ3f9t4J1I=",
+      "DependencyInjectionDemoComponents.dll": "sha256-Ln1PLajDgeV9H0z0tJ5U5/s3VwWAk6wICSGKAYFh5es=",
+      "DesignPatternDemoComponents.dll": "sha256-6OedEIE10MUSlG6oQxYCaVsq++qb3TpOsikxaBpU0ys=",
+      "HTTPClientDemoComponents.dll": "sha256-neoyY7wbmW04BZK6LJ8H/xjkdulMA8KGB5sJy0N4i9E=",
+      "LINQDemoComponents.dll": "sha256-7hOZyNP0ArSdyqdPM+/Y72sv3IBFKfdZLxttIo3pd1k=",
+      "OOPSDemoComponents.dll": "sha256-RDFYDC6+ljKJ91AphwIomE1s/3y4/fERru7rwFXpNbY=",
+      "ReportDemoComponents.dll": "sha256-R+9y8wSAldT3Ij0zl2FVK+g+Bsx5/FMTBo3f2CL8+e4="
     },
     "libraryInitializers": {
       "_content/BlazorWasmPreRendering.Build/BlazorWasmPreRendering.Build.lib.module.js": "sha256-Z094C6tvTOKvix221ZuSPsaaNvGOp0XKqThmB4vfuOA=",
