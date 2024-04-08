@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Web",
   "resources": {
-    "hash": "sha256-E2OoGZiurv9xlBh6DzmcdqeUy1cImEVIwiunCW1mEr0=",
+    "hash": "sha256-Htny4Y9I/Av+pKogLPh11g0cWSWy3v6OTbIQkphn6n8=",
     "jsModuleNative": {
       "dotnet.native.8.0.3.xzk212aqdu.js": "sha256-+33kzLRJ+iBOS9Ph+qce6OWgxtc5BovRjgrlEhioszw="
     },
@@ -18,7 +18,7 @@
     },
     "assembly": {
       "Blazor-Analytics.wasm": "sha256-VIHzI5xU82EmdqXC80Au4/cWOQw5sKeSuA0gQr4Zz7Y=",
-      "CommonComponents.wasm": "sha256-c8HgfQpodKEl1kZSkGQry7cDgYtz4OBnyqKm08FWdtw=",
+      "CommonComponents.wasm": "sha256-+d+0VIEnhTD+0MNcCmBT65FRkUaFBFHiG6hircI+G3s=",
       "FluentValidation.wasm": "sha256-r9LyU/ai1EklmxBpjZXuv8cdAf8HD8fJyC6gTkgAx14=",
       "HarfBuzzSharp.wasm": "sha256-QGf3yqYSLQs7DMUnCTm6aUxTpRapqKaF70z/av7yfHQ=",
       "Humanizer.wasm": "sha256-4NbSboZzzP9nikRtXapUZNzOyITt7ht9TNqCIQHr5OE=",
@@ -52,8 +52,8 @@
       "Serilog.Sinks.BrowserHttp.wasm": "sha256-qipma+046bRHJU4HS+vEXCZCvxb1llPL3nDMRRDlALk=",
       "Serilog.Sinks.PeriodicBatching.wasm": "sha256-a7SsUJRYu0ocL5GIOv+h90XsR4Ge1a45cP4pvKiiQrE=",
       "Serilog.wasm": "sha256-UORf4r9SU8SQoHjcaQsDbQVOkFZ0LDT65z1/1oMkm0w=",
-      "SharedComponents.wasm": "sha256-klfea5iFQ3r27TE0RXOk4O3jW+sgiJRrOawwvC5sczE=",
-      "SharedModels.wasm": "sha256-N3uEGW4EWdv4Xjkvxoa9k/5ZCDGv6KZJTUtX7LUps1o=",
+      "SharedComponents.wasm": "sha256-h0xPl3+dWl4ETSW6xuA6bYqWyQTNP/ZWDQMWYu6hEBo=",
+      "SharedModels.wasm": "sha256-0ry40mbn4CLxz2jqHYxc/VLPYPyMivlM+osVhwclAMY=",
       "SkiaSharp.HarfBuzz.wasm": "sha256-MGFeuS/S+zJ2mvy6h6tkn4gEcUE232hK0hD9DaodfLA=",
       "SkiaSharp.wasm": "sha256-XttybKVF+yAiVx1RDnuqh5jFYLQ6bS8nZG6MTdkKrbA=",
       "System.Collections.Concurrent.wasm": "sha256-OZMpT3mn/AeJwA/461caod0aVms0FWU55EO9Fsk9vc8=",
@@ -105,25 +105,25 @@
       "Toolbelt.Blazor.HeadElement.Services.wasm": "sha256-lUUkjiF9VItGEXZ1LJzjXzsABjxlCf4xn7aj66M3xQQ=",
       "Toolbelt.Blazor.HeadElement.wasm": "sha256-Y75VwEf7HtcK38P94hintQ/mS9jYJIMHjHBeLlbbuMI=",
       "Toolbelt.Blazor.HotKeys2.wasm": "sha256-MGs0WIRMgMAsJKIfWB+JZiwyAoixEajg1JYQB0CUZpc=",
-      "Web.wasm": "sha256-vjbPKFT6iex9ZO7LYbwm+ki0j9XI2/DWs7jnCczwB+U="
+      "Web.wasm": "sha256-2VVVeVMneXIWS7as2XwNjeTDfYTam1YN+rcfV9K/EkQ="
     },
     "lazyAssembly": {
-      "BaseComponents.wasm": "sha256-vZqE9W83y1wqIDfvzE1yxGek4QCBiEdhncXUVPBjzsg=",
-      "BlazorDemoComponents.wasm": "sha256-fd/sLTYTeJXflbfvum/CUMZO2ny5D4tfb4e8BkqDHMs=",
-      "DependencyInjectionDemoComponents.wasm": "sha256-t5O5N3AG6NDl0Rk4JPECt4JUBdAkXrCojVArWlgiAJ0=",
-      "DesignPatternDemoComponents.wasm": "sha256-1FbnjgSWSw5+7CmGu8SPt/W/+0C6rOKURF7UF9bw47I=",
-      "HTTPClientDemoComponents.wasm": "sha256-aMEztFYak9MoJ3fzokUKu5bgbWQ8o45FnBF15TMYD2A=",
-      "LINQDemoComponents.wasm": "sha256-HBqZkGtHbdiAov2hwl+9XcxGbsKRBbYW4cNBeaiCjWQ=",
-      "MiddlewareDemoComponents.wasm": "sha256-4xpyO6opjVsaqcoo+Lvykw4p6QEoONUoECTwsJmS1HA=",
-      "OOPSDemoComponents.wasm": "sha256-65olpzQj7Cf2oIVj8RQIwDtfq8jcimX+3dzVn0jy9vk=",
-      "OWASPDemoComponents.wasm": "sha256-mNeS/rBGOhUl1dknqX4wgnuk58B8UOZQB7Y5ptEVJTI=",
-      "PythonDemoComponents.wasm": "sha256-cZrsAiPw3IPQydIzgkIKGmQhKEOPyrOihd2yayjRDUo=",
-      "ReportDemoComponents.wasm": "sha256-GBM9sj2WyAk8pJeM/qS/QHurTJK7NuWOzVH1hG5PXU8=",
-      "SignalRDemoComponents.wasm": "sha256-vzjfVC9ANzd1YZpAhEooWUCQE6WVg51v0DvmmDF82hI=",
-      "SOLIDDemoComponents.wasm": "sha256-DIDhVouBS5VL4ydA505RvddEu8lgQxsz/dljNvUo31s=",
-      "TalkDemoComponents.wasm": "sha256-nay0ua/0rS3sOSel3JYSIpgCg+F7MnXYyI86NLdVddM=",
-      "TDDDemoComponents.wasm": "sha256-WZXPQ6oAQWGTfYEK0rLHOU71KspEHYL0MprrEvI1Pu8=",
-      "WebAPIDemoComponents.wasm": "sha256-hpslMYb3PHvU+7AYpbCmvQpHaewAo5mMbXy7UFZsYOY="
+      "BaseComponents.wasm": "sha256-K4XGaT6CwIZML42E7KkHP48pbrLK3wU3v1ODjOyCxNg=",
+      "BlazorDemoComponents.wasm": "sha256-H3iA5OWtC+Ip+ejsKUGz5GGWTWXLe9emDbpLF/03AlU=",
+      "DependencyInjectionDemoComponents.wasm": "sha256-g8VldUKEEMrhPtUBiyyalCVgpg4HWqySKCE5rHyYChE=",
+      "DesignPatternDemoComponents.wasm": "sha256-/w8SAdlpgYkCLRzchVlgHKRB5kA7UgVzUIUJprRBP3M=",
+      "HTTPClientDemoComponents.wasm": "sha256-S/Xz1Rmrkn6gEfSk5f1Sw3SxA+7+xEe7Dsf/AfCZuI0=",
+      "LINQDemoComponents.wasm": "sha256-YtJWqe0BNAsDhujh9FmQTVzG4l8vw3ovmYF1tvJxQho=",
+      "MiddlewareDemoComponents.wasm": "sha256-7x0tdhByqX/HiN8F5+9nB6tQ7M+2S5PeMLm3lH9+qGM=",
+      "OOPSDemoComponents.wasm": "sha256-OYOScxo3uV3Dp6Yx4U7eZYOaEuQyYfKusrp4cs6xVD8=",
+      "OWASPDemoComponents.wasm": "sha256-xpkeN38qBPM9RV2A2vtVnrck9AXyjH07Z2+7aFfX2qM=",
+      "PythonDemoComponents.wasm": "sha256-qIU1yMDo51Z5aGvnswR0Ehm7YzibnD5BkSiaPsWO2TA=",
+      "ReportDemoComponents.wasm": "sha256-tLzi4i3xMP0gduL43rsxQnnWHFkuvB9vTfawDrT+NCg=",
+      "SignalRDemoComponents.wasm": "sha256-lPhjpHDWs9GEEr2qsftPiMTyacIC+Y3cgtirrM0JKos=",
+      "SOLIDDemoComponents.wasm": "sha256-n4JgIu/wd2VMikm69N2MOjjLdnfYvfYN/BDkd9Qpqok=",
+      "TalkDemoComponents.wasm": "sha256-/IsyGhWg/d4l72wof+jGaaal2DXhwEPWJuxQZJGoTNo=",
+      "TDDDemoComponents.wasm": "sha256-BR67k9F+hUMvVDHzxUuYCUTAV04ra/XKFjtsnZb6vu8=",
+      "WebAPIDemoComponents.wasm": "sha256-0jSUsuhTiowcbcbVfprCbOX0krCW86Nzks6dkaZnGs4="
     },
     "libraryInitializers": {
       "_content/BlazorWasmPreRendering.Build/BlazorWasmPreRendering.Build.lib.module.js": "sha256-Z094C6tvTOKvix221ZuSPsaaNvGOp0XKqThmB4vfuOA=",
